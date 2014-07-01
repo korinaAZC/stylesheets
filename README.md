@@ -19,7 +19,7 @@ This repo is used for stylesheets for both local and ldsn-wide applications so t
 
 ## Notes
 
-Github will hook into http://www.azcentral.com/git-updater/index.php to update the directory.
+Github will hook into http://nocache.azcentral.com/git-updater/index.php to update the directory.
 
 The directory structure will be as follows (for example):
 
