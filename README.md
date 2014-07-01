@@ -21,14 +21,14 @@ This repo is used for stylesheets for both local and ldsn-wide applications so t
 
 The directory structure will be as follows (for example):
 
---local-apps (local to market, not scaled)
-   --phoenix (cityname or paper name)
-      --exploreaz (appname)
-   --salem
-      --bikingInOregon
---ldsn-apps (scalable apps)
-   --bestOf (appname)
-     --default.css (default css file)
-     --phoenix (cityname or paper name)
-        --stylesheet1.css (stylesheets, names not important)
-        --stylesheet2.css
+* local-apps (local to market, not scaled)
+    * phoenix (cityname or paper name)
+        * exploreaz (appname)
+    * salem
+        * bikingInOregon
+* ldsn-apps (scalable apps)
+    * bestOf (appname)
+        * default.css (default css file)
+        * phoenix (cityname or paper name)
+            * stylesheet1.css (stylesheets, names not important)
+            * stylesheet2.css
