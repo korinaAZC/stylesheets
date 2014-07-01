@@ -19,6 +19,8 @@ This repo is used for stylesheets for both local and ldsn-wide applications so t
 
 ## Notes
 
+Github will hook into www.azcentral.com/git-updater/index.php?directory=stylesheets to update the directory.
+
 The directory structure will be as follows (for example):
 
 * local-apps (local to market, not scaled)
