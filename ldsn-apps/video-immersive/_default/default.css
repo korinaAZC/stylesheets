@@ -18,10 +18,10 @@ footer {
     width: 30px;
 }
 .add-to-playlist {
-    background: url("../imgs/azc-video-icon-add.png");
+    background: url("http://media.azcentral.com/ldsn-apps/video-immersive/_default/azc-video-icon-add.png");
 }
 .added-to-playlist {
-    background: url("../imgs/azc-video-icon-added.png");
+    background: url("http://media.azcentral.com/ldsn-apps/video-immersive/_default/azc-video-icon-added.png");
 }
 .nextVideoButtonBox {
     position: absolute; 
@@ -35,7 +35,7 @@ footer {
 }
 .nextVideoButtonImg {
     display: inline-block;
-    background: url("../imgs/azc-player-icon-next.png") no-repeat bottom left;
+    background: url("http://media.azcentral.com/ldsn-apps/video-immersive/_default/azc-player-icon-next.png") no-repeat bottom left;
     background-size: 10px 10px;
     height: 11px;
     width: 11px;
@@ -47,7 +47,7 @@ footer {
 }
 .nextVideoButtonBox:hover .nextVideoButtonImg, .nextVideoButtonBox.hover .nextVideoButtonImg {
     display: inline-block;
-    background: url("../imgs/azc-player-icon-next-on-hover.png") no-repeat bottom left;
+    background: url("http://media.azcentral.com/ldsn-apps/video-immersive/_default/azc-player-icon-next-on-hover.png") no-repeat bottom left;
     background-size: 10px 10px;
     height: 11px;
     width: 11px;
@@ -205,7 +205,7 @@ a.playlist-header-text .icons,a.watchlist-header-text .icons,a.recommended-heade
     float:left;
 }
 a.playlist-header-text .icons,a.watchlist-header-text .icons,a.recommended-header-text .icons {
-    background: url('../imgs/azc-video-icon-sprite.png') no-repeat 0 0;
+    background: url('http://media.azcentral.com/ldsn-apps/video-immersive/_default/azc-video-icon-sprite.png') no-repeat 0 0;
 }
 a.recommended-header-text span.icons {
     background-position: 0 0;
