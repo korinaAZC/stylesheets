@@ -26,7 +26,7 @@ img
 
 .card
 {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 .card-nav
@@ -73,7 +73,7 @@ img
 	background-color: white;
 	font-weight: 100;
 	overflow-y: scroll;
-	height: 60vh;
+	height: 67vh;
 	-webkit-overflow-scrolling: touch;
 }
 
@@ -112,7 +112,6 @@ img
 
 .card-share
 {
-	background: rgba(20,20,20, 0.8);
 	padding: 0px 10% 10px 10%;
 	text-align: left;
 }
@@ -133,7 +132,7 @@ img
 
 .menu
 {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 .menu-header
@@ -146,7 +145,7 @@ img
 	background: rgba(20,20,20, 0.8);
 	padding: 10px 15px 36px;
 	overflow-y: scroll;
-	height: 60vh;
+	height: 67vh;
 	-webkit-overflow-scrolling: touch;
 }
 .menu-content::-webkit-scrollbar-track {
@@ -195,14 +194,10 @@ img
 	font-size: 48px;
 }
 
-.theme1 .card-share
-{
-	background-color: #ccc;
-}
-
 
 /*THEME 1*/
-.theme1 .menu-header, .theme1 .card-nav
+
+.theme1 .menu-header, .theme1 .card-nav, .theme1 .card-share
 {
 	background: rgb(116, 23, 132);
 }
@@ -228,7 +223,7 @@ img
 
 /* THEME 3 */
 
-.theme3 .menu-header, .theme3 .card-nav
+.theme3 .menu-header, .theme3 .card-nav, .theme3 .card-share
 {
 	background: rgb(0, 155, 255);
 }
@@ -240,7 +235,7 @@ img
 
 /* THEME 4 */
 
-.theme4 .menu-header, .theme4 .card-nav
+.theme4 .menu-header, .theme4 .card-nav, .theme4 .card-share
 {
 	background: rgb(0, 0, 0);
 }
