@@ -249,6 +249,21 @@ img
 	color: white;
 }
 
+/* THEME 5 */
+
+body.theme5 {
+	background:silver;
+}
+.theme4 .menu-header, .theme4 .card-nav, .theme4 .card-share
+{
+	background: rgb(0, 0, 0);
+}
+
+.theme4 .title, .theme4 .card-nav-count, .theme4 .card-nav-action, .theme4 .sub-title, .theme4 .card-share a,.theme4 .current a, .copyright p
+{
+	color: white;
+}
+
 
 @media all and (max-width: 640px)
 {
