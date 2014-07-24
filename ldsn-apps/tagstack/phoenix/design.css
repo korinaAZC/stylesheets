@@ -89,6 +89,10 @@ img
     background-color: #eee;
 }
 
+.asset-metabar-time {
+	margin-left:10px;
+}
+
 .title
 {
 	font-weight: 500;
