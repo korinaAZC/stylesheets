@@ -24,6 +24,10 @@ img
 	padding: 15px;
 }
 
+img.lead-photo {
+	padding:0px;
+}
+
 .card
 {
 	margin-top: 20px;
@@ -67,7 +71,7 @@ img
 
 .card-content
 {
-	padding: 45px 10% 25px;
+	/*padding: 45px 10% 25px;*/
 	line-height: 1.75em;
 	color: #5e605f;
 	background-color: white;
@@ -87,6 +91,10 @@ img
 
 .card-content::-webkit-scrollbar-thumb {
     background-color: #eee;
+}
+
+.article-text {
+	padding: 45px 10% 25px;
 }
 
 .asset-metabar-time {
