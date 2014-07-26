@@ -82,11 +82,6 @@ img.lead-photo {
 	-webkit-overflow-scrolling: touch;
 }
 
-.card-content p, .article-asset-metabar, .card-content h2
-{
-	padding: 0px 10px 0px 10px;
-}
-
 .card-content::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.3); 
     border-radius: 10px;
@@ -99,8 +94,10 @@ img.lead-photo {
     background-color: #eee;
 }
 
-.article-text {
-	padding: 45px 10% 25px;
+.article-text h2
+{
+	line-height: 1em;
+	font-size: 1.5em;	
 }
 
 .asset-metabar-time {
@@ -143,8 +140,7 @@ img.lead-photo {
 .article-link
 {
 	display: block;
-	margin-bottom: 20px;
-	font-weight: 300;
+	font-weight: 100;
 	font-style: italic;
 }
 
