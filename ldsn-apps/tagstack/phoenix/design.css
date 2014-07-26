@@ -80,6 +80,7 @@ img.lead-photo {
 	overflow-y: scroll;
 	height: 67vh;
 	-webkit-overflow-scrolling: touch;
+	padding: 0px 0px 0px 15px;
 }
 
 .card-content::-webkit-scrollbar-track {
@@ -88,6 +89,7 @@ img.lead-photo {
 }
 .card-content::-webkit-scrollbar {
     background-color: rgba(255,255,255,0.6);
+    width: 15px;
 }
 
 .card-content::-webkit-scrollbar-thumb {
@@ -97,7 +99,8 @@ img.lead-photo {
 .article-text h2
 {
 	line-height: 1em;
-	font-size: 1.5em;	
+	font-size: 1.5em;
+	margin: 0px;	
 }
 
 .asset-metabar-time {
@@ -258,7 +261,7 @@ img.lead-photo {
 
 .theme4 .menu-header, .theme4 .card-nav, .theme4 .card-share
 {
-	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0);
 }
 
 .theme4 .title, .theme4 .card-nav-count, .theme4 .card-nav-action, .theme4 .sub-title, .theme4 .card-share a,.theme4 .current a, .copyright p
@@ -273,7 +276,7 @@ body.theme5 {
 }
 .theme4 .menu-header, .theme4 .card-nav, .theme4 .card-share
 {
-	background: rgb(0, 0, 0);
+	background: rgb(0, 0, 0, 0.8);
 }
 
 .theme4 .title, .theme4 .card-nav-count, .theme4 .card-nav-action, .theme4 .sub-title, .theme4 .card-share a,.theme4 .current a, .copyright p
