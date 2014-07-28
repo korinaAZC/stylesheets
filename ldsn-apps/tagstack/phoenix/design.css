@@ -26,6 +26,8 @@ img
 
 img.lead-photo {
 	padding:0px;
+	display: block;
+	margin: 0 auto;
 }
 
 .card
@@ -78,11 +80,7 @@ img.lead-photo {
 	overflow-y: scroll;
 	height: 67vh;
 	-webkit-overflow-scrolling: touch;
-}
-
-.card-content p, .article-asset-metabar, .card-content h2
-{
-	padding: 0px 10px 0px 10px;
+	padding: 0px 0px 0px 15px;
 }
 
 .card-content::-webkit-scrollbar-track {
@@ -91,14 +89,18 @@ img.lead-photo {
 }
 .card-content::-webkit-scrollbar {
     background-color: rgba(255,255,255,0.6);
+    width: 15px;
 }
 
 .card-content::-webkit-scrollbar-thumb {
     background-color: #eee;
 }
 
-.article-text {
-	padding: 45px 10% 25px;
+.article-text h2
+{
+	line-height: 1em;
+	font-size: 1.5em;
+	margin: 0px;	
 }
 
 .asset-metabar-time {
@@ -141,8 +143,7 @@ img.lead-photo {
 .article-link
 {
 	display: block;
-	margin-bottom: 20px;
-	font-weight: 300;
+	font-weight: 100;
 	font-style: italic;
 }
 
@@ -153,7 +154,7 @@ img.lead-photo {
 
 .menu-header
 {
-	padding: 20px;
+	padding: 5px;
 }
 
 .menu-content
@@ -210,6 +211,13 @@ img.lead-photo {
 	font-size: 48px;
 }
 
+.title-share-container
+{
+	top: 0;
+	position: absolute;
+	right: 20px;
+}
+
 
 /*THEME 1*/
 
@@ -253,7 +261,7 @@ img.lead-photo {
 
 .theme4 .menu-header, .theme4 .card-nav, .theme4 .card-share
 {
-	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0);
 }
 
 .theme4 .title, .theme4 .card-nav-count, .theme4 .card-nav-action, .theme4 .sub-title, .theme4 .card-share a,.theme4 .current a, .copyright p
@@ -263,12 +271,14 @@ img.lead-photo {
 
 /* THEME 5 */
 
-body.theme5 {
+body.theme5 
+{
 	background:silver;
 }
+
 .theme4 .menu-header, .theme4 .card-nav, .theme4 .card-share
 {
-	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.8);
 }
 
 .theme4 .title, .theme4 .card-nav-count, .theme4 .card-nav-action, .theme4 .sub-title, .theme4 .card-share a,.theme4 .current a, .copyright p
