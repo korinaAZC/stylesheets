@@ -82,7 +82,7 @@ body {
 .responsive-scale{
     width:100%;
     background-repeat:no-repeat;
-    background-image:url(../img/phoenix.jpg);
+    background-image:url(//media.azcentral.com/local-apps/phoenix/ugc/phoenix.jpg);
     background-size:cover;
     background-position:center top; /* IE fix */
     background-color:#000;

@@ -1,5 +1,5 @@
 body {
-    background: url("../img/phoenix.jpg");
+    background: url("//media.azcentral.com/local-apps/phoenix/ugc/phoenix.jpg");
 }
 form{
     background: url(http://www.gannett-cdn.com/static/usat-web-static-23.2.0/images/patterns/noise_f6f6f6.png) repeat top left;
@@ -76,4 +76,136 @@ iframe
     height: 40px;
     border: 0;
     overflow: hidden;
+}
+
+/*header*/
+header {
+    height: 50px;
+    text-align: center;
+}
+/*shorter clearfix hack*/
+header:before,
+header:after {
+    content:"";
+    display:table;
+}
+header:after {
+    clear:both;
+}
+/*For IE 6/7 (trigger hasLayout)*/
+header {
+    zoom:1;
+}
+
+.header-main {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /*background: #FFF;*/
+    background: #000;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.header-logo {
+    background: #000 url(//media.azcentral.com/local-apps/phoenix/ugc/site-nav-logo@2x.png) 50% 50% no-repeat;
+    position: relative;
+    width: 300px;
+    height: 100%;
+    z-index: 9;
+    margin: auto;
+    display: block;
+}
+
+h1.logo a {
+    color: #d8d8d8;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 22px;
+    float: left;
+    letter-spacing: 0.2em;
+}
+a.top_nav {
+    position: absolute;
+    left: -22px;
+    top: -10px;
+    height: 72px;
+    width: 110px;
+    /* margin-left: 12px; */
+    z-index: 12;
+    background: url('../img/navicon.png') no-repeat;
+}
+
+a.to_nav:hover,
+a.to_nav:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+
+.login_head {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 25px;
+    width: 36px;
+    margin-right: 12px;
+    margin-top: 12px;
+    background: #eee;
+    border: 1px solid #d4d4d4;
+    z-index: 12;
+}
+
+.login_head > .logged-out > a, .login_head > .logged-out > a:active, .login_head > .logged-out > a:visited {
+    background:url('images/logged-out.png') no-repeat;
+}
+
+.login_head>.login-link>a, .login_head>.login-link>a:active, .login_head>.login-link>a:visited {
+    text-indent: -1000px;
+    display: block;
+    overflow: hidden;
+    height: 25px;
+    width: 36px;
+    background: transparent none 50% 50% no-repeat;
+}
+
+/*navigation*/
+
+#primary_nav ul {
+    list-style: none;
+    background-color: #1c1c1c;
+    margin: 0;
+    /*padding: 5px 0 0;*/
+}
+#primary_nav li a {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    height: 2em;
+    border-bottom: 1px solid #383838;
+    /*border: 1px solid #383838;*/
+    background-color: #111;
+    background-image: linear-gradient(#222, #111);
+    /*border-radius: 6px;
+    box-shadow: 0 1px 1px #777;*/
+}
+#primary_nav li:last-child a {
+    /*border-bottom: none;*/
+}
+#primary_nav li a:hover,
+#primary_nav li a:focus {
+    color: #1c1c1c;
+    background: #ccc;
+}
+#primary_nav li.top {
+    display: none;
+}
+
+.fsPage {
+    min-width: 325px !important;
 }
