@@ -50,6 +50,7 @@
 }
 
 
+
 * {
     margin:0;
     padding:0;
@@ -81,7 +82,7 @@ body {
 .responsive-scale{
     width:100%;
     background-repeat:no-repeat;
-    background-image:url(http://media.azcentral.com/local-apps/phoenix/ugc/phoenix.jpg);
+    background-image:url(../img/phoenix.jpg);
     background-size:cover;
     background-position:center top; /* IE fix */
     background-color:#000;
