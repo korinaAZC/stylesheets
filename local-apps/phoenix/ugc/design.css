@@ -134,7 +134,7 @@ a.top_nav {
     width: 110px;
     /* margin-left: 12px; */
     z-index: 12;
-    background: url('../img/navicon.png') no-repeat;
+    background: url('//media.azcentral.com/local-apps/phoenix/ugc/navicon.png') no-repeat;
 }
 
 a.to_nav:hover,
