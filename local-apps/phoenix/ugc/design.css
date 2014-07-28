@@ -2,7 +2,7 @@ body {
     background: url("//media.azcentral.com/local-apps/phoenix/ugc/phoenix.jpg");
 }
 form{
-    background: url(http://www.gannett-cdn.com/static/usat-web-static-23.2.0/images/patterns/noise_f6f6f6.png) repeat top left;
+    /*background: url(http://www.gannett-cdn.com/static/usat-web-static-23.2.0/images/patterns/noise_f6f6f6.png) repeat top left;*/
     border: 0px !important;
     border-radius: 5px !important;
     width: 65% !important;
