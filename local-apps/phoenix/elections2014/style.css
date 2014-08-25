@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'Futura Today Screen Normal';
-    src: url(/fonts/FuturaTodayScreenNormal.eot);
-    src: url(/fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'), url(/fonts/FuturaTodayScreenNormal.woff) format('woff'), url(/fonts/FuturaTodayScreenNormal.ttf) format('truetype'), url(/fonts/FuturaBold-webfont.svg#FuturaNormal) format('svg');
+    src: url(fonts/FuturaTodayScreenNormal.eot);
+    src: url(fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'), url(fonts/FuturaTodayScreenNormal.woff) format('woff'), url(fonts/FuturaTodayScreenNormal.ttf) format('truetype'), url(fonts/FuturaBold-webfont.svg#FuturaNormal) format('svg');
     font-style: normal
 }
 @font-face {
     font-family: 'Futura Today Screen Bold';
-    src: url(/fonts/FuturaTodayScreenBold.eot);
-    src: url(/fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'), url(/fonts/FuturaTodayScreenBold.woff) format('woff'), url(/fonts/FuturaTodayScreenBold.ttf) format('truetype'), url(/fonts/FuturaBold-webfont.svg#FuturaBold) format('svg');
+    src: url(fonts/FuturaTodayScreenBold.eot);
+    src: url(fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'), url(fonts/FuturaTodayScreenBold.woff) format('woff'), url(fonts/FuturaTodayScreenBold.ttf) format('truetype'), url(fonts/FuturaBold-webfont.svg#FuturaBold) format('svg');
     font-style: normal
 }
 
 @font-face {
     font-family: 'Futura Today Screen DemiBold';
-    src: url(/fonts/FuturaTodayScreenDemiBold.eot);
-    src: url(/fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'), url(/fonts/FuturaTodayScreenDemiBold.woff) format('woff'), url(/fonts/FuturaTodayScreenDemiBold.ttf) format('truetype'), url(/fonts/FuturaDemiBold-webfont.svg#FuturaDemiBold) format('svg');
+    src: url(fonts/FuturaTodayScreenDemiBold.eot);
+    src: url(fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'), url(fonts/FuturaTodayScreenDemiBold.woff) format('woff'), url(fonts/FuturaTodayScreenDemiBold.ttf) format('truetype'), url(fonts/FuturaDemiBold-webfont.svg#FuturaDemiBold) format('svg');
     font-style: normal
 }
 @font-face {
     font-family: 'Futura Today Screen Light';
-    src: url(/fonts/FuturaTodayScreenLight.eot);
-    src: url(/fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'), url(/fonts/FuturaTodayScreenLight.woff) format('woff'), url(/fonts/FuturaTodayScreenLight.ttf) format('truetype'), url(/fonts/futura_today_light.svg#FuturaLight) format('svg');
+    src: url(fonts/FuturaTodayScreenLight.eot);
+    src: url(fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'), url(fonts/FuturaTodayScreenLight.woff) format('woff'), url(fonts/FuturaTodayScreenLight.ttf) format('truetype'), url(fonts/futura_today_light.svg#FuturaLight) format('svg');
     font-style: light
 }
 
@@ -245,7 +245,7 @@ html, body {
 }
 
 .results_container .results_content ul.category li ul.candidates li div {
-    width: 200px;
+    width: 170px;
 }
 
 .results_container .results_content ul.category li ul.candidates li div p {
@@ -314,7 +314,7 @@ html, body {
 }
 
 .results_container .results_content ul.category li ul.candidates li p.name {
-    width: 190px;
+    width: 235px;
     font-size: 15px;
     white-space: nowrap;
 }
@@ -467,8 +467,10 @@ and (max-width : 600px) {
     .results_container .results_header_mobile .menu_button {
         position: absolute;
         top: 10px;
-        left: 15px;
+        left: 10px;
         z-index: 10000;
+		height: 50px;
+		width: 50px;
     }
     
     .results_container .results_header_mobile .menu_mobile_container {
