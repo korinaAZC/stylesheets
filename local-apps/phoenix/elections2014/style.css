@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'Futura Today Screen Normal';
-    src: url(../fonts/FuturaTodayScreenNormal.eot);
-    src: url(../fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'), url(../fonts/FuturaTodayScreenNormal.woff) format('woff'), url(../fonts/FuturaTodayScreenNormal.ttf) format('truetype'), url(../fonts/FuturaBold-webfont.svg#FuturaNormal) format('svg');
+    src: url(/fonts/FuturaTodayScreenNormal.eot);
+    src: url(/fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'), url(/fonts/FuturaTodayScreenNormal.woff) format('woff'), url(/fonts/FuturaTodayScreenNormal.ttf) format('truetype'), url(/fonts/FuturaBold-webfont.svg#FuturaNormal) format('svg');
     font-style: normal
 }
 @font-face {
     font-family: 'Futura Today Screen Bold';
-    src: url(../fonts/FuturaTodayScreenBold.eot);
-    src: url(../fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'), url(../fonts/FuturaTodayScreenBold.woff) format('woff'), url(../fonts/FuturaTodayScreenBold.ttf) format('truetype'), url(../fonts/FuturaBold-webfont.svg#FuturaBold) format('svg');
+    src: url(/fonts/FuturaTodayScreenBold.eot);
+    src: url(/fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'), url(/fonts/FuturaTodayScreenBold.woff) format('woff'), url(/fonts/FuturaTodayScreenBold.ttf) format('truetype'), url(/fonts/FuturaBold-webfont.svg#FuturaBold) format('svg');
     font-style: normal
 }
 
 @font-face {
     font-family: 'Futura Today Screen DemiBold';
-    src: url(../fonts/FuturaTodayScreenDemiBold.eot);
-    src: url(../fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'), url(../fonts/FuturaTodayScreenDemiBold.woff) format('woff'), url(../fonts/FuturaTodayScreenDemiBold.ttf) format('truetype'), url(../fonts/FuturaDemiBold-webfont.svg#FuturaDemiBold) format('svg');
+    src: url(/fonts/FuturaTodayScreenDemiBold.eot);
+    src: url(/fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'), url(/fonts/FuturaTodayScreenDemiBold.woff) format('woff'), url(/fonts/FuturaTodayScreenDemiBold.ttf) format('truetype'), url(/fonts/FuturaDemiBold-webfont.svg#FuturaDemiBold) format('svg');
     font-style: normal
 }
 @font-face {
     font-family: 'Futura Today Screen Light';
-    src: url(../fonts/FuturaTodayScreenLight.eot);
-    src: url(../fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'), url(../fonts/FuturaTodayScreenLight.woff) format('woff'), url(../fonts/FuturaTodayScreenLight.ttf) format('truetype'), url(../fonts/futura_today_light.svg#FuturaLight) format('svg');
+    src: url(/fonts/FuturaTodayScreenLight.eot);
+    src: url(/fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'), url(/fonts/FuturaTodayScreenLight.woff) format('woff'), url(/fonts/FuturaTodayScreenLight.ttf) format('truetype'), url(/fonts/futura_today_light.svg#FuturaLight) format('svg');
     font-style: light
 }
 
