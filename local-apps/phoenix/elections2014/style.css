@@ -760,6 +760,8 @@ and (max-width : 600px) {
         width: 100%;
         position: fixed;
         z-index: 9999;
+		height: 40px !important;
+		overflow: hidden !important;
     }
     .cobrandHeaderContainer:-webkit-scrollbar {  
         display: none;
