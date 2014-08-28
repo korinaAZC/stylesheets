@@ -1,0 +1,521 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.infobox {
+	display:none;
+}
+
+.container {
+	width:920px;
+	margin:30px auto;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	padding-top:100px;
+	z-index:300;
+}
+
+.bylines {
+	position:absolute;
+	bottom:5px;
+	right:15px;
+	width:600px;
+	font-size:11px;
+	text-align:right;
+	z-index:900;
+}
+
+.philb {
+	position:absolute;
+	top:7px;
+	right:441px;
+}
+
+.maintext {
+	text-transform:uppercase;
+	font-weight:bold;
+	font-stretch:condensed;
+	font-size:18px;
+}
+
+#offense_text {
+	position:absolute;
+	top:15px;
+	left:50px;
+}
+
+#defense_text {
+	position:absolute;
+	bottom:70px;
+	left:50px;
+}
+
+.qtip {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	-webkit-box-shadow: 0px 0px 4px 2px #666;
+box-shadow: 0px 0px 4px 2px #666;
+}
+
+.qtip-content {
+	background-color:#fff !important;
+	padding:10px !important;
+}
+
+.qtip .headshot {
+	width:100px;
+	height:100px;
+	float:left;
+		margin:0px 10px 30px 0px;
+}
+
+.qtip .info {
+	float:left;
+	margin-bottom:0px;
+	width:180px;
+}
+
+.philtaketop {
+	position:absolute;
+	width:580px;
+	background-color:#fff;
+	top:0px;
+	right:40px;
+	padding:10px;
+	z-index:900;
+	border:1px solid #ccc;
+	-webkit-box-shadow: 0px 0px 5px 2px #666;
+box-shadow: 0px 0px 5px 2px #666; 
+}
+
+.philpredict {
+	height:100px;
+}
+
+.philpredict img {
+	float:left;
+	border:7px solid #eee;
+	margin:0px 10px 0px 0px;
+}
+
+.philpredict p {
+	float:left;
+	display:block;
+	width:450px;
+	margin:0px;
+}
+
+.philpredict span {
+	font-size:12px;
+	color:#144a8e;
+	font-weight:bold;
+	font-style:oblique;
+	clear:both;
+	display:block;
+	margin-top:10px;
+}
+
+.qtip .philtake {
+	clear:left;
+	margin-top:30px;
+	background-color:#eee;
+	padding:10px;
+	position:relative;
+	width:285px;
+}
+
+.philtake .quote, .philtaketop .quote {
+	background-image:url(images/quote.png);
+	width:75px;
+	height:75px;
+	position:absolute;
+	top:-20px;
+	left:0px;
+}
+
+.philtake h4, .philtaketop h4 {
+	padding-left:65px;
+	text-transform:uppercase;
+	font-size:15px;
+	color:#144a8e;
+	line-height:15px;
+	margin:13px 0px 16px 0px;
+}
+
+.philtake p, .philtaketop p {
+	font-size:14px;
+	line-height:20px;
+}
+
+.headshot img {
+	border:7px solid #eee;
+}
+
+.qtip-title {
+	background-color:#999 !important;
+	color:#fff !important;
+	font-size:16px;
+}
+
+.qtip h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#666;
+	border-bottom:1px dotted #999;
+	margin:5px 0px 5px 0px;
+	font-size:18px;
+	font-style:italic;
+}
+
+.qtip p {
+	margin:0px 0px 5px 0px;
+	font-weight:normal;
+}
+
+.qtip span.date {
+	color:#990000;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:8px 0px;
+}
+
+.qtip a {
+	color:#014077;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.qtip a:hover {
+	text-decoration:underline;
+}
+
+#fb_field {
+	width:920px;
+	height:785px;
+	background-image:url(images/footballfield.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	z-index:300;
+}
+
+/*Colts Offense*/
+a.colts_o {
+	background-image:url(images/colts_offense.png);
+	height:50px;
+	width:45px;
+	clear:both;
+	float:left;
+	display:block;
+	margin:0 30%;
+}
+
+a.colts_o:hover {
+	background-position:-45px 0px;
+}
+
+#co1 {
+	top:408px;
+	left:386px;
+}
+
+#co2 {
+	top:313px;
+	left:391px;
+}
+#co3 {
+	top:312px;
+	left:486px;
+}
+#co4 {
+	top:311px;
+	left:298px;
+}
+#co5 {
+	top:313px;
+	left:581px;
+}
+#co6 {
+	top:311px;
+	left:195px;
+}
+#co7 {
+	top:314px;
+	left:795px;
+}
+#co8 {
+	top:312px;
+	left:28px;
+}
+#co9 {
+	top:493px;
+	left:286px;
+}
+#co10 {
+	top:313px;
+	left:674px;
+}
+#co11 {
+	top:549px;
+	left:387px;
+}
+/*Colts Offense END*/
+
+/*Colts Defense*/
+a.colts_d {
+	background-image:url(images/colts_defense.png);
+	height:50px;
+	width:45px;
+	clear:both;
+	float:left;
+	display:block;
+	margin:0 30%;
+}
+
+a.colts_d:hover {
+	background-position:-45px 0px;
+}
+
+#cd1 {
+	top:235px;
+	left:553px;
+}
+
+#cd2 {
+	top:235px;
+	left:436px;
+}
+#cd3 {
+	top:236px;
+	left:275px;
+}
+#cd4 {
+	top:185px;
+	left:690px;
+}
+#cd5 {
+	top:149px;
+	left:533px;
+}
+#cd6 {
+	top:148px;
+	left:328px;
+}
+#cd7 {
+	top:184px;
+	left:153px;
+}
+#cd8 {
+	top:187px;
+	left:805px;
+}
+#cd9 {
+	top:56px;
+	left:539px;
+}
+#cd10 {
+	top:180px;
+	left:26px;
+}
+#cd11 {
+	top:43px;
+	left:328px;
+}
+/*Colts Defense END*/
+
+
+/*Opponent Offense*/
+a.opp_o {
+	background-image:url(images/pats_offense.png);
+	height:50px;
+	width:45px;
+	clear:both;
+	float:left;
+	display:block;
+	margin:0 30%;
+}
+
+a.opp_o:hover {
+	background-position:-45px 0px;
+}
+
+#oo1 {
+	top:410px;
+	left:450px;
+}
+
+#oo2 {
+	top:314px;
+	left:448px;
+}
+#oo3 {
+	top:313px;
+	left:553px;
+}
+#oo4 {
+	top:313px;
+	left:347px;
+}
+#oo5 {
+	top:314px;
+	left:668px;
+}
+#oo6 {
+	top:313px;
+	left:251px;
+}
+#oo7 {
+	top:315px;
+	left:805px;
+}
+#oo8 {
+	top:314px;
+	left:20px;
+}
+#oo9 {
+	top:505px;
+	left:450px;
+}
+#oo10 {
+	top:314px;
+	left:154px;
+}
+#oo11 {
+	top:599px;
+	left:447px;
+}
+
+/*Opponent Offense END*/
+
+/*Opponent Defense*/
+a.opp_d {
+	background-image:url(images/pats_defense.png);
+	height:50px;
+	width:45px;
+	clear:both;
+	float:left;
+	display:block;
+	margin:0 30%;
+}
+
+a.opp_d:hover {
+	background-position:-45px 0px;
+}
+
+#od1 {
+	top:215px;
+	left:200px;
+}
+
+#od2 {
+	top:220px;
+	left:321px;
+}
+#od3 {
+	top:220px;
+	left:514px;
+}
+#od4 {
+	top:225px;
+	left:643px;
+}
+#od5 {
+	top:135px;
+	left:567px;
+}
+#od6 {
+	top:135px;
+	left:400px;
+}
+#od7 {
+	top:135px;
+	left:224px;
+}
+#od8 {
+	top:219px;
+	left:790px;
+}
+#od9 {
+	top:38px;
+	left:343px;
+}
+#od10 {
+	top:38px;
+	left:519px;
+}
+#od11 {
+	top:215px;
+	left:32px;
+}
+/*Opponent Defense END*/
+
+.player {
+	position:absolute;
+	width:100px;
+	height: 80px;
+}
+
+.player span {
+	display:block;
+	font-size:13px;
+	text-transform:uppercase;
+	font-weight:normal;
+	width:100px;
+	text-align:center;
+}
+
+#navigation {
+
+}
+
+   #navigation ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		text-transform:uppercase;
+    }
+    
+	#navigation li {
+		float: left;
+		border: 0px;
+		border-bottom-width: 0;
+		margin: 0 0 0 8px;
+		font-size:14px;
+    }
+    
+	#navigation a {
+		text-decoration: none;
+		display: block;
+		background: #ededed;
+		padding: 8px 5px 10px;
+		color: #666;
+		width: 8em;
+		text-align: center;
+		font-weight:bold;
+		border-top:3px solid #666;
+
+    }
+	
+	#navigation a:hover {
+		text-decoration:underline;
+	}
+	
+	#navigation #selected {
+
+	}
+	
+	#navigation #selected a {
+		position: relative;
+		top: 0px;
+		background: #144a8e;
+		color: #fff;
+		font-weight: bold;
+		border-bottom:none;
+		border-top:3px solid #144a8e;
+	}
+
+#body {
+	clear:left;
+	border-top:1px solid #ccc;
+}
+
+.field {
+	margin-top:20px;
+}
