@@ -118,7 +118,7 @@ body {
 
 @media only screen 
 and (min-width : 751px) 
-and (max-width : 990px)  {
+and (max-width : 1015px)  {
 	
 	.container {
 		width: 760px;
@@ -132,6 +132,7 @@ and (max-width : 990px)  {
 	}
 	
 	.cobrand-header {
+		background: #000;
 		width: 100%;
 		text-align: center;
 		overflow: hidden;
@@ -161,6 +162,10 @@ and (max-width : 990px)  {
 
 	.marketing { 
 		width: 510px;
+	}
+	
+	.marketing h1 {
+		padding: 14px 50px;
 	}
 	
 	.upickem {
@@ -214,6 +219,10 @@ and (max-width : 750px)  {
 
 	.marketing { 
 		width: 560px;
+	}
+	
+	.marketing h1 {
+		padding: 14px 80px;
 	}
 	
 	.upickem {
@@ -275,7 +284,7 @@ and (max-width: 600px) {
 		margin-top: -5px;
 		font-size: 24px;
 		line-height: 35px;
-		padding: 8px;
+		padding: 14px 20px;
 	}
 	
 	.marketing h2 {
@@ -298,4 +307,25 @@ and (max-width: 600px) {
 		max-width: 90%;
 		margin: 0 auto 20px auto;
 	}
+}
+
+@media only screen 
+and (min-width : 516px) 
+and (max-width : 556px)  {
+		
+	.marketing h1 {
+		padding: 14px 80px;
+	}
+	
+}
+
+
+@media only screen 
+and (min-width : 430px) 
+and (max-width : 515px)  {
+		
+	.marketing h1 {
+		padding: 14px 60px;
+	}
+	
 }
