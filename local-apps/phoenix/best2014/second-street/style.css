@@ -18,7 +18,7 @@ html, body {
 }
 
 body {
-	background: #368fca;
+	background: #368fca !important;
 }
 
 .complete-wrapper {
@@ -111,11 +111,7 @@ body {
 .upickem {
 	width: 100%;
 	max-width: 100%;
-	background: #fff;
-}
-
-.upickem iframe {
-	min-height: 480px;
+	background: #fff !important;
 }
 
 /* -------- Tablet Portrait Styles -------- */
