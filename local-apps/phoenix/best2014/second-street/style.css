@@ -117,7 +117,7 @@ body {
 /* -------- Tablet Portrait Styles -------- */
 
 @media only screen 
-and (min-width : 601px) 
+and (min-width : 751px) 
 and (max-width : 990px)  {
 	
 	.container {
@@ -161,6 +161,59 @@ and (max-width : 990px)  {
 
 	.marketing { 
 		width: 510px;
+	}
+	
+	.upickem {
+		width: 95%;
+		max-width: 95%;
+		margin: 0 auto 20px auto;
+	}
+
+}
+
+
+/* -------- That Tricky Space Between Tablet and Mobile -------- */
+
+@media only screen 
+and (min-width : 601px) 
+and (max-width : 750px)  {
+
+	.cobrand-header, .cobrand-footer {
+		display: none;
+	}
+	
+	.container {
+		width: 600px;
+		min-width: 600px;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	
+	.ad-container {
+		display: none;
+	}
+	
+	.mobile-header {
+		display: block;
+	}
+	
+	.lead-container {
+		text-align: center;
+		width: 95%;
+		max-width: 95%;
+		margin: 0 auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.lead-container img {
+		float: none;
+		padding-top: 0;
+		margin: 0 auto;
+	}
+
+	.marketing { 
+		width: 560px;
 	}
 	
 	.upickem {
