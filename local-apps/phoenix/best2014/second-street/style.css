@@ -21,6 +21,10 @@ body {
 	background: #368fca;
 }
 
+.complete-wrapper {
+	background: fixed #368fca !important;
+}
+
 .cobrand-header, .cobrand-footer {
 	width: 1000px;
 	margin: 0 auto;
@@ -107,6 +111,7 @@ body {
 .upickem {
 	width: 100%;
 	max-width: 100%;
+	background: #fff;
 }
 
 .upickem iframe {
