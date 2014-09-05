@@ -71,7 +71,7 @@ body {
 .marketing {
 	display: block;
 	float: right;
-	width: 622px;
+	width: 635px;
 	text-align: center;	
 }
 
@@ -155,13 +155,13 @@ and (max-width : 1015px)  {
 	}
 	
 	.lead-container img {
-		padding-top: 50px;
+		padding-top: 70px;
 		height: 153px;
 		width: 187px;
 	}
 
 	.marketing { 
-		width: 510px;
+		width: 485px;
 	}
 	
 	.marketing h1 {
