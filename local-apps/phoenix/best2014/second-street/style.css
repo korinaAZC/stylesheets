@@ -43,6 +43,14 @@ body {
 	padding: 0;
 }
 
+.ad-container img, .mobile-ad-container img {
+	border: 1px solid #96d5ff;
+}
+
+.mobile-ad-container {
+	display: none;
+}
+
 .mobile-header {
 	width: 100%;
 	background: #000;
@@ -198,6 +206,12 @@ and (max-width : 750px)  {
 		display: none;
 	}
 	
+	.mobile-ad-container {
+		display: block;
+		text-align: center;
+		padding: 15px;
+	}
+	
 	.mobile-header {
 		display: block;
 	}
@@ -252,6 +266,12 @@ and (max-width: 600px) {
 		display: none;
 	}
 	
+	.mobile-ad-container {
+		display: block;
+		text-align: center;
+		padding: 15px;
+	}
+		
 	.mobile-header {
 		display: block;
 	}
