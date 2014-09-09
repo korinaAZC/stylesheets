@@ -37,10 +37,6 @@ html, body {
     font-family: 'Futura Today Screen Normal';
 }
 
-input {
-	border: 1px solid #999 !important;
-}
-
 .clear {
     clear: both;
 }
