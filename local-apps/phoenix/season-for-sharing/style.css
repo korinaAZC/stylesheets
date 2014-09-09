@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+#seasonheader p {
+	font-family:Calibri,Verdana, Geneva, sans-serif;
+	color:#333;
+	font-size:14px;
+	padding-top:100px;
+}
+.donate {
+	position:absolute;
+	right: 40px;
+}
+#main {
+	background:none;
+}
+#main ul {
+	margin-left:20px;
+	color:#000;
+	list-style-type:square;
+}
+#main p {
+-webkit-margin-after: 10px;
+	}
+.bg-blue {
+	background:none;
+}
+.hz-shadow {
+	background:none;
+	-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+#sidebar .heading {
+	color: #503259;
+	border-top: none;
+	border-bottom: 1px solid #503259;
+}
+#sidebar .heading a {
+	color: #503259;
+}
+ul.flush {
+margin-top: 10px;
+}
+#main-feature .alignRight .title a {
+	color: #503259;
+}
+#slider ul, #slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#slider, #slider li{ 
+	width:990px;
+	height:307px;
+	overflow:hidden; 
+	color:#eddbfc;
+	}
+span#prevBtn{}
+span#nextBtn{}	
+.slide1 {
+	background-image:url(/season/imgs/slide1.jpg);
+}
+.slide2 {
+	background-image:url(/season/imgs/slide2.jpg);
+}
+.slide3 {
+	background-image:url(/season/imgs/slide3.jpg);
+}
+.slide4 {
+	background-image:url(/season/imgs/slide4.jpg);
+}
+#slider h2 {
+	margin:20px;
+	color:#eddbfc;
+}
+#slider p {
+	width:200px;
+	margin:20px;
+}
