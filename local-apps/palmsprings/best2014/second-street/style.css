@@ -1,0 +1,397 @@
+@charset "UTF-8";
+
+/* -------- Default Styles -------- */
+
+html, body {
+	height: 100%;
+	min-height: 100%;
+	line-height: 1;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+	background: #343434 !important;
+	margin: 0;
+	padding: 0;
+}
+
+.complete-wrapper {
+	background: fixed #343434 !important;
+}
+
+.cobrand-header {
+	width: 1000px;
+	margin: 0 auto;
+} 
+
+.cobrand-footer {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.cobrand-footer iframe {
+	height: 140px;
+	width: 1000px;
+}
+
+.container {
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto 0 auto;
+}
+
+.ad-container {
+	width: 950px;
+	height: 90px;
+	margin: 10px auto;
+	padding: 0;
+}
+
+.ad-container img, .mobile-ad-container img {
+	border: 1px solid #96d5ff;
+}
+
+.mobile-ad-container {
+	display: none;
+}
+
+.mobile-header {
+	width: 100%;
+	background: #000;
+	text-align: center;
+	display: none;
+}
+
+.mobile-header a {
+	display: block;
+	width: 100%; 
+	height: 100%;
+}
+
+.mobile-header img {
+	width: 200px;
+	padding: 6px 0 2px 0;
+}
+
+.lead-container {
+	padding: 20px 35px 12px 35px;
+}
+
+.lead-container img {
+	float: left;
+	width: 300px;
+	padding-top: 40px;
+}
+
+.marketing {
+	display: block;
+	float: right;
+	width: 600px;
+	text-align: center;	
+}
+
+.marketing h1 {
+	margin: 5px 0;
+	padding: 14px 0;
+	background: #cc172f;
+	font-size: 30px;
+	letter-spacing: .01em;
+	text-shadow: 0px 3px 4px rgba(140, 16, 2, 1);
+	color: #fff;
+	line-height: 30px;
+}
+
+.marketing h2 {
+	margin: 15px 0;
+	font-size: 19px;
+	line-height: 25px;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	text-shadow: 0px 3px 4px rgba(0, 0, 0, 1);
+	color: #ffd014;
+}
+
+.marketing p {
+	color: #fff;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: left;
+	font-weight: lighter;
+	letter-spacing: .015em;
+}
+
+.clear {
+	clear: both;
+}
+
+.upickem {
+	width: 100%;
+	max-width: 100%;
+	background: rgb(246,246,246) url('http://www.gannett-cdn.com/static/images/patterns/noise_f6f6f6.png') repeat top left !important;
+}
+
+/* -------- Tablet Portrait Styles -------- */
+
+@media only screen 
+and (min-width : 751px) 
+and (max-width : 1015px)  {
+	
+	.container {
+		width: 760px;
+		min-width: 760px;
+		max-width: 760px;
+		margin: 0 auto;
+	}
+	
+	.ad-container {
+		display: none;
+	}
+	
+	.cobrand-header {
+		background: #000;
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+	}
+	
+	.cobrand-header iframe {
+		position: relative;
+		left: -80px;
+	}
+	
+	.cobrand-footer {
+		background: rgb(246,246,246) url('http://www.gannett-cdn.com/static/images/patterns/noise_f6f6f6.png') repeat top left !important;
+		width: 95%;
+		max-width: 95%;
+		text-align: center;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	
+	.cobrand-footer iframe {
+		height: 140px;
+		width: 1000px;
+	}
+	
+	.lead-container {
+		width: 95%;
+		max-width: 95%;
+		margin: 0 auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.lead-container img {
+		padding-top: 70px;
+		width: 240px;
+	}
+
+	.marketing { 
+		width: 450px;
+	}
+	
+	.marketing h1 {
+		padding: 14px 50px;
+	}
+	
+	.upickem {
+		width: 95%;
+		max-width: 95%;
+		margin: 0 auto;
+	}
+
+}
+
+
+/* -------- That Tricky Space Between Tablet and Mobile -------- */
+
+@media only screen 
+and (min-width : 601px) 
+and (max-width : 750px)  {
+
+	.cobrand-header {
+		display: none;
+	}
+	
+	.cobrand-footer {
+		background: rgb(246,246,246) url('http://www.gannett-cdn.com/static/images/patterns/noise_f6f6f6.png') repeat top left !important;
+		width: 95%;
+		max-width: 95%;
+		text-align: center;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	
+	.cobrand-footer iframe {
+		height: 140px !important;
+		width: 400px !important;
+		min-width: 400px !important;
+	}
+	
+	.container {
+		width: 600px;
+		min-width: 600px;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	
+	.ad-container {
+		display: none;
+	}
+	
+	.mobile-ad-container {
+		display: block;
+		text-align: center;
+		padding: 15px;
+	}
+	
+	.mobile-header {
+		display: block;
+	}
+	
+	.lead-container {
+		text-align: center;
+		width: 95%;
+		max-width: 95%;
+		margin: 0 auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.lead-container img {
+		float: none;
+		padding-top: 0;
+		margin: 0 0 20px 0;
+	}
+
+	.marketing { 
+		width: 560px;
+	}
+	
+	.marketing h1 {
+		padding: 14px 80px;
+	}
+	
+	.upickem {
+		width: 95%;
+		max-width: 95%;
+		margin: 0 auto;
+	}
+
+}
+
+
+/* -------- Mobile Styles -------- */
+
+@media all 
+and (max-width: 600px) {
+	
+	.cobrand-header {
+		display: none;
+	}
+	
+	.cobrand-footer {
+		background: rgb(246,246,246) url('http://www.gannett-cdn.com/static/images/patterns/noise_f6f6f6.png') repeat top left !important;
+		width: 90%;
+		max-width: 90%;
+		text-align: center;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	
+	.cobrand-footer iframe {
+		height: 140px !important;
+		width: 300px !important;
+		min-width: 300px !important;
+	}
+	
+	.container {
+		width: 100%;
+		min-width: 100%;
+	}
+	
+	.ad-container {
+		display: none;
+	}
+	
+	.mobile-ad-container {
+		display: block;
+		text-align: center;
+		padding: 15px;
+	}
+		
+	.mobile-header {
+		display: block;
+	}
+	
+	.lead-container {
+		text-align: center;
+		width: 90%;
+		min-width: 90%;
+		max-width: 90%;
+		margin: 20px auto;
+		padding: 0;
+	}
+	
+	.lead-container img {
+		float: none;
+		margin: 0 0 20px 0;
+		padding: 0;
+	}
+	
+	.marketing {
+		float: none;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.marketing h1 {
+		margin-top: 5px;
+		font-size: 24px;
+		line-height: 35px;
+		padding: 14px 20px;
+	}
+	
+	.marketing h2 {
+		font-size: 17px;
+		line-height: 25px;
+		padding: 0 20px;
+	}
+	
+	.marketing strong {
+		display: none;
+		line-height: 1px;
+	}
+	
+	.marketing p {
+		padding-top: 0;
+	}
+
+	.upickem {
+		width: 90%;
+		max-width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen 
+and (min-width : 516px) 
+and (max-width : 556px)  {
+		
+	.marketing h1 {
+		padding: 14px 80px;
+	}
+	
+}
+
+
+@media only screen 
+and (min-width : 430px) 
+and (max-width : 515px)  {
+		
+	.marketing h1 {
+		padding: 14px 60px;
+	}
+	
+}
