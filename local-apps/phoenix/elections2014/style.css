@@ -725,6 +725,34 @@ and (max-width : 600px) {
 
 }
 
+.follow-div img.follow {
+    content:url("http://media.azcentral.com/local-apps/phoenix/election2014/election-btn-follow.png");
+    cursor:pointer;
+}
+.follow-div img.unfollow {
+    content:url("http://media.azcentral.com/local-apps/phoenix/election2014/election-btn-unfollow.png");
+    cursor:pointer;
+}
+.follow-toggle-div {
+    height:32px;
+    width:100%;
+    margin-top:175px;
+    background-color:transparent;
+}
+.follow-toggle-div img.all {
+    content:url("http://media.azcentral.com/local-apps/phoenix/election2014/election-toggle-followed.png");
+    cursor:pointer;
+}
+.follow-toggle-div img.followed {
+    content:url("http://media.azcentral.com/local-apps/phoenix/election2014/election-toggle-all.png");
+    cursor:pointer;
+}
+.electionsGoHere.followed .not-followed {
+    display:none;
+}
+
+
+
 /* aaron added */
 @media only screen 
 and (max-width : 600px) {
