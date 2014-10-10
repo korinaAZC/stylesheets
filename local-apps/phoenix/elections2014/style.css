@@ -725,12 +725,18 @@ and (max-width : 600px) {
 
 }
 
-.follow-div img.follow {
-    content:url("http://media.azcentral.com/local-apps/phoenix/election2014/election-btn-follow.png");
+.race-container.not-followed img.follow {
     cursor:pointer;
 }
-.follow-div img.unfollow {
-    content:url("http://media.azcentral.com/local-apps/phoenix/election2014/election-btn-unfollow.png");
+.race-container.not-followed img.unfollow {
+    display:none;
+    cursor:pointer;
+}
+.race-container.followed img.follow {
+    display:none;    
+    cursor:pointer;
+}
+.race-container.followed img.unfollow {
     cursor:pointer;
 }
 .follow-toggle-div {
@@ -739,14 +745,19 @@ and (max-width : 600px) {
     margin-top:175px;
     background-color:transparent;
 }
-.follow-toggle-div img.all {
-    content:url("http://media.azcentral.com/local-apps/phoenix/election2014/election-toggle-followed.png");
+.electionsGoHere.all .follow-toggle-div img.all {
     cursor:pointer;
 }
-.follow-toggle-div img.followed {
-    content:url("http://media.azcentral.com/local-apps/phoenix/election2014/election-toggle-all.png");
+.electionsGoHere.all .follow-toggle-div img.followed {
+    display:none;
+}
+.electionsGoHere.followed .follow-toggle-div img.followed {
     cursor:pointer;
 }
+.electionsGoHere.followed .follow-toggle-div img.all {
+    display:none;
+}
+
 .electionsGoHere.followed .not-followed {
     display:none;
 }
