@@ -315,6 +315,48 @@ html, body {
 	background: #83888d;
 }
 
+/* Below was added for general election */
+    .results_container .results_content ul.category ul.candidates li.rep div {
+        background: #ecc0bc;
+    }
+
+    .results_container .results_content ul.category ul.candidates li.rep div p {
+        background: #c34135;
+    }
+    .results_container .results_content ul.category  ul.candidates li.dem div {
+        background: #bbd1e4;
+    }
+
+    .results_container .results_content ul.category ul.candidates li.dem div p {
+        background: #3982c0;
+    }
+
+    .results_container .results_content ul.category ul.candidates li.lbt div {
+        background: #eed7ac;
+    }
+
+    .results_container .results_content ul.category ul.candidates li.lbt div p {
+        background: #cf9b3a;
+    }
+
+    .results_container .results_content ul.category ul.candidates li.ael div {
+        background: #d1c0e3;
+    }
+
+    .results_container .results_content ul.category ul.candidates li.ael div p {
+        background: #7744ac;
+    }
+
+    .results_container .results_content ul.category ul.candidates li.noparty div {
+        background: #c7ccd1;
+    }
+
+    .results_container .results_content ul.category ul.candidates li.noparty div p {
+        background: #83888d;
+    }
+
+/* above was added for general election */
+
 .results_container .results_content ul.category li ul.candidates li p.name {
     width: 235px;
     font-size: 15px;
