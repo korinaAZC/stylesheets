@@ -358,7 +358,7 @@ html, body {
 /* above was added for general election */
 
 .results_container .results_content ul.category li ul.candidates li p.name {
-    width: 235px;
+    width: 260px;
     font-size: 15px;
     white-space: nowrap;
 }
@@ -479,9 +479,313 @@ html, body {
     color: #eeeeee;
 }
 
+.race-container.not-followed img.follow, .race-container.followed img.unfollow {
+    cursor:pointer;
+}
+
+.race-container.not-followed img.unfollow, .race-container.followed img.follow {
+    display:none;
+    cursor:pointer;
+}
+
+.follow-toggle-div {
+    height: 32px;
+    width: 100%;
+    margin: 0 0 60px 0;
+	text-align: right;
+    background-color: transparent;
+}
+
+.electionsGoHere.all .follow-toggle-div img.all {
+    cursor:pointer;
+}
+
+.electionsGoHere.all .follow-toggle-div img.followed {
+    display:none;
+}
+
+.electionsGoHere.followed .follow-toggle-div img.followed {
+    cursor:pointer;
+}
+
+.electionsGoHere.followed .follow-toggle-div img.all {
+    display:none;
+}
+
+.electionsGoHere.followed .not-followed {
+    display:none;
+}
+
+.iframeCobrandHeader {
+	width: 100%;
+	height: 40px;
+	border: 0;
+	overflow:hidden;
+}
+
+.cobrandHeaderContainer {
+	top:0;
+	left:0;
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	height: 40px !important;
+	overflow: hidden !important;
+}
+
+.cobrandHeaderContainer:-webkit-scrollbar {  
+	display: none;
+}
+
+iframe::-webkit-scrollbar {  
+	display: none;
+}        
+
+
 @media only screen 
-and (max-width : 600px) {
+and (min-width : 715px)
+and (max-width : 1015px) {
+
+	.results_container  {
+		width: 100%;
+        min-width: 100%;
+        min-height: 500px;
+        margin: 0;
+        padding: 0;
+	}
+	
+	.results_container .results_content {
+		float: none;
+		width: 680px;
+        margin: 0 auto;
+        padding: 0;
+		top: 0;
+	}
+	
+	.results_sidebar.inactive, .results_content.inactive {
+        display:none;
+    }
+	
+	.results_container .results_header {
+        display: none;
+    }
     
+    .results_container .results_header_mobile {
+        display: block;
+        width: 100%;
+        min-width: 100%;
+        height: 80px;
+        top: 0;
+        background: #ebebe3;
+        padding: 0;
+        position: fixed;
+        z-index: 999;
+        text-align: center;
+        border-bottom: 2px solid #8f9194;
+    }
+    
+    .results_container .results_header_mobile .menu_button {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 10000;
+		height: 50px;
+		width: 50px;
+    }
+    
+    .results_container .results_header_mobile .menu_mobile_container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 1024px;
+        margin: 0;
+        padding: 0;
+        background: #2f3036;
+        text-align: left;
+        z-index: 10000;
+        display: none;
+    }
+    
+    .results_container .results_header_mobile .menu_mobile_container .menu_static {
+        width: 100%;		
+        z-index: 10001;
+        background: #2f3036;
+    }
+    
+    .results_container .results_header_mobile .menu_mobile_container .menu_static a.close_button {
+        position: absolute;
+        right: 0;
+        
+    }
+
+    .results_container .results_header_mobile .menu_mobile_container  p {
+        padding: 0 15px 10px 15px;
+        border-bottom: 1px solid #454545;
+    }
+    
+	.results_container .results_header_mobile .menu_mobile_container div.scroll_menu {
+		position: fixed;
+		width: 100%;
+		overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+		height: 400px;
+		padding-bottom: 100px;	
+	}
+	
+	/* .results_container .results_header_mobile .menu_mobile_container div.scroll_menu {
+		background: url('http://media.azcentral.com/local-apps/phoenix/election2014/election-mobile-scroll.png') no-repeat right 15px top 165px;
+		background-attachment: scroll;
+		
+	} */
+	
+	span.mobile_menu_gradient {
+		display: absolute;
+		top: 300px;
+		display: block;
+		height: 100px;
+		background: url('http://media.azcentral.com/local-apps/phoenix/election2014/election-mobile-menu-bg.png') repeat-x;
+		z-index: 9999;
+	}
+	
+    .results_container .results_header_mobile .menu_mobile_container  p a {
+        display: inline-block;
+        margin: 0;
+        padding: 0 4px;
+    }
+    
+    .results_container .results_header_mobile .menu_mobile_container  p a:hover {
+        background: none;
+    }
+    
+    .results_container .results_header_mobile .menu_mobile_container  a {
+        padding: 0 15px;
+        display:block; /* */
+        line-height: 44px;
+        height: 44px;
+        color: #c5c5c5;
+        text-decoration: none;
+    }
+    
+    .results_container .results_header_mobile .menu_mobile_container  a:hover {
+        background: #266db2;
+    }
+    
+    .results_container .results_header_mobile ul.menu_mobile {
+        list-style-type:none;
+        padding: 0;
+        margin: 0 5px;
+        top: 0;
+		padding-bottom: 50px;
+    }
+    
+    .results_container .results_header_mobile ul.menu_mobile li a {
+        display:block;
+        height: 70px;
+        text-align: left;
+        line-height: 70px;
+        padding: 0 0 0 15px;
+        color: #fff;
+        text-decoration: none;
+		border-bottom: 1px solid #454545;
+    }
+	
+	.results_container .results_header_mobile ul.menu_mobile li:last-child {
+		padding-bottom: 40px;
+	}
+	
+	.results_container .results_header_mobile ul.menu_mobile li:last-child a {
+		border: none;
+	}
+    
+    .results_container .results_header_mobile ul.menu_mobile li:hover a {
+        background: #266db2;
+    }
+    
+    .results_container .results_header_mobile p {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        font-family: 'Futura Today Screen DemiBold';
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        font-size: 12px;
+        color: #707070;
+    }
+    
+    .results_container .results_header_mobile .mobile_logo {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .results_container .mobile_tabs {
+        margin: 80px 0 0 0;
+        border-bottom: 1px solid #8f9194;
+        background: #ddddd3;
+    }
+    
+	.mobile-tabs-region {
+		z-index: 100;
+	}
+    .results_container .mobile_tabs ul {
+        list-style: none;
+        margin: 0 auto;
+        padding: 10px 0 0 0;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .results_container .mobile_tabs ul li {
+        display: inline-block;
+        border-top: 1px solid #8f9194;
+        border-left: 1px solid #8f9194;
+        border-right: 1px solid #8f9194;
+        height: 40px;
+        line-height: 40px;
+        font-family: 'Futura Today Screen DemiBold';
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        font-size: 12px;
+        text-align: center;
+        color: #666;
+        background: #CCC;
+    }
+    
+    .results_container .mobile_tabs ul li.active {
+        background: #266db2;
+    }
+    
+    .results_container .mobile_tabs ul li a {
+        color: #666;
+        display: block;
+        height: 40px;
+        padding: 0 18px;
+        text-decoration: none;
+    }
+    
+    .results_container .mobile_tabs ul li.active a {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+	.follow-toggle-div {
+		width: 680px;
+		margin: 20px auto 40px auto;
+		text-align: center;
+	}
+	
+	.results_container .results_content ul.category li ul.candidates li p.votes {
+        font-size: 14px;
+		position: relative;
+		top: auto;
+    }
+
+}
+
+
+@media only screen 
+and (max-width : 714px) {
+
+
     .results_container {
         width: 100%;
         min-width: 100%;
@@ -715,7 +1019,6 @@ and (max-width : 600px) {
         margin: 0 0 0 24px;
         padding: 11px 0;
         border-bottom: 1px solid #ebebe3;
-        
     }
     
     .results_container .results_content ul.category li ul.candidates li div {
@@ -723,7 +1026,7 @@ and (max-width : 600px) {
     }
 
     .results_container .results_content ul.category li ul.candidates li p.name {
-        width: 120px;
+        width: 40%;
         font-size: 14px;
         margin-right: 10px;
         white-space: normal;
@@ -740,14 +1043,18 @@ and (max-width : 600px) {
         
     }
     .results_container .results_content ul.category li ul.candidates li p.percent {
+		width: 20%;
         font-size: 18px;
         line-height: 100%;
-        position: absolute;
-        top: 19px;
+		position: relative;
+		top: auto;
     }
     
     .results_container .results_content ul.category li ul.candidates li p.votes {
+		width: 30%;
         font-size: 14px;
+		position: relative;
+		top: auto;
     }
     
     .results_container .results_sidebar {
@@ -755,64 +1062,14 @@ and (max-width : 600px) {
         min-width: 100%;
     }
 	
-	
-	
-	
-	
-
-/* ryan added - for cobrand footer */
     .hideMeFromMobile {
         display:none;
     }
-
-}
-
-.race-container.not-followed img.follow {
-    cursor:pointer;
-}
-.race-container.not-followed img.unfollow {
-    display:none;
-    cursor:pointer;
-}
-.race-container.followed img.follow {
-    display:none;    
-    cursor:pointer;
-}
-.race-container.followed img.unfollow {
-    cursor:pointer;
-}
-.follow-toggle-div {
-    height: 32px;
-    width: 100%;
-    margin: 0 0 60px 0;
-	text-align: right;
-    background-color: transparent;
-}
-.electionsGoHere.all .follow-toggle-div img.all {
-    cursor:pointer;
-}
-.electionsGoHere.all .follow-toggle-div img.followed {
-    display:none;
-}
-.electionsGoHere.followed .follow-toggle-div img.followed {
-    cursor:pointer;
-}
-.electionsGoHere.followed .follow-toggle-div img.all {
-    display:none;
-}
-
-.electionsGoHere.followed .not-followed {
-    display:none;
-}
-
-
-
-/* aaron added */
-@media only screen 
-and (max-width : 600px) {
-    .results_sidebar.inactive, .results_content.inactive {
+	
+	.results_sidebar.inactive, .results_content.inactive {
         display:none;
     }
+	
     p.ad {
         width: 300px;
         height: 250px;
@@ -836,27 +1093,9 @@ and (max-width : 600px) {
 		text-align: right;
 		background-color: transparent;
 	}
-}
+	
+	.follow-toggle-div {
+		text-align: center;
+	}
 
-/* ryan added */
-    .iframeCobrandHeader {
-        width: 100%;
-        height: 40px;
-        border: 0;
-        overflow:hidden;
-    }
-    .cobrandHeaderContainer {
-        top:0;
-        left:0;
-        width: 100%;
-        position: fixed;
-        z-index: 9999;
-		height: 40px !important;
-		overflow: hidden !important;
-    }
-    .cobrandHeaderContainer:-webkit-scrollbar {  
-        display: none;
-    }
-    iframe::-webkit-scrollbar {  
-        display: none;
-    }        
+}
