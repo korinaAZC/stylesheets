@@ -144,7 +144,7 @@ html, body {
 
 .results_container .results_content {
     float: left;
-    top: 0;
+    top: 120px;
     width: 625px;
     margin: 0 0 50px 15px;
 }
@@ -784,7 +784,7 @@ and (max-width : 600px) {
 .follow-toggle-div {
     height: 32px;
     width: 100%;
-    margin: 20px 0 60px 0;
+    margin: 0 0 60px 0;
 	text-align: right;
     background-color: transparent;
 }
@@ -829,6 +829,13 @@ and (max-width : 600px) {
         display:none;
     }
 
+	.follow-toggle-div {
+		height: 32px;
+		width: 100%;
+		margin: 120px 0 -90px 0;
+		text-align: right;
+		background-color: transparent;
+	}
 }
 
 /* ryan added */
