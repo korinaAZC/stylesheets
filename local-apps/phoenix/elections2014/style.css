@@ -144,14 +144,14 @@ html, body {
 
 .results_container .results_content {
     float: left;
-    top: -72px;
+    top: 0;
     width: 625px;
     margin: 0 0 50px 15px;
 }
 
 .results_container .results_content ul.category {
     list-style: none;
-    margin: 0;
+    margin: 0 0 60px 0;
     padding: 0;
 }
 
@@ -168,7 +168,7 @@ html, body {
 
 .results_container .results_content ul.category a.category_anchor {
 	display: block;
-	padding-top: 190px;
+	margin: 0;
 }
 
 .results_container .results_content ul.category p.race {
@@ -782,10 +782,11 @@ and (max-width : 600px) {
     cursor:pointer;
 }
 .follow-toggle-div {
-    height:32px;
-    width:100%;
-    margin-top:175px;
-    background-color:transparent;
+    height: 32px;
+    width: 100%;
+    margin: 20px 0 60px 0;
+	text-align: right;
+    background-color: transparent;
 }
 .electionsGoHere.all .follow-toggle-div img.all {
     cursor:pointer;
