@@ -9,21 +9,21 @@
 }
 @font-face {
     font-family: 'Futura Today Screen Bold';
-    src: url(../fonts/FuturaTodayScreenBold.eot);
-    src: url(../fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'), url(../fonts/FuturaTodayScreenBold.woff) format('woff'), url(../fonts/FuturaTodayScreenBold.ttf) format('truetype'), url(../fonts/FuturaBold-webfont.svg#FuturaBold) format('svg');
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaBold-webfont.svg#FuturaBold) format('svg');
     font-style: normal
 }
 
 @font-face {
     font-family: 'Futura Today Screen DemiBold';
-    src: url(../fonts/FuturaTodayScreenDemiBold.eot);
-    src: url(../fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'), url(../fonts/FuturaTodayScreenDemiBold.woff) format('woff'), url(../fonts/FuturaTodayScreenDemiBold.ttf) format('truetype'), url(../fonts/FuturaDemiBold-webfont.svg#FuturaDemiBold) format('svg');
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaDemiBold-webfont.svg#FuturaDemiBold) format('svg');
     font-style: normal
 }
 @font-face {
     font-family: 'Futura Today Screen Light';
-    src: url(../fonts/FuturaTodayScreenLight.eot);
-    src: url(../fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'), url(../fonts/FuturaTodayScreenLight.woff) format('woff'), url(../fonts/FuturaTodayScreenLight.ttf) format('truetype'), url(../fonts/futura_today_light.svg#FuturaLight) format('svg');
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/futura_today_light.svg#FuturaLight) format('svg');
     font-style: light
 }
 
