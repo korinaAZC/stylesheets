@@ -1,29 +1,29 @@
 @font-face {
-    font-family: 'Futura Today Screen Normal';
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.eot);
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'), 
-        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.woff) format('woff'), 
-        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.ttf) format('truetype'), 
-        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaBold-webfont.svg#FuturaNormal) format('svg');
+    font-family: 'Roboto Condensed Regular';
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.eot?#iefix) format('embedded-opentype'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.woff) format('woff'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.ttf) format('truetype'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.svg#RobotoCondensedRegular) format('svg');
     font-style: normal
 }
 @font-face {
-    font-family: 'Futura Today Screen Bold';
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.eot);
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaBold-webfont.svg#FuturaBold) format('svg');
+    font-family: 'Roboto Black';
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Black-webfont.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Black-webfont.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Black-webfont.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Black-webfont.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Black-webfont.svg#RobotoBlack) format('svg');
     font-style: normal
 }
 
 @font-face {
-    font-family: 'Futura Today Screen DemiBold';
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.eot);
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaDemiBold-webfont.svg#FuturaDemiBold) format('svg');
+    font-family: 'Roboto Medium';
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Medium-webfont.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Medium-webfont.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Medium-webfont.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Medium-webfont.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Medium-webfont.svg#RobotoMedium) format('svg');
     font-style: normal
 }
 @font-face {
-    font-family: 'Futura Today Screen Light';
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.eot);
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/futura_today_light.svg#FuturaLight) format('svg');
+    font-family: 'Roboto Light';
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Light-webfont.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Light-webfont.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Light-webfont.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Light-webfont.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/Roboto-Light-webfont.svg#RobotoLight) format('svg');
     font-style: light
 }
 
@@ -79,7 +79,7 @@ html, body {
     margin: 10px 15px 0 0;
     padding: 6px 12px;
     background: #2a6db3;
-    font-family: 'Futura Today Screen DemiBold';
+    font-family: 'Roboto Medium';
     color: #fff;
     font-size: 13px;
     text-align: center;
@@ -120,13 +120,13 @@ html, body {
     text-transform: uppercase;
     letter-spacing: .1em;
     color: #666;
-    font-family: 'Futura Today Screen DemiBold';
+    font-family: 'Roboto Medium';
     font-size: 15px;
     margin: 15px 0;
     text-shadow: 1px 1px 1px #fff;
 }
 .election_container .election_banner p.race_title span {
-    font-family: 'Futura Today Screen Light';
+    font-family: 'Futura Today Screen Normal';
     color: #919191;
 }
 .election_container .election_banner ul.candidate_list {
@@ -172,6 +172,11 @@ html, body {
     letter-spacing: .08em;
     color: #393939;
 }
+
+.election_container .election_banner ul.candidate_list li p.firstname {
+	font-family: 'Roboto Condensed Regular';
+}
+
 .election_container .election_banner ul.candidate_list li img.checkmark {
     display: none;
 }
@@ -186,10 +191,11 @@ html, body {
 }
 .election_container .election_banner ul.candidate_list li p.percentage {
     margin: 0;
-    font-family: 'Futura Today Screen DemiBold';
+    font-family: 'Roboto Black';
     font-size: 25px;
     letter-spacing: .08em;
     color: #767676;
+	font-weight:normal;
 }
 .election_container .unslider_arrow {
     position: absolute;
@@ -200,7 +206,7 @@ html, body {
     opacity: 0.3;
     width: 30px;
     height: 40px;
-    font-family: 'Futura Today Screen Bold';
+    font-family: 'Roboto Black';
     line-height: 32px;
     color: #fff;
     font-size: 20px;
