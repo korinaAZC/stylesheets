@@ -1,7 +1,10 @@
 @font-face {
     font-family: 'Futura Today Screen Normal';
-    src: url(../fonts/FuturaTodayScreenNormal.eot);
-    src: url(../fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'), url(../fonts/FuturaTodayScreenNormal.woff) format('woff'), url(../fonts/FuturaTodayScreenNormal.ttf) format('truetype'), url(../fonts/FuturaBold-webfont.svg#FuturaNormal) format('svg');
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.woff) format('woff'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.ttf) format('truetype'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaBold-webfont.svg#FuturaNormal) format('svg');
     font-style: normal
 }
 @font-face {
