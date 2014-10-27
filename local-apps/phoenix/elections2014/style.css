@@ -146,7 +146,7 @@ html, body {
     float: left;
     top: 120px;
     width: 625px;
-    margin: 0 0 50px 15px;
+    margin: 0 0 150px 15px;
 }
 
 .results_container .results_content ul.category {
@@ -784,7 +784,6 @@ and (max-width : 1015px) {
 
 @media only screen 
 and (max-width : 714px) {
-
 
     .results_container {
         width: 100%;
