@@ -2,8 +2,8 @@
     font-family: 'Roboto Condensed Regular';
     src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.eot);
     src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.eot?#iefix) format('embedded-opentype'), 
-        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.wof) format('woff'), 
-        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.tt) format('truetype'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.woff) format('woff'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.ttf) format('truetype'), 
         url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.svg#RobotoCondensedRegular) format('svg');
     font-style: normal
 }
