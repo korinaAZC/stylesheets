@@ -303,15 +303,21 @@ html, body {
 	background: #7744ac;
 }
 
-.results_container .results_content ul.category li .noparty p.party {
+.results_container .results_content ul.category li .noparty p.party, 
+.results_container .results_content ul.category li .ind p.party, 
+.results_container .results_content ul.category li .jos p.party {
     border-bottom: 2px solid #c7ccd1;
 }
 
-.results_container .results_content ul.category li .noparty ul.candidates li div {
+.results_container .results_content ul.category li .noparty ul.candidates li div, 
+.results_container .results_content ul.category li .ind ul.candidates li div, 
+.results_container .results_content ul.category li .jos ul.candidates li div {
 	background: #c7ccd1;
 }
 
-.results_container .results_content ul.category li .noparty ul.candidates li div p {
+.results_container .results_content ul.category li .noparty ul.candidates li div p, 
+.results_container .results_content ul.category li .ind ul.candidates li div p, 
+.results_container .results_content ul.category li .jos ul.candidates li div p {
 	background: #83888d;
 }
 
@@ -347,11 +353,15 @@ html, body {
         background: #7744ac;
     }
 
-    .results_container .results_content ul.category ul.candidates li.noparty div {
+    .results_container .results_content ul.category ul.candidates li.noparty div, 
+	.results_container .results_content ul.category ul.candidates li.ind div, 
+	.results_container .results_content ul.category ul.candidates li.jos div {
         background: #c7ccd1;
     }
 
-    .results_container .results_content ul.category ul.candidates li.noparty div p {
+    .results_container .results_content ul.category ul.candidates li.noparty div p, 
+	.results_container .results_content ul.category ul.candidates li.ind div p, 
+	.results_container .results_content ul.category ul.candidates li.jos div p {
         background: #83888d;
     }
 
