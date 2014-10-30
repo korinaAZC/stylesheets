@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'Futura Today Screen Normal';
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.eot);
-    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'), 
-        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.woff) format('woff'), 
-        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenNormal.ttf) format('truetype'), 
-        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaBold-webfont.svg#FuturaNormal) format('svg');
+    font-family: 'Roboto Condensed Regular';
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.eot?#iefix) format('embedded-opentype'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.woff) format('woff'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.ttf) format('truetype'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.svg#RobotoCondensedRegular) format('svg');
     font-style: normal
 }
 @font-face {
@@ -49,7 +49,7 @@ html, body {
     min-height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Futura Today Screen Normal';
+    font-family: 'Futura Today Screen Light';
 }
 .clear {
     clear: both;
@@ -126,7 +126,7 @@ html, body {
     text-shadow: 1px 1px 1px #fff;
 }
 .election_container .election_banner p.race_title span {
-    font-family: 'Futura Today Screen Light';
+    font-family: 'Roboto Condensed Regular';
     color: #919191;
 }
 .election_container .election_banner ul.candidate_list {
@@ -172,6 +172,11 @@ html, body {
     letter-spacing: .08em;
     color: #393939;
 }
+
+.election_container .election_banner ul.candidate_list li p.firstname {
+	font-family: 'Roboto Condensed Regular';
+}
+
 .election_container .election_banner ul.candidate_list li img.checkmark {
     display: none;
 }
@@ -186,10 +191,11 @@ html, body {
 }
 .election_container .election_banner ul.candidate_list li p.percentage {
     margin: 0;
-    font-family: 'Futura Today Screen DemiBold';
+    font-family: 'Futura Today Screen Bold';
     font-size: 25px;
     letter-spacing: .08em;
     color: #767676;
+	font-weight:normal;
 }
 .election_container .unslider_arrow {
     position: absolute;
