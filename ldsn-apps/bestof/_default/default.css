@@ -1,0 +1,1236 @@
+@charset "UTF-8";
+
+/* ---------- GLOBAL STYLES ---------- */
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+    line-height: 1;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    position: relative;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    height: 10px;
+}
+
+.button {
+    margin: 10px 0;
+    background: #d02235;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    line-height: 40px;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #be1629;
+}
+
+.banner {
+    display: block;
+    left: -7px;
+    width: 100%;
+    height: 35px;
+    background: #d02235;
+    margin: 10px 0;
+    padding: 0 0 0 10px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.banner img.flag {
+    position: absolute;
+    bottom: -7px;
+    left: 0px;
+}
+
+.box-ad-placeholder {
+    width: 300px;
+    height: 250px;
+    margin: 20px auto;
+    background: #CCC;
+}
+
+.cobrand-header {
+    width: 100%;
+    height: 40px;
+    background: #141414;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cobrand-header iframe {
+    width: 100%;
+    max-width: 1000px;
+    max-height: 40px;
+    margin: 0 auto;
+}
+
+ul.mobile-header {
+    width: 95%;
+    margin: 0 auto;
+    color: #fff;
+    display: none;
+}
+
+ul.mobile-header li {
+    display: inline-block;
+}
+
+.page-results ul.mobile-header li.logo, .page-article ul.mobile-header li.logo, .page-static ul.mobile-header li.logo  {
+    display: none;
+}
+
+.page-home ul.mobile-header li.back {
+    display: none;
+}
+
+.nav-menu {
+    width: 100%;
+    background: #368fca;
+    border-bottom: 1px solid #000;
+    height: 30px;
+}
+
+.nav-menu ul {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    float: right;
+    padding: 0 15px;
+    border-left: 1px solid #226d9f;
+}
+
+.nav-menu ul li:first-child {
+    border-right: 1px solid #226d9f;
+}
+
+.nav-menu ul li a {
+    display: block;
+    width: 100%;
+    line-height: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .05em;
+    color: #fff;
+}
+
+.nav-menu ul li:hover a {
+    color: #cee2ef;
+}
+
+.container {
+    width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer {
+    width: 100%;
+    min-height: 80px;
+    text-align: center;
+    background: rgb(246,246,246) url('http://www.gannett-cdn.com/static/images/patterns/noise_f6f6f6.png') repeat top left;
+}
+
+.footer p {
+    padding: 20px 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    line-height: 1.5em;
+    color: #999;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #666;
+}
+
+
+
+
+
+
+/* ---------- HOMEPAGE ---------- */
+
+
+.feat-module {
+    width: 100%;
+    height: 350px;
+    background: center center no-repeat;
+    background-size: cover;
+}
+
+.feat-module a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.feat-module .feat-mobile {
+    display: none;
+}
+
+.feat-module .feat-ident {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+    z-index: 10;
+}
+
+.feat-module .feat-ident h3 {
+    position: absolute;
+    top: -45px;
+    left: -7px;
+    width: 110px;
+    height: 35px;
+    background: #d02235;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.feat-module .feat-ident h3 a {
+    display: block;
+    width: 100%;
+    padding: 0 12px 0 10px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.feat-module .feat-ident img.flag {
+    position: absolute;
+    top: 7px;
+    left: -7px;
+}
+
+.feat-module .feat-ident p {
+    display: block;
+    height: 100%;
+    width: 276px;
+    padding: 12px;
+    margin: 0;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-bg-overlay.png');
+    text-align: right;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.feat-module .feat-ident p a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.feat-module .info-box {
+    position: absolute;
+    top: 45px;
+    left: 25px;
+    width: 300px;
+    height: 285px;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-bg-overlay.png');
+    text-align: center;
+    z-index: 10;
+}
+
+.feat-module .info-box img.logo {
+    top: -60px;
+}
+
+.feat-module .info-box p {
+    width: 250px;
+    margin: 30px auto 0 auto;
+    line-height: 22px;
+    color: #fff;
+}
+
+.feat-module .info-box a {
+    display: block;
+    height: 40px;
+}
+
+.module-container {
+    width: 100%;
+    height: auto;
+    margin: 12px auto;
+}
+
+.module {
+    position: relative;
+    float: left;
+    height: 250px;
+    max-height: 250px;
+    padding: 0;
+    margin: 12px 0 12px 25px;
+    background: center center no-repeat;
+    background-size: cover;
+}
+
+.module a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.module h3 {
+    display: block;
+    position: absolute;
+    top: -12px;
+    left: -7px;
+    height: 35px;
+    background: #d02235;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.module h3 a {
+    display: block;
+    width: 100%;
+    padding: 0 12px 0 10px;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 35px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.module img.flag {
+    position: absolute;
+    top: 42px;
+    left: -7px;
+}
+
+.module p {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -16px;
+    width: 100%;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-bg-overlay.png');
+    text-align: right;
+}
+
+.module p span {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.mod-col-1 {
+    width: 300px;
+    max-width: 300px;
+}
+
+.mod-col-2 {
+    width: 625px;
+    max-width: 625px;
+}
+
+.mod-col-3 {
+    width: 950px;
+    max-width: 950px;
+}
+
+
+
+
+
+/* ---------- RESULTS ---------- */
+
+.filter-column {
+    float: left;
+    width: 300px;
+    min-width: 300px;
+    margin: 0 25px 0 0;
+    text-align: center;
+}
+
+.filter-column img.logo {
+    top: -15px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.filter-column .filter-box {
+    margin-top: -70px;
+    width: 100%;
+    padding: 50px 0 0 0;
+    background: #cee2ef;
+    text-align: center;
+}
+
+.filter-column .filter-box input {
+    width: 220px;
+    margin: 10px auto;
+    padding: 0 10px 0 36px;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-icon-search.png') left center no-repeat #FFF;
+    border: 1px solid #99bad0;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: left;
+    color: #bcbdc0;
+}
+
+.filter-column ul li.main {
+    display: block;
+    height: 45px;
+    padding: 0 10px 0 0;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-icon-sort-down.png') right center no-repeat;
+    border-top: 1px solid #c0d4e1;
+    line-height: 45px;
+    font-size: 18px;
+    text-align: left;
+    color: #333;
+    cursor: pointer;
+}
+
+.filter-column ul li.secondary {
+    display: block;
+    height: 40px;
+    background: #7eb2d5;
+    border-bottom: 1px solid #5f9bc1;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: left;
+    padding: 0 0 0 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.filter-column ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.filter-column ul li.main a {
+    color: #333;
+}
+
+.filter-column ul li.secondary:hover, .filter-column ul li.active {
+    background: #488ab5;
+}
+
+.filter-column ul ul {
+    
+}
+
+.filter-column ul li p {
+    margin: 0;
+    padding: 0 0 0 40px;
+}
+
+.filter-column ul li p.cat {
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-icon-sort-cat.png') 10px center no-repeat;
+}
+
+.filter-column ul li p.feat {
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-icon-sort-feat.png') 10px center no-repeat;
+}
+
+.filter-column ul li p.loc {
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-icon-sort-loc.png') 10px center no-repeat;
+}
+
+.filter-column ul li p.jump {
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-icon-sort-jump.png') 10px center no-repeat;
+}
+
+.filter-column ul li.nodrop {
+    background: none;
+}
+
+.results-column {
+    float: left;
+    min-height: 200px;
+    width: 672px;
+    max-width: 675px;
+}
+
+.results-column ul li {
+    display: inline-block;
+    height: 140px;
+    width: 140px;
+    margin: 0 10px 25px 15px;
+    background: center center no-repeat;
+    background-size: cover;
+}
+
+.results-column ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.results-column ul li p {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -16px;
+    width: 100%;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-bg-overlay.png');
+    text-align: right;
+}
+
+.results-column ul li p span {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* ---------- ARTICLE ---------- */
+
+.pagenavleft {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 48px;
+    height: 100px;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-pagenav-left.png');
+    cursor: pointer;
+    z-index: 50;
+}
+
+.pagenavright {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 48px;
+    height: 100px;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-pagenav-right.png');
+    cursor: pointer;
+    z-index: 50;
+}
+
+img.articlelogo {
+    position: absolute;
+    margin: -15px 0 0 0;
+    padding: 0;
+    z-index: 10;
+}
+
+.article-intro {
+    width: 100%;
+}
+
+.article-intro a.readers {
+    float: right;
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+.article-intro p.title {
+    float: left;
+    display: block;
+    min-height: 60px;
+    max-width: 650px;
+    margin: 15px 10px 5px 160px;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: .02em;
+    color: #161616;
+}
+
+.article-intro p.title span {
+    color: #368fca;
+}
+
+.article-body {
+    clear: both;
+    padding: 0 25px;
+}
+
+.article-body .image {
+    float: left;
+    width: calc(100% - 325px);
+    height: 350px;
+    background: center center no-repeat;
+    background-size: cover;
+    border: 1px solid #e9e9e9;
+}
+
+.article-body .content {
+    float: left;
+    width: calc(100% - 325px);
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.article-body .content .share {
+    padding: 0 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.article-body .content .article-share {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 275px;
+    text-align: center;
+    padding: 10px 6px;
+    background: #fff;
+    border: 2px solid #c4d8e5;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    z-index: 50;
+}
+
+.article-body .content .article-share a {
+    display: inline-block;
+    padding: 0 0 0 5px;
+}
+
+.article-body .content p.name {
+    width: 50%;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 34px;
+    word-wrap: break-word;
+    color: #368fca;
+}
+    
+.article-body .content p.info {
+    width: 50%;
+    font-size: 16px;
+    line-height: 20px;
+    color: #282828;
+}
+    
+.article-body .content p.info a {
+    color: #368fca;
+}
+    
+.article-body .content p.byline {
+    border-top: 1px solid #dbdbdb;
+    padding: 25px 0 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7f7f7f;
+}
+
+.article-body .extras {
+    float: right;
+    width: 300px;
+    min-height: 400px;
+    top: -350px;
+}
+
+.article-body .extras ul li {
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 0 10px 25px 15px;
+    background: center center no-repeat;
+    background-size: cover;
+}
+
+.article-body .extras ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.article-body .extras ul li p {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -16px;
+    width: 100%;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-bg-overlay.png');
+    text-align: right;
+}
+
+.article-body .extras ul li p span {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* ---------- STATIC ---------- */
+
+.page-static .container {
+    width: 90%;
+}
+
+img.staticlogo {
+    position: absolute;
+    margin: -15px 0 0 0;
+    padding: 0;
+    z-index: 10;
+}
+
+.page-static .container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+.page-static .container h2 {
+    padding: 35px 0 0 0;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #333;
+}
+
+.page-static .container p a {
+    color: #368fca;
+}
+
+.static-intro p.title {
+    display: block;
+    min-height: 60px;
+    max-width: 650px;
+    margin: 0 10px 5px 170px;
+    padding: 50px 0 0 0;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: .02em;
+    color: #368fca;
+}
+
+
+
+
+
+
+
+/* ---------- SHARE ---------- */
+
+.share-modal {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-bg-overlay.png');
+    z-index: 99;
+}
+
+.share-container {
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 200px);
+    width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.share-container h3 {
+    margin: 0;
+    padding: 15px;
+    background: #368fca;
+    border-top-left-radius: 8px;
+    -moz-border-top-left-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    -moz-top-right-radius: 8px;
+    -webkit-top-right-radius: 8px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.share-container .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.share-container p {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px;
+    color: #666;
+}
+
+.share-container .share-buttons {
+    text-align: center;
+    padding: 0 15px 30px 15px;
+}
+
+.share-container .share-buttons a {
+    padding: 0 8px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------- PORTRAIT TABLET STYLES ---------- */
+
+@media only screen 
+and (min-width : 670px) 
+and (max-width : 999px) {
+    
+    .cobrand-header iframe{
+        display: none;
+    }
+    
+    .nav-menu {
+        height: auto;
+        z-index: 100;
+    }
+    
+    .nav-menu ul {
+        height: 100%;
+    }
+    
+    .nav-menu ul li {
+        display: block;
+        float: none;
+        height: 55px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        border-left: none;
+        border-top: 1px solid #226d9f;
+    }
+    
+    .nav-menu ul li:first-child {
+        border-right: none;
+    }
+    
+    .nav-menu ul li a {
+        height: 100%;
+        padding: 0 20px;
+        line-height: 55px;
+        font-size: 16px;
+    }
+    
+    ul.mobile-header {
+        display: block;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .page-results .container {
+        width: 680px;
+        margin: 0 auto;
+    }
+    
+    .module-container {
+        left: -12px;
+        width: 650px;
+    }
+    
+    .mod-col-2 {
+        width: 300px !important;
+        max-width: 300px !important;
+    }
+    
+    .mod-col-3 {
+        width: 300px !important;
+        max-width: 300px !important;
+    }
+    
+    .filter-column {
+        margin-left: 0;
+    }
+    
+    .results-column {
+        max-width: 350px;
+    }
+    
+    .results-column ul li {
+        margin: 0 15px 25px 15px;
+    }
+
+    .article-intro p.title {
+        max-width: 310px;
+    }
+    
+    .article-intro a.readers {
+        margin-right: 25px;
+    }
+    
+    .article-body .image {
+        display: block;
+        float: none;
+        width: 100%;
+        height: 300px;
+        margin: 0 0 25px 0;
+    }
+    
+    .article-body .content {
+        margin: 0;
+    }
+    
+    .article-body .extras {
+        top: 0;
+    }
+
+    .article-body .content .article-share {
+        width: 110px;
+    }
+    
+    .article-body .content .article-share a {
+        padding: 0 0 0 5px;
+    }
+    
+}
+
+
+
+
+
+/* ---------- MOBILE STYLES ---------- */
+
+@media only screen 
+and (min-width : 280px) 
+and (max-width : 669px) {
+    
+    body {
+        background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-bg-mobile.png') top repeat-x #fff;
+    }
+    
+    .box-ad-placeholder {
+        display: none;
+    }
+    
+    .cobrand-header iframe {
+        display: none;
+    }
+    
+    .nav-menu {
+        height: auto;
+        z-index: 100;
+    }
+    
+    .nav-menu ul {
+        height: 100%;
+    }
+    
+    .nav-menu ul li {
+        display: block;
+        float: none;
+        height: 55px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        border-left: none;
+        border-top: 1px solid #226d9f;
+    }
+    
+    .nav-menu ul li:first-child {
+        border-right: none;
+    }
+    
+    .nav-menu ul li a {
+        height: 100%;
+        width: auto;
+        margin: 0 0 0 15px;
+        line-height: 55px;
+        font-size: 16px;
+    }
+    
+    ul.mobile-header {
+        display: block;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .page-results .container {
+        text-align: center;
+    }
+    
+    .module-container {
+        left: -12px;
+        width: 325px;
+    }
+    
+    .mod-col-2 {
+        width: 300px !important;
+        max-width: 300px !important;
+    }
+    
+    .mod-col-3 {
+        width: 300px !important;
+        max-width: 300px !important;
+    }
+    
+    .feat-module {
+        width: 300px;
+        height: 250px;
+        margin: 350px auto 0 auto;
+        background: center center no-repeat;
+        background-size: cover;
+    }
+    
+    .feat-module .info-box {
+        top: -310px;
+        left: 0;
+    }
+    
+    .feat-module .feat-ident {
+        display: none;
+    }
+    
+    .feat-module .feat-mobile {
+        position: absolute;
+        top: -12px;
+        left: -25px;
+        display: block;
+        height: 250px;
+        width: 300px;
+    }
+    
+    .feat-module .feat-mobile h3.mobile {
+        display: block;
+        position: absolute;
+        top: -12px;
+        left: -7px;
+        text-align: left;
+        height: 35px;
+        background: #d02235;
+        overflow: hidden;
+        z-index: 10;
+    }
+    
+    .feat-module .feat-mobile h3.mobile a {
+        display: block;
+        left: 0;
+        width: 100%;
+        padding: 0 12px 0 10px;
+        text-decoration: none;
+        font-size: 22px;
+        line-height: 35px;
+        font-weight: normal;
+        color: #fff;
+    }
+    
+    .feat-module .feat-mobile h2.alt {
+        display: none;
+    }
+    
+    .feat-module .feat-mobile img.flag {
+        position: absolute;
+        top: 42px;
+        left: -7px;
+    }
+    
+    .feat-module .feat-mobile p {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -16px;
+        width: 100%;
+        background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-bg-overlay.png');
+        text-align: right;
+    }
+    
+    .feat-module .feat-mobile p span {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        word-wrap: break-word;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: normal;
+        color: #fff;
+    }
+    
+    .filter-column {
+        display: inline-block;
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .results-column {
+        display: inline-block;
+        float: none;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .results-column ul li {
+        height: 125px;
+        width: 125px;
+        margin: 0 5px 15px 5px;
+    }
+    
+    img.articlelogo {
+        margin: 0;
+        width: 110px;
+    }
+    
+    .article-intro p.title {
+        margin: 10px 10px 10px 115px;
+        max-width: 200px;
+        font-size: 22px;
+    }
+    
+    .article-intro p.title span {
+        color: #ddeefa;
+    }
+    
+    .article-intro a.readers {
+        display: none;
+    }
+    
+    .article-body .image {
+        display: block;
+        float: none;
+        width: 100%;
+        height: 250px;
+        margin: 0 0 25px 0;
+    }
+    
+    .article-body .content {
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .article-body .extras {
+        float: none;
+        top: 0;
+        width: 100%;
+        min-height: 400px;
+    }
+
+    .article-body .extras ul li {
+        margin: 0 5px 15px 5px;
+    }
+
+    img.staticlogo {
+        margin: 0;
+        width: 110px;
+    }
+    
+    .static-intro p.title {
+        margin: 10px 10px 10px 125px;
+        padding: 20px 0 0 0;
+        color: #ddeefa;
+    }
+    
+    .share-container {
+        position: relative;
+        top: 50px;
+        left: auto;
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .share-container .share-buttons {
+        text-align: center;
+        padding: 0 15px 0 15px;
+    }
+    
+    .share-container .share-buttons a {
+        display: inline-block;
+        padding: 0 8px 25px 8px;
+    }
+    
+    .article-body .content .article-share {
+        width: 110px;
+    }
+    
+    .article-body .content .article-share a {
+        padding: 0 0 0 5px;
+    }
+
+}
