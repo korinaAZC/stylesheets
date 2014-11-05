@@ -501,6 +501,7 @@ html, body {
 .follow-toggle-div {
     height: 32px;
     width: 100%;
+    z-index:2;
     margin: 0 0 60px 0;
 	text-align: right;
     background-color: transparent;
