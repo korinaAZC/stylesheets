@@ -846,7 +846,27 @@ img.staticlogo {
     padding: 0 8px;
 }
 
+.filter-display
+{
+    background-color: #cee2ef;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: .85em;
+    cursor: pointer;
+}
 
+.filter-label
+{
+    color: #d02235;
+}
+
+.filter-reset
+{
+    float:right;
+    color: #666;
+    text-decoration: underline;
+}
 
 
 
