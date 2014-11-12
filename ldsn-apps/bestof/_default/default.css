@@ -316,6 +316,10 @@ ul.mobile-header li {
 	background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-icon-sort-jump2.png') 20px center no-repeat #d02235;	
 }
 
+.readers-choice:hover {
+    background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-icon-sort-jump2.png') 20px center no-repeat #be1629;
+}
+
 .module-container {
     width: 100%;
     height: auto;
