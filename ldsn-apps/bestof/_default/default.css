@@ -165,7 +165,7 @@ ul.mobile-header li {
 }
 
 .facebook-link-js, .twitter-link-js {
-	margin-top: 3px;
+	line-height: 35px;
 }
 
 .container {
@@ -601,6 +601,20 @@ ul.mobile-header li {
     z-index: 50;
 }
 
+.articles-left-div {
+	margin-bottom: 15px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid #CCC;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #666
+}
+
+.warning {
+	
+}
+
 img.articlelogo {
     position: absolute;
     margin: -15px 0 0 0;
@@ -662,21 +676,6 @@ img.articlelogo {
     position: absolute;
     top: 0;
     right: 0;
-}
-
-.article-body .content .article-share {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 275px;
-    text-align: center;
-    padding: 10px 6px;
-    background: #fff;
-    border: 2px solid #c4d8e5;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    z-index: 50;
 }
 
 .article-body .content .article-share a {
@@ -991,10 +990,6 @@ and (max-width : 999px) {
     .article-body .extras {
         top: 0;
     }
-
-    .article-body .content .article-share {
-        width: 110px;
-    }
     
     .article-body .content .article-share a {
         padding: 0 0 0 5px;
@@ -1255,10 +1250,6 @@ and (max-width : 669px) {
     .share-container .share-buttons a {
         display: inline-block;
         padding: 0 8px 25px 8px;
-    }
-    
-    .article-body .content .article-share {
-        width: 110px;
     }
     
     .article-body .content .article-share a {
