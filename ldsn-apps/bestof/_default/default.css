@@ -53,6 +53,16 @@ ol, ul {
     background: #be1629;
 }
 
+#loadingScreen {
+	width:100%;
+	height:100%;
+	background: url("http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-desktop-loader-2.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;              
+}
+
 .banner {
     display: block;
     left: -7px;
@@ -154,10 +164,18 @@ ul.mobile-header li {
     color: #cee2ef;
 }
 
+.facebook-link-js, .twitter-link-js {
+	margin-top: 3px;
+}
+
 .container {
     width: 1000px;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+#region1 {
+	margin-top: 25px;
 }
 
 .footer {
@@ -294,6 +312,10 @@ ul.mobile-header li {
     height: 40px;
 }
 
+.readers-choice {
+	background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-icon-sort-jump2.png') 20px center no-repeat #d02235;	
+}
+
 .module-container {
     width: 100%;
     height: auto;
@@ -422,7 +444,7 @@ ul.mobile-header li {
     line-height: 40px;
     font-size: 16px;
     text-align: left;
-    color: #bcbdc0;
+    color: #333;
 }
 
 .filter-column ul li.main {
@@ -494,6 +516,16 @@ ul.mobile-header li {
 
 .filter-column ul li.nodrop {
     background: none;
+}
+
+#region2 ul li.nodrop {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+#region2 ul li.nodrop p.jump {
+	background: none;
 }
 
 .results-column {
@@ -590,7 +622,7 @@ img.articlelogo {
     float: left;
     display: block;
     min-height: 60px;
-    max-width: 650px;
+    max-width: 900px;
     margin: 15px 10px 5px 160px;
     font-size: 26px;
     font-weight: bold;
@@ -937,7 +969,7 @@ and (max-width : 999px) {
     }
 
     .article-intro p.title {
-        max-width: 310px;
+        max-width: 90%;
     }
     
     .article-intro a.readers {
