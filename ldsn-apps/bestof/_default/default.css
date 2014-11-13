@@ -433,6 +433,13 @@ ul.mobile-header li {
 	float: right;
 }
 
+.noscrollbar {
+	 line-height:1.5;
+	 overflow:hidden;
+	 white-space:nowrap;
+ }
+
+
 
 /* ---------- RESULTS ---------- */
 
@@ -809,7 +816,11 @@ img.articlelogo {
 	position: relative; 
 	bottom: 0; 
 	right: 0; 
+	margin-bottom: 20px;
 }
+
+
+
 
 
 /* ---------- STATIC ---------- */
