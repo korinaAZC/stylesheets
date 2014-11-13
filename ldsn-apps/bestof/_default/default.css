@@ -412,7 +412,7 @@ ul.mobile-header li {
 	position: absolute; 
 	bottom: 20px; 
 	right: 20px; 
-	z-index: 9999; 
+	z-index: 999; 
 	height: 32px;
 	padding: 0;
 	margin: 0;
@@ -614,7 +614,7 @@ ul.mobile-header li {
     height: 100px;
     background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-pagenav-left.png');
     cursor: pointer;
-    z-index: 50;
+    z-index: 9999;
 }
 
 .pagenavright {
@@ -625,7 +625,7 @@ ul.mobile-header li {
     height: 100px;
     background: url('http://media.azcentral.com/local-apps/phoenix/best2014/winners/best-pagenav-right.png');
     cursor: pointer;
-    z-index: 50;
+    z-index: 9999;
 }
 
 .articles-left-div {
