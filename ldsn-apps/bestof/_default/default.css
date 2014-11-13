@@ -165,7 +165,7 @@ ul.mobile-header li {
 }
 
 .facebook-link-js, .twitter-link-js {
-	line-height: 35px;
+	height: 30px !important;
 }
 
 .container {
@@ -408,8 +408,24 @@ ul.mobile-header li {
     max-width: 950px;
 }
 
+#addressContainer {
+	position: absolute; 
+	bottom: 20px; 
+	right: 20px; 
+	z-index: 9999; 
+	background-color: white; 
+	border: solid 1px white; 
+	padding: 1px;
+}
 
+#addressContainer input {
+	width:200px;
+}
 
+#addressContainer .geocodeMyAddress-js {
+	cursor: pointer; 
+	float: right;
+}
 
 
 /* ---------- RESULTS ---------- */
