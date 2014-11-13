@@ -413,13 +413,19 @@ ul.mobile-header li {
 	bottom: 20px; 
 	right: 20px; 
 	z-index: 9999; 
-	background-color: white; 
-	border: solid 1px white; 
-	padding: 1px;
+	height: 32px;
+	padding: 0;
+	margin: 0;
+	background-color: #fff; 
+	border: 1px solid #CCC; 
 }
 
 #addressContainer input {
 	width:200px;
+	height: 30px;
+	border: none;
+	line-height: 30px;
+	padding: 0 10px;
 }
 
 #addressContainer .geocodeMyAddress-js {
@@ -628,11 +634,12 @@ ul.mobile-header li {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
-	color: #666
+	color: #666;
 }
 
 .warning {
-	
+	font-weight: bold;
+	color: #d02235;
 }
 
 img.articlelogo {
@@ -777,7 +784,14 @@ img.articlelogo {
     text-transform: capitalize;
 }
 
+.featured-links a {
+	display: block;
+	width: 100%;
+}
 
+#advertBlock1 {
+	text-align: center;
+}
 
 
 
@@ -937,6 +951,7 @@ and (max-width : 999px) {
     }
     
     .nav-menu {
+		display: none;
         height: auto;
         z-index: 100;
     }
@@ -1060,6 +1075,7 @@ and (max-width : 669px) {
     }
     
     .nav-menu {
+		display: none;
         height: auto;
         z-index: 100;
     }
