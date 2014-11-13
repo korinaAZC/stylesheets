@@ -754,7 +754,7 @@ img.articlelogo {
     float: right;
     width: 300px;
     min-height: 400px;
-    top: -350px;
+    top: -400px;
 }
 
 .article-body .extras ul li {
@@ -804,6 +804,12 @@ img.articlelogo {
 	text-align: center;
 }
 
+
+#more-winners-region #addressContainer {
+	position: relative; 
+	bottom: 0; 
+	right: 0; 
+}
 
 
 /* ---------- STATIC ---------- */
@@ -1069,7 +1075,7 @@ and (max-width : 999px) {
 	
 	.photo-containment-div .image {
 		height: 300px;
-        margin: 0 0 25px 0;
+        margin: 0 0 10px 0;
 	}
 	
     .article-body .content {
@@ -1083,6 +1089,7 @@ and (max-width : 999px) {
     .article-body .content .article-share a {
         padding: 0 0 0 5px;
     }
+	
     
 }
 
@@ -1300,7 +1307,7 @@ and (max-width : 669px) {
 	
 	.photo-containment-div .image {
 		height: 300px;
-        margin: 0 0 25px 0;
+        margin: 0 0 10px 0;
 	}
     
     .article-body .content {
