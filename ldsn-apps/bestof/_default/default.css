@@ -164,7 +164,7 @@ ul.mobile-header li {
     color: #cee2ef;
 }
 
-.facebook-link-js, .twitter-link-js {
+.nav-menu .facebook-link-js, .twitter-link-js {
 	height: 30px !important;
 }
 
@@ -1003,7 +1003,7 @@ and (max-width : 999px) {
         z-index: 100;
     }
 	
-	.facebook-link-js, .twitter-link-js {
+	.nav-menu .facebook-link-js, .twitter-link-js {
 		top: 10px;
 	}
     
