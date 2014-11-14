@@ -466,6 +466,9 @@ ul.mobile-header li {
 }
 
 .filter-column .filter-box input {
+	-webkit-appearance: textfield;
+	box-sizing: content-box;
+	height: 40px;
     width: 220px;
     margin: 10px auto;
     padding: 0 10px 0 36px;
@@ -729,7 +732,6 @@ img.articlelogo {
 }
 
 .article-body .content p.name {
-    width: 50%;
     margin: 0;
     font-size: 30px;
     font-weight: bold;
@@ -739,7 +741,6 @@ img.articlelogo {
 }
     
 .article-body .content p.info {
-    width: 50%;
     font-size: 16px;
     line-height: 20px;
     color: #282828;
@@ -761,7 +762,7 @@ img.articlelogo {
     float: right;
     width: 300px;
     min-height: 400px;
-    top: -400px;
+    top: -390px;
 }
 
 .article-body .extras ul li {
