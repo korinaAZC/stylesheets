@@ -1038,6 +1038,11 @@ and (max-width : 999px) {
     .container {
         width: 100%;
     }
+	
+	.winners .container {
+		width: 760px;
+		margin: 0 auto;
+	}
     
     .page-results .container {
         width: 680px;
@@ -1133,7 +1138,7 @@ and (max-width : 669px) {
         z-index: 100;
     }
 	
-	.facebook-link-js, .twitter-link-js {
+	.nav-menu .facebook-link-js, .twitter-link-js {
 		top: 10px;
 	}
     
@@ -1171,6 +1176,11 @@ and (max-width : 669px) {
     .container {
         width: 100%;
     }
+	
+	.winners .container {
+		width: 300px;
+		margin: 0 auto;
+	}
     
     .page-results .container {
         text-align: center;
