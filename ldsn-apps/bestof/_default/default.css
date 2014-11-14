@@ -966,6 +966,7 @@ img.staticlogo {
     padding: 10px;
     font-size: .85em;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .filter-label
