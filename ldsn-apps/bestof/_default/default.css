@@ -164,7 +164,7 @@ ul.mobile-header li {
     color: #cee2ef;
 }
 
-.nav-menu .facebook-link-js, .twitter-link-js {
+.nav-menu .facebook-link-js, .nav-menu  .twitter-link-js {
 	height: 30px !important;
 }
 
@@ -1004,7 +1004,7 @@ and (max-width : 999px) {
         z-index: 100;
     }
 	
-	.nav-menu .facebook-link-js, .twitter-link-js {
+	.nav-menu .facebook-link-js, .nav-menu .twitter-link-js {
 		top: 10px;
 	}
     
@@ -1141,7 +1141,7 @@ and (max-width : 669px) {
         z-index: 100;
     }
 	
-	.nav-menu .facebook-link-js, .twitter-link-js {
+	.nav-menu .facebook-link-js, .nav-menu .twitter-link-js {
 		top: 10px;
 	}
     
