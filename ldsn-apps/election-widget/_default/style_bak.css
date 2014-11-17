@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Roboto Condensed Regular';
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.eot?#iefix) format('embedded-opentype'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.woff) format('woff'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.ttf) format('truetype'), 
+        url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/RobotoCondensed-Regular-webfont.svg#RobotoCondensedRegular) format('svg');
+    font-style: normal
+}
+@font-face {
+    font-family: 'Futura Today Screen Bold';
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenBold.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaBold-webfont.svg#FuturaBold) format('svg');
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Futura Today Screen DemiBold';
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenDemiBold.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaDemiBold-webfont.svg#FuturaDemiBold) format('svg');
+    font-style: normal
+}
+@font-face {
+    font-family: 'Futura Today Screen Light';
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.eot);
+    src: url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.woff) format('woff'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/FuturaTodayScreenLight.ttf) format('truetype'), url(//stylesheets.azcentral.com/ldsn-apps/election-widget/_default/fonts/futura_today_light.svg#FuturaLight) format('svg');
+    font-style: light
+}
+
+.iframe_test {
+    margin: 0 auto;
+    min-width: 1393px;
+    min-height: 1192px;
+    background:url('../images/iframe-test.jpg') no-repeat;
+    position: relative;
+}
+
+iframe {
+    position: absolute;
+    top: 150px;
+    left: 226px;
+}
+
+* {
+    position: relative;
+}
+html, body {
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Futura Today Screen Light';
+}
+.clear {
+    clear: both;
+}
+
+
+/* ------ WIDGET SPECIFIC ------ */
+
+.election_container {
+    background: #fff;
+    width: 719px;
+    height: 282px;
+    margin: 0 auto;
+    border-top: 1px solid #cfcfc6;
+}   
+.election_container .election_header {
+    height: 42px;
+    background: #ebebe3;
+}
+.election_container .election_header img {
+    padding: 10px 0 0 15px;
+    float: left;
+}
+.election_container .election_header a {
+    display: inline-block;
+    float: right;
+    margin: 10px 15px 0 0;
+    padding: 6px 12px;
+    background: #2a6db3;
+    font-family: 'Futura Today Screen DemiBold';
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    text-shadow: 1px 1px 1px #06294d;
+}
+.election_container .election_header a:hover {
+    background: #19599c;
+}
+.election_container .election_banner { 
+    position: relative; 
+    /*overflow: auto;*/
+    overflow: hidden;
+    width: 100%;
+    padding-top: 8px;
+    background: url('http://media.azcentral.com/local-apps/phoenix/election2014/election-header-bg.png') center top no-repeat #fcfcf9;
+    border-bottom: 1px solid #cfcfc6;
+    clear: both;
+}
+.election_container .election_banner ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.election_container .election_banner ul li.slide { 
+    float: left;
+    height: 260px;
+    width: 100%;
+    padding: 0;
+}
+.election_container .election_banner p.race_title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #666;
+    font-family: 'Futura Today Screen DemiBold';
+    font-size: 15px;
+    margin: 15px 0;
+    text-shadow: 1px 1px 1px #fff;
+}
+.election_container .election_banner p.race_title span {
+    font-family: 'Roboto Condensed Regular';
+    color: #919191;
+}
+.election_container .election_banner ul.candidate_list {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+.election_container .election_banner .splitlist_left {
+    width: 300px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.election_container .election_banner .splitlist_left ul, .election_container .election_banner .splitlist_right ul {
+    width: 100%;
+}
+.election_container .election_banner .splitlist_right {
+    width: 390px;
+    display: inline-block;
+}
+.election_container .election_banner p.split_divider {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    height: 160px;
+    width: 1px;
+    background: #d3d3c9;
+}
+.election_container .election_banner ul.candidate_list li {
+    display: inline-block;
+    width: 88px;
+    min-height: 100px;
+    margin: 0 8px 10px 8px;
+    padding: 0;
+}
+.election_container .election_banner ul.candidate_list li img.candidate_mug {
+    width: 100%;
+}
+.election_container .election_banner ul.candidate_list li p.firstname, .election_banner ul.candidate_list li p.party  {
+    margin: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: .08em;
+    color: #393939;
+}
+
+.election_container .election_banner ul.candidate_list li p.firstname {
+	font-family: 'Roboto Condensed Regular';
+}
+
+.election_container .election_banner ul.candidate_list li img.checkmark {
+    display: none;
+}
+.election_container .election_banner ul.candidate_list li.called img.checkmark {
+    display: block;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 68px;
+    right: -4px;
+    z-index: 1000;
+}
+.election_container .election_banner ul.candidate_list li p.percentage {
+    margin: 0;
+    font-family: 'Futura Today Screen Bold';
+    font-size: 25px;
+    letter-spacing: .08em;
+    color: #767676;
+	font-weight:normal;
+}
+.election_container .unslider_arrow {
+    position: absolute;
+    top: 115px;
+    z-index: 1000;
+    display: block;
+    background: #000;
+    opacity: 0.3;
+    width: 30px;
+    height: 40px;
+    font-family: 'Futura Today Screen Bold';
+    line-height: 32px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.election_container .unslider_arrow:hover {
+    opacity: 0.8;
+}
+.election_container .unslider_arrow.prev {
+    left: 0;
+    border-radius: 0 50% 50% 0;
+    -moz-border-radius: 0 50% 50% 0;
+    -webkit-border-radius: 0 50% 50% 0;
+}
+.election_container .unslider_arrow.next {
+    right: 0;
+    border-radius: 50% 0 0 50%;
+    -moz-border-radius: 50% 0 0 50%;
+    -webkit-border-radius: 50% 0 0 50%;
+}
+.election_container .dots {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    bottom: 4px;
+    text-align: center;
+}
+
+.election_container .dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    text-indent: -999em;
+    background: #b3b3a8;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: .4;
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+
+.election_container .dots li.active {
+    background: #2b6eb3;
+    opacity: 1;
+}
+
+div.name-party-div {
+    min-height:60px;
+}
+
+ .election_banner {
+    height: 260px;
+ }
