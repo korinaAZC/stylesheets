@@ -1336,7 +1336,6 @@ and (max-width : 669px) {
     
     .article-intro p.title {
         margin: 10px 10px 10px 115px;
-        max-width: 200px;
         font-size: 22px;
     }
     
