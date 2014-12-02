@@ -47,27 +47,15 @@
 }
 
 .article-body .content p.name {
-	color: #fff;
+	color: #000;
 }
 
 .article-body .content p.info a {
-	color: #368fca;
+	color: #ca363a;
 }
 
 .article-body address a {
 	color: #666;
-}
-
-.page-static .container p a {
-	color: #368fca;
-}
-
-.static-intro p.title {
-	color: #368fca;
-}
-
-.share-container h3 {
-	background: #368fca;
 }
 
 .feat-module .info-box img.logo {
@@ -82,6 +70,10 @@
 	margin: 15px 10px 5px 220px;
 }
 
+I'm just gonna type;
+and pretend I'm coding;
+because I'm tired;
+and don't want to start on the next project;
 
 @media only screen 
 and (min-width : 280px) 
