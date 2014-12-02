@@ -1003,11 +1003,20 @@ and (max-width : 999px) {
     .cobrand-header iframe{
         display: none;
     }
+	
+	.nav {
+		width: auto;
+		background: none;
+		border-bottom: none;
+		height: 0 !important;
+	}
     
     .nav-menu {
 		display: none;
         height: auto;
         z-index: 100;
+		background: #368fca;
+		border-bottom: 1px solid #000;
     }
 	
 	.nav-menu .facebook-link-js, .nav-menu .twitter-link-js {
@@ -1021,7 +1030,7 @@ and (max-width : 999px) {
     .nav-menu ul li {
         display: block;
         float: none;
-        height: 55px;
+        height: 55px !important;
         margin: 0;
         padding: 0;
         text-align: left;
@@ -1140,11 +1149,20 @@ and (max-width : 669px) {
     .cobrand-header iframe {
         display: none;
     }
-    
+	
+	.nav {
+		width: auto;
+		background: none;
+		border-bottom: none;
+		height: 0 !important;
+	}
+
     .nav-menu {
 		display: none;
         height: auto;
         z-index: 100;
+		background: #368fca;
+		border-bottom: 1px solid #000;
     }
 	
 	.nav-menu .facebook-link-js, .nav-menu .twitter-link-js {
@@ -1158,7 +1176,7 @@ and (max-width : 669px) {
     .nav-menu ul li {
         display: block;
         float: none;
-        height: 55px;
+        height: 55px !important;
         margin: 0;
         padding: 0;
         text-align: left;
