@@ -1,5 +1,9 @@
 
 
+.button {
+	margin: 0;
+}
+
 #nav {
 	background: #999;
 }
@@ -19,6 +23,19 @@
 
 .nav-menu ul li:hover a {
 	color: #cacaca;
+}
+
+.feat-module .info-box a {
+	top: 15px;
+}
+
+.featuredLinks {
+	font-size: 19px;
+	line-height: 26px;
+}
+
+.featuredLinks a.critics-picks {
+	margin-bottom:10px;
 }
 
 .filter-column .filter-box {
