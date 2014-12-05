@@ -1,15 +1,20 @@
 
 
+#nav {
+	background: #999;
+}
+
+
 .nav-menu {
 	background: #999;
 }
 
 .nav-menu ul li {
-	border-left: 1px solid #333;
+	border-right: 1px solid #333;
 }
 
 .nav-menu ul li:first-child {
-	border-right: 1px solid #333;
+	border-left: 1px solid #333;
 }
 
 .nav-menu ul li:hover a {
