@@ -91,6 +91,15 @@
 	margin: 15px 10px 5px 220px;
 }
 
+.top-banner-ad {
+	width:720px; 
+	margin:0 auto 22px auto;
+}
+
+.cobrand-footer {
+	margin: 30px auto;
+	text-align: center;
+}
 
 @media only screen 
 and (min-width : 280px) 
