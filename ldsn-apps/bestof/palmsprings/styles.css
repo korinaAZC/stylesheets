@@ -102,7 +102,7 @@
 }
 
 @media only screen 
-and (min-width : 999px) {
+and (max-width : 999px) {
 	
 	.nav-menu ul li {
 		border-left: none !important;
