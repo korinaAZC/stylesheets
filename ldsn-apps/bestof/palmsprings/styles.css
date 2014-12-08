@@ -113,5 +113,12 @@ and (max-width : 669px) {
 	.article-intro p.title {
 		margin: 10px 10px 10px 140px;
 	}
+	
+	.nav-menu ul li {
+		border-left: none !important;
+		border-right: none !important;
+		border-bottom: none !important;
+		border-top: 1px solid #333;
+	}
 
 }
