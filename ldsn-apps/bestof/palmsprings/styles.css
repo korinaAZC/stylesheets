@@ -125,6 +125,10 @@ and (max-width : 669px) {
 	.article-intro p.title {
 		margin: 10px 10px 10px 140px;
 	}
+	
+	.article-intro p.title span {
+		color: #fff;
+	}
 
 }
 
