@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.contact {width:25%;padding-right:2%;float:left;text-align:left;height:420px;}
+h5 {
+    color: #666666;
+    float: left;
+    font-family: 'Futura Today Bold',arial,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 6px 5px 0 0;
+    text-shadow: 0 1px 0 #FFFFFF;
+    text-transform: uppercase;
+    clear:both;
+}
+.headlines-header-title {
+    color: #666666;
+    float: left;
+    font-family: 'Futura Today Bold',arial,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 6px 5px 0 0;
+    text-shadow: 0 1px 0 #FFFFFF;
+    text-transform: uppercase;
+}
+.stafflisting {
+	line-height: 1.4;
+	}
+.fb-follow.fb_iframe_widget {
+	float:left;
+	margin-top:-2px;
+	padding-right:10px;
+	}
+.small {font-size:0.8rem;}
+.contact img {width:98%;}
+.email { font-size:80%;}
+h1 {font-size:60px; margin-bottom: -11px;}
+h2 {color:gray; margin-bottom: 23px;}
+
+@media (max-width:800px) {
+	.contact {width:33%;}
+}
+@media (max-width:640px) {
+	.contact {width:50%;height:480px;}
+}
+@media (max-width:540px) {
+	.contact {height:400px;}
+}
+@media (max-width:430px) {
+	.contact {width:100%;height:600px;}
+}
+@media (max-width:350px) {
+	.contact {width:100%;height:500px;}
+}/* CSS Document */
+
