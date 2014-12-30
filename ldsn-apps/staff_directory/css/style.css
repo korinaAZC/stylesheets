@@ -40,6 +40,8 @@ h2 {margin-bottom: 23px; }
 font-size: 30px; color:gray;
 }
 
+.static-card { overflow-x: hidden; }
+
 /*@media (max-width:800px) {
 	.contact {width:33%;}
 }
