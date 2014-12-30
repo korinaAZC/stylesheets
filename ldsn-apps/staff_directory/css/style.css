@@ -18,7 +18,7 @@ h5 {
     float: left;
     font-family: 'Futura Today Screen Bold',arial,sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: normal!important;
     margin: 26px 5px -10px 0;
     text-shadow: 0 1px 0 #FFFFFF;
     text-transform: uppercase;
@@ -34,7 +34,13 @@ h5 {
 	}
 .small {font-size:0.8rem;}
 
-.email { font-size:80%;}
+.email { 
+font-size: 80%;
+clear: both;
+display: block;
+margin-bottom: -15px;
+}
+
 h1 {font-size:60px; margin-bottom: -11px;}
 h2 {margin-bottom: 23px; }
 
