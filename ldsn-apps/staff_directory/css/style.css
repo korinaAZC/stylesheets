@@ -4,7 +4,7 @@
 h5 {
     color: #666666;
     float: left;
-    font-family: 'Futura Today Bold',arial,sans-serif;
+    font-family: 'Futura Today Screen Bold',arial,sans-serif;
     font-size: 15px;
     font-weight: 400;
     margin: 6px 5px 0 0;
@@ -13,14 +13,15 @@ h5 {
     clear:both;
 }
 .headlines-header-title {
-    color: #666666;
+    color: #000000;
     float: left;
-    font-family: 'Futura Today Bold',arial,sans-serif;
+    font-family: 'Futura Today Screen Bold',arial,sans-serif;
     font-size: 15px;
     font-weight: 400;
-    margin: 6px 5px 0 0;
+    margin: 26px 5px -20px 0;
     text-shadow: 0 1px 0 #FFFFFF;
     text-transform: uppercase;
+	letter-spacing:3px;
 }
 .stafflisting {
 	line-height: 1.4;
