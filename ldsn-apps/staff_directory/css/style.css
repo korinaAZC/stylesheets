@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.contact {padding-right:2%;float:left;text-align:left; height:420px;}
+.contact {width:30.6%;padding-right:2%;float:left;text-align:left; height:420px;}
 h5 {
     color: #666666;
     float: left;
@@ -52,7 +52,7 @@ font-size: 30px; color:gray;
 	.contact {height:400px;}
 }
 @media (max-width:430px) {
-	.contact {width:100%;height:600px;}
+	.contact {width:100%;height:430px;}
 }
 @media (max-width:350px) {
 	.contact {width:100%;height:500px;}
