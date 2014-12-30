@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 .contact {
-	width:30.6%;padding-right:2%;float:left;text-align:left; height:420px;}
+text-align: left;
+display: block;
+margin-bottom: 30px;
+	}
+	
 h5 {
     color: #666666;
     float: left;
@@ -27,6 +31,11 @@ h5 {
 .stafflisting {
 	line-height: 1.4;
 	}
+	
+.stafflisting b {
+	font-size:125%;
+}
+	
 .fb-follow.fb_iframe_widget {
 	float:left;
 	margin-top:-2px;
