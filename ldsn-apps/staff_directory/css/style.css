@@ -34,11 +34,13 @@ h5 {
 
 .email { font-size:80%;}
 h1 {font-size:60px; margin-bottom: -11px;}
-h2 {margin-bottom: 23px;}
+h2 {margin-bottom: 23px; }
 
 .static-card h1.page-title {
 font-size: 30px; color:gray;
 }
+
+.static-card { overflow-x: hidden; }
 
 /*@media (max-width:800px) {
 	.contact {width:33%;}
