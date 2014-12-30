@@ -45,7 +45,7 @@ font-size: 30px; color:gray;
 @media (max-width:800px) {
 	.contact {width:33%;}
 }
-@media (max-width:640px) {
+@media (max-width:720px) {
 	.contact {width:50%;height:480px;}
 }
 @media (max-width:540px) {
