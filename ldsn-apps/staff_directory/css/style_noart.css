@@ -33,7 +33,7 @@ h5 {
 	}
 	
 .stafflisting b {
-	font-size:125%;
+	font-size:170%;
 }
 	
 .fb-follow.fb_iframe_widget {
@@ -53,21 +53,7 @@ font-size: 30px; color:gray;
 
 .static-card { overflow-x: hidden; }
 
-@media (max-width:800px) {
-	.contact {width:33%;}
-}
-@media (max-width:720px) {
-	.contact {width:50%;height:480px;}
-}
-@media (max-width:540px) {
-	.contact {height:400px;}
-}
-@media (max-width:430px) {
-	.contact {width:100%;height:430px;}
-}
-@media (max-width:350px) {
-	.contact {width:100%;height:500px;}
-}/* CSS Document */
+
 
 
 
