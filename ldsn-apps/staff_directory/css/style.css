@@ -42,7 +42,7 @@ font-size: 30px; color:gray;
 
 .static-card { overflow-x: hidden; }
 
-/*@media (max-width:800px) {
+@media (max-width:800px) {
 	.contact {width:33%;}
 }
 @media (max-width:640px) {
@@ -59,4 +59,4 @@ font-size: 30px; color:gray;
 }/* CSS Document */
 
 
-*/
+
