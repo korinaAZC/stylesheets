@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family:'Futura Today Screen Normal';
+    src:url(../fonts/FuturaTodayScreenNormal.eot);
+    src:url(../fonts/FuturaTodayScreenNormal.svg#FuturaTodayScreenNormal) format('svg'),
+    url(../fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenNormal.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenNormal.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen Bold';
+    src:url(../fonts/FuturaTodayScreenBold.eot);
+    src:url(../fonts/FuturaTodayScreenBold.svg#FuturaTodayScreenBold) format('svg'),
+    	url(../fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenBold.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenBold.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+
+
+@font-face {
+    font-family:'Futura Today Screen Light';
+    src:url(../fonts/FuturaTodayScreenLight.eot);	
+    src:url(../fonts/FuturaTodayScreenLight.svg#FuturaTodayScreenLight) format('svg'),
+    	url(../fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenLight.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenLight.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+
+.newsletter-light {
+	font-family: 'Futura Today Screen Light',arial,sans-serif;
+}
+.newsletter-bold {
+	font-family: 'Futura Today Screen Bold',arial,sans-serif;
+}
