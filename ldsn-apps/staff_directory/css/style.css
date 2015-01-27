@@ -48,6 +48,13 @@ h2 {margin-bottom: 23px; }
 font-size: 30px; color:gray;
 }
 
+.newsletter-light {
+	font-family: 'Futura Today Screen Light',arial,sans-serif;
+}
+.newsletter-bold {
+	font-family: 'Futura Today Screen Bold',arial,sans-serif;
+}
+
 .static-card { overflow-x: hidden; }
 
 @media (max-width:800px) {
