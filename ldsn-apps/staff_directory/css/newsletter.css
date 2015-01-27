@@ -39,7 +39,9 @@
 
 .newsletter-light {
 	font-family: 'Futura Today Screen Light',arial,sans-serif !important;
+	font-weight:normal;
 }
 .newsletter-bold {
 	font-family: 'Futura Today Screen Bold',arial,sans-serif !important;
+	font-weight:normal;
 }
