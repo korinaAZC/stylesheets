@@ -1584,6 +1584,9 @@ and (max-width : 669px) {
     animation-delay: -1.0s;
 }
 
+.popular {
+}
+
 @-webkit-keyframes bounce 
 {
   0%, 100% { -webkit-transform: scale(0.0) }
