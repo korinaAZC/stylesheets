@@ -318,6 +318,10 @@ ul.mobile-header li {
     height: 40px;
 }
 
+
+/* Nominations for Best of 2015 are here! Nominate today!  */
+			
+			
 .feat-promo-desktop {
 	display: block;
 	width:100%;
@@ -326,6 +330,7 @@ ul.mobile-header li {
 	cursor:pointer;
 	color:white;
 	text-align: center;
+	font-family: 'Futura Today Screen Normal', sans-serif;
 }
 
 .feat-promo-mobile {
