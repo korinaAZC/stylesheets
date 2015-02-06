@@ -371,12 +371,13 @@ ul.mobile-header li {
 .feat-promo-desktop {
 	display: block;
 	width:100%;
-	background-color: black;
-	margin-top: 5px;
+	background-color: white;
+	margin-top: 10px;
 	cursor:pointer;
 	color:white;
 	text-align: center;
 	font-family: 'Futura Today Screen Normal', sans-serif;
+	font-size: 26px;
 }
 
 .feat-promo-mobile {
@@ -394,7 +395,7 @@ ul.mobile-header li {
 .module-container {
     width: 100%;
     height: auto;
-    margin: 12px auto;
+    margin: 36px auto 12px auto;
 }
 
 .module {
@@ -1382,12 +1383,12 @@ and (max-width : 669px) {
 	.feat-promo-mobile {
 		display: block;
 		width:100%;
-		background-color: blue;
+		background-color: white;
 		position: absolute;
 		top: -32px;
-		margin: 10px 0 10px 0;
+		margin: 20px 0 10px 0;
 		cursor:pointer;
-		color:white;
+		color:#333;
 		text-align: center
 	}
     
