@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family:'Futura Today Screen Normal';
+    src:url(../fonts/FuturaTodayScreenNormal.eot);
+    src:url(../fonts/FuturaTodayScreenNormal.svg#FuturaTodayScreenNormal) format('svg'),
+    url(../fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenNormal.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenNormal.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen Bold';
+    src:url(../fonts/FuturaTodayScreenBold.eot);
+    src:url(../fonts/FuturaTodayScreenBold.svg#FuturaTodayScreenBold) format('svg'),
+    	url(../fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenBold.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenBold.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen DemiBold';
+    src:url(../fonts/FuturaTodayScreenDemiBold.eot);
+    src:url(../fonts/FuturaTodayScreenDemiBold.svg#FuturaTodayScreenDemiBold) format('svg'),
+    	url(../fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenDemiBold.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenDemiBold.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen Light';
+    src:url(../fonts/FuturaTodayScreenLight.eot);	
+    src:url(../fonts/FuturaTodayScreenLight.svg#FuturaTodayScreenLight) format('svg'),
+    	url(../fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenLight.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenLight.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+
+
+* { margin:0; padding:0; }
+
+.imcp-wrapper {
+	margin: 0 auto;
+	padding: 50px;
+	max-width:1200px;
+}
+
+
+.imcp-corner-profile {
+	float: right;
+	text-align: right;
+	font-family:'Futura Today Screen Light';
+	line-height: 23px;
+}
+
+
+.imcp-logo {
+	width: 300px;
+}
+
+
+.imcp-number {
+	font-family:'Futura Today Screen DemiBold';
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+
+.imcp-name {
+	font-size: 19px;
+
+}
+
+
+.imcp-street-address {
+	font-size: 19px;
+
+}
+
+
+.imcp-city-state {
+	font-size: 19px;
+
+}
+
+.imcp-event-title-area {
+	margin: 150px 0 0 0;
+	width:100%;
+	overflow: auto;
+}
+
+
+.imcp-qr {
+	width: 180px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+
+.imcp-event-title-right {
+	float: left;
+}
+
+.imcp-event-name {
+	font-family:'Futura Today Screen DemiBold';
+	margin: 20px 0 9px 10px;	
+	font-size: 56px;
+}
+
+
+.imcp-event-meta {
+	font-family:'Futura Today Screen Light';
+	margin:0 0 0 10px;
+	font-size: 27px;
+}
+
+
+.imcp-photo-map {
+	float: right;
+	width: 25%;
+	margin: 50px 0 0 0;
+}
+
+
+.imcp-photo {
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+
+.imcp-map {
+	width: 100%;
+}
+
+
+.imcp-event {
+	width: 70%;
+	margin: 50px 0 0 0;
+	float:left;
+	font-family:'Futura Today Screen Normal';
+}
+
+
+.imcp-event-details {
+	clear:both;
+	margin-left: 20px;
+}
+
+
+.imcp-event-item {
+	margin-bottom: 10px;
+	font-size: 15px;
+	line-height: 22px;
+	list-style-type: square;
+}
+
+.imcp-event-item strong {
+	font-family:'Futura Today Screen DemiBold';
+}
+	
+
+
+
+
+
+
+@media print {
+	
+.imcp-logo {
+	width: 200px;
+}
+
+.imcp-corner-profile {
+	line-height: 16px;
+}
+	
+.imcp-number {
+	font-size: 20px;
+}
+
+
+.imcp-name {
+	font-size: 12px;
+}
+
+
+.imcp-street-address {
+	font-size: 12px;
+}
+
+
+.imcp-city-state {
+	font-size: 12px;
+}
+
+.imcp-qr {
+	width: 80px;
+}
+
+.imcp-event-title-area {
+	margin: 80px 0 0 0;
+}
+
+.imcp-event-name {
+	font-size: 32px;
+	margin:0px;
+}
+
+
+.imcp-event-meta {
+	font-size: 17px;
+}
+
+.imcp-event-item {
+	margin-bottom: 8px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+
+
+
+  
+}
+
