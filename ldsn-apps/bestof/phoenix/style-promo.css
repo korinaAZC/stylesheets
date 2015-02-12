@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family:'Futura Today Screen Normal';
+    src:url(../fonts/FuturaTodayScreenNormal.eot);
+    src:url(../fonts/FuturaTodayScreenNormal.svg#FuturaTodayScreenNormal) format('svg'),
+    url(../fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenNormal.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenNormal.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen Bold';
+    src:url(../fonts/FuturaTodayScreenBold.eot);
+    src:url(../fonts/FuturaTodayScreenBold.svg#FuturaTodayScreenBold) format('svg'),
+    	url(../fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenBold.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenBold.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen DemiBold';
+    src:url(../fonts/FuturaTodayScreenDemiBold.eot);
+    src:url(../fonts/FuturaTodayScreenDemiBold.svg#FuturaTodayScreenDemiBold) format('svg'),
+    	url(../fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenDemiBold.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenDemiBold.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen Light';
+    src:url(../fonts/FuturaTodayScreenLight.eot);	
+    src:url(../fonts/FuturaTodayScreenLight.svg#FuturaTodayScreenLight) format('svg'),
+    	url(../fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenLight.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenLight.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+
+
+/* *********************************** */
+/* ********* STYLE OVERRIDES ********** */
+/* *********************************** */
+
+
+.module-container {
+margin: 54px auto 12px auto;
+}
+
+
+/* *********************************** */
+/* ********* STYLE OVERRIDES ********** */
+/* *********************************** */
+
+
+
+
+
+
+
+.best-desktop-nom {
+	font-family:'Futura Today Screen DemiBold';
+	text-decoration:underline;
+}
+
+.best-mobile-nom {
+	font-family:'Futura Today Screen DemiBold';
+	text-decoration:underline;
+}
+
+
+.feat-promo-desktop {
+	display: block;
+	width:100%;
+	margin-top: 19px;
+	cursor:pointer;
+	color:#333;
+	text-align: center;
+	font-family:'Futura Today Screen Light';
+}
+
+.feat-promo-desktop:hover {
+	color:#318ecb;
+}
+
+.feat-promo-mobile {
+	display:none;
+}
+
+.logo img {
+	height: 42px;
+}
+	
+	
+@media screen and (max-width: 940px) {
+	
+.module-container {
+	margin: 81px auto 12px auto;
+}
+
+.best-desktop-nom {
+	display:block;
+}
+
+}
+
+
+
+	
+@media screen and (max-width: 669px) {
+	
+.feat-promo-mobile {
+	display: block;
+	width:100%;
+	position: absolute;
+	top: -99px;
+	margin: 10px 0 10px 0;
+	cursor:pointer;
+	color:#333;
+	text-align: center;
+	font-family:'Futura Today Screen Light';
+	font-size: 21px;
+}
+
+.feat-promo-desktop {
+	display: none;
+}
+
+.module-container {
+	margin: 13px auto 12px auto;
+}
+
+.feat-module {
+	margin: 439px auto 0 auto;
+}
+
+.feat-module .info-box {
+	top: -396px;
+}
+	
+}
