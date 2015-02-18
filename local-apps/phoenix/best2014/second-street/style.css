@@ -197,7 +197,7 @@ and (max-width : 1015px)  {
 /* -------- That Tricky Space Between Tablet and Mobile -------- */
 
 @media only screen 
-and (min-width : 601px) 
+and (min-width : 668px) 
 and (max-width : 750px)  {
 
 	.cobrand-header, .cobrand-footer {
@@ -260,7 +260,7 @@ and (max-width : 750px)  {
 /* -------- Mobile Styles -------- */
 
 @media all 
-and (max-width: 600px) {
+and (max-width: 667px) {
 	
 	.cobrand-header, .cobrand-footer {
 		display: none;
