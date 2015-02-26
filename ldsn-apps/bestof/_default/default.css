@@ -350,6 +350,7 @@ ul.mobile-header li {
 
 .feat-module .info-box img.logo {
     top: -60px;
+	border:none;
 }
 
 .feat-module .info-box p {
@@ -730,6 +731,7 @@ img.articlelogo {
     margin: -15px 0 0 0;
     padding: 0;
     z-index: 10;
+	border:none;
 }
 
 .article-intro {
@@ -1115,6 +1117,10 @@ and (max-width : 999px) {
         line-height: 55px;
         font-size: 16px;
     }
+	
+	.nav-menu ul li a img {
+		border:none;
+	}
     
     ul.mobile-header {
         display: block;
@@ -1298,13 +1304,13 @@ and (max-width : 669px) {
     .feat-module {
         width: 300px;
         height: 250px;
-        margin: 350px auto 0 auto;
+        margin: 368px auto 0 auto;
         background: center center no-repeat;
         background-size: cover;
     }
     
     .feat-module .info-box {
-        top: -310px;
+        top: -340px;
         left: 0;
     }
     
