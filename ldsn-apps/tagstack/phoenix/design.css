@@ -75,6 +75,8 @@ img.lead-photo {
 	margin: 0 auto;
 }
 
+
+
 .card
 {
 	margin-top: 20px;
@@ -147,15 +149,7 @@ img.lead-photo {
   padding-bottom: 5px;
 }
 
-.asset-metabar-author {
-	font-size: 12px;
-	font-weight:300px;
-}
 
-.asset-metabar-time {
-	font-size: 12px;
-	font-weight:300px;
-}
 
 
 .article-text h2
@@ -186,7 +180,7 @@ img.lead-photo {
 
 .card-content p
 {
-	margin: 0 0 1.5em 0;
+	margin: 0 0 .85em 0;
 	font-weight: 200;
 	line-height: 1.4em;
 }
@@ -207,7 +201,6 @@ img.lead-photo {
 {
 	display: block;
 	font-weight: 300;
-	font-style: italic;
 	font-size: 12px;
 }
 
@@ -219,6 +212,7 @@ img.lead-photo {
 .menu-header
 {
 	padding: 5px;
+	font-family:'Futura Today Screen Normal';
 }
 
 .menu-content
@@ -248,9 +242,10 @@ img.lead-photo {
 
 .menu-content li{
 	padding: 5px 3px;
-	font-size: .9em;
+	font-size: 17px;
 	margin: 1em 0 0 .2em;
 	line-height: 1.5em;
+	font-family:'Futura Today Screen Normal';
 }
 
 .menu-content a
@@ -281,6 +276,17 @@ img.lead-photo {
 	position: absolute;
 	right: 20px;
 }
+
+.asset-metabar-author {
+	font-size: 12px;
+	font-weight:300px;
+}
+
+.asset-metabar-time {
+	font-size: 12px;
+	font-weight:300px;
+}
+
 
 
 /*THEME 1*/
