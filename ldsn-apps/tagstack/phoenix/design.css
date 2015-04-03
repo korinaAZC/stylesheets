@@ -141,11 +141,28 @@ img.lead-photo {
     background-color: #eee;
 }
 
+.article-asset-metabar {
+	  border-bottom: 1px #eeeeee solid;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+}
+
+.asset-metabar-author {
+	font-size: 12px;
+	font-weight:300px;
+}
+
+.asset-metabar-time {
+	font-size: 12px;
+	font-weight:300px;
+}
+
+
 .article-text h2
 {
 	line-height: 1em;
-	font-size: 1.5em;
-	margin: 0px;	
+	font-size: 2.1em;
+	 margin: 15px 0 15px 0;
 	font-family:'Futura Today Screen DemiBold';
 }
 
@@ -189,8 +206,9 @@ img.lead-photo {
 .article-link
 {
 	display: block;
-	font-weight: 100;
+	font-weight: 300;
 	font-style: italic;
+	font-size: 12px;
 }
 
 .menu
