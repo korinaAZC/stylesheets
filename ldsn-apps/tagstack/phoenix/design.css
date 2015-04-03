@@ -1,3 +1,48 @@
+@font-face {
+    font-family:'Futura Today Screen Normal';
+    src:url(../fonts/FuturaTodayScreenNormal.eot);
+    src:url(../fonts/FuturaTodayScreenNormal.svg#FuturaTodayScreenNormal) format('svg'),
+    url(../fonts/FuturaTodayScreenNormal.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenNormal.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenNormal.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen Bold';
+    src:url(../fonts/FuturaTodayScreenBold.eot);
+    src:url(../fonts/FuturaTodayScreenBold.svg#FuturaTodayScreenBold) format('svg'),
+    	url(../fonts/FuturaTodayScreenBold.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenBold.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenBold.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen DemiBold';
+    src:url(../fonts/FuturaTodayScreenDemiBold.eot);
+    src:url(../fonts/FuturaTodayScreenDemiBold.svg#FuturaTodayScreenDemiBold) format('svg'),
+    	url(../fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenDemiBold.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenDemiBold.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+@font-face {
+    font-family:'Futura Today Screen Light';
+    src:url(../fonts/FuturaTodayScreenLight.eot);	
+    src:url(../fonts/FuturaTodayScreenLight.svg#FuturaTodayScreenLight) format('svg'),
+    	url(../fonts/FuturaTodayScreenLight.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenLight.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenLight.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
+
 body{
 	background: black;
 	background-repeat: no-repeat;
@@ -80,7 +125,7 @@ img.lead-photo {
 	overflow-y: scroll;
 	height: 67vh;
 	-webkit-overflow-scrolling: touch;
-	padding: 0px 0px 0px 15px;
+	 padding: 15px 0px 0px 15px;
 }
 
 .card-content::-webkit-scrollbar-track {
@@ -101,6 +146,7 @@ img.lead-photo {
 	line-height: 1em;
 	font-size: 1.5em;
 	margin: 0px;	
+	font-family:'Futura Today Screen DemiBold';
 }
 
 .asset-metabar-time {
