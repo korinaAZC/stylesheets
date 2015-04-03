@@ -128,6 +128,8 @@ img.lead-photo {
 	height: 67vh;
 	-webkit-overflow-scrolling: touch;
 	 padding: 15px 0px 0px 15px;
+	 border-bottom-right-radius:2em;
+		border-bottom-left-radius:2em;
 }
 
 .card-content::-webkit-scrollbar-track {
@@ -135,7 +137,7 @@ img.lead-photo {
     border-radius: 10px;
 }
 .card-content::-webkit-scrollbar {
-    background-color: rgba(255,255,255,0.6);
+    background-color: none;
     width: 15px;
 }
 
@@ -160,9 +162,7 @@ img.lead-photo {
 	font-family:'Futura Today Screen DemiBold';
 }
 
-.asset-metabar-time {
-	margin-left:10px;
-}
+
 
 .title
 {
@@ -202,6 +202,7 @@ img.lead-photo {
 	display: block;
 	font-weight: 300;
 	font-size: 12px;
+	font-family: 'Futura Today Screen Normal';
 }
 
 .menu
@@ -279,14 +280,20 @@ img.lead-photo {
 }
 
 .asset-metabar-author {
-	font-size: 12px;
+	font-size: 15px;
 	font-weight:300px;
+	font-family: 'Futura Today Screen DemiBold';
 }
 
 .asset-metabar-time {
 	font-size: 12px;
 	font-weight:300px;
+	margin-left:10px;
+	font-family: 'Futura Today Screen Light';
 }
+
+
+
 
 .title {
 	font-family: 'Futura Today Screen Light';
@@ -314,6 +321,11 @@ menu-content ol li::before {
     padding: 3px 8px;
     border-radius: 3px;
 }
+
+.card-nav {
+	font-family: 'Futura Today Screen DemiBold';
+}
+
 
 
 
