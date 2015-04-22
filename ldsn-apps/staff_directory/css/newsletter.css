@@ -24,6 +24,17 @@
 }
 
 
+@font-face {
+    font-family:'Futura Today Screen DemiBold';
+    src:url(../fonts/FuturaTodayScreenBold.eot);
+    src:url(../fonts/FuturaTodayScreenBold.svg#FuturaTodayScreenDemiBold) format('svg'),
+    	url(../fonts/FuturaTodayScreenDemiBold.eot?#iefix) format('embedded-opentype'),
+    	url(../fonts/FuturaTodayScreenDemiBold.woff) format('woff'),
+    	url(../fonts/FuturaTodayScreenDemiBold.ttf) format('truetype');
+    	
+    font-style:normal;
+}
+
 
 @font-face {
     font-family:'Futura Today Screen Light';
