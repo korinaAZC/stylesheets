@@ -63,6 +63,13 @@
     background: #999;
 }
 
+.filter-column img.logo {
+  top: -15px;
+  margin: 0 auto;
+  z-index: 10;
+  width: 155px;
+}
+
 .article-intro p.title span {
     color: #888;
 }
