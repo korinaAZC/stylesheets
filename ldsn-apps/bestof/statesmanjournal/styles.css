@@ -13,27 +13,27 @@
 
 .readers-choice {
     background: none;
-    background-color: #ef644f
+    background-color: #ef644f;
 }
 
 #nav {
-    background: #999;
+    background: #5f4955;
 }
 
 .nav-menu {
-    background: #999;
+    background: #5f4955;
 }
 
 .nav-menu ul li {
-    border-right: 1px solid #333;
+    border-right: 1px solid #4a373b;
 }
 
 .nav-menu ul li:first-child {
-    border-left: 1px solid #333;
+    border-left: 1px solid #4a373b;
 }
 
 .nav-menu ul li:hover a {
-    color: #cacaca;
+    color: #b38ba1;
 }
 
 .feat-module .info-box {
@@ -47,6 +47,11 @@
 .feat-module .info-box p {
     margin-top: 30px;
     font-size: 15px;
+}
+
+.feat-module h3,
+.module h3 {
+    background: #ef644f;
 }
 
 .featuredLinks a.critics-picks {
@@ -135,7 +140,7 @@ and (max-width : 999px) {
         border-left: none !important;
         border-right: none !important;
         border-bottom: none !important;
-        border-top: 1px solid #333;
+        border-top: 1px solid #4a373b;
     }
     
 }
