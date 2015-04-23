@@ -1,9 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.property-url {
+    color: #ef644f;
+}
+
 .button {
-  margin: 10px 0;
-  background: #ef644f;
+    margin: 10px 0;
+    background: #ef644f;
 }
 
 .button:hover {
@@ -49,7 +53,7 @@
     font-size: 15px;
 }
 
-.feat-module h3,
+.feat-ident h3,
 .module h3 {
     background: #ef644f;
 }
@@ -58,30 +62,30 @@
     margin-bottom:10px;
 }
 
-.filter-column .filter-box {
-    background: #e9e9e9;
+.filter-display {
+    background-color: #d8d1d4;
 }
 
-.filter-display {
-    background-color: #e9e9e9;
+.filter-column .filter-box {
+    background: #d8d1d4;
 }
 
 .filter-column .filter-box input {
     border: 1px solid #bbb;
-    color: #c0c0c0;
+    color: #614a54;
 }
 
 .filter-column ul li.main {
-    border-top: 1px solid #bbb;
+    border-top: 1px solid #614a54;
 }
 
 .filter-column ul li.secondary {
-    background: #bbb;
-    border-bottom: 1px solid #999;
+    background: #614a54;
+    border-bottom: 1px solid #34252c;
 }
 
 .filter-column ul li.secondary:hover, .filter-column ul li.active {
-    background: #999;
+    background: #34252c;
 }
 
 .filter-column img.logo {
@@ -89,6 +93,10 @@
   margin: 0 auto;
   z-index: 10;
   width: 155px;
+}
+
+.results-column .banner {
+    background: #ef644f;
 }
 
 .article-intro p.title span {
@@ -160,6 +168,15 @@ and (max-width : 669px) {
     
     .article-intro p.title span {
         color: #fff;
+    }
+    
+    .feat-module .info-box {
+        top: -300px;
+        height: 280px;
+    }
+    
+    .readers-choice {
+        margin-top: -5px;
     }
 
 }
