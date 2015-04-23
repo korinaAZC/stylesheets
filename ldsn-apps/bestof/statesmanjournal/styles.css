@@ -1,13 +1,24 @@
-
+@charset "UTF-8";
+/* CSS Document */
 
 .button {
-    margin: 0;
+  margin: 10px 0;
+  background: #ef644f;
+}
+
+.button:hover {
+    background: #cd5644;
+    transition: background .3s ease;
+}
+
+.readers-choice {
+    background: none;
+    background-color: #ef644f
 }
 
 #nav {
     background: #999;
 }
-
 
 .nav-menu {
     background: #999;
@@ -25,12 +36,17 @@
     color: #cacaca;
 }
 
+.feat-module .info-box {
+    height: calc(100% - 50px);
+}
+
 .feat-module .info-box a {
     top: 19px;
 }
 
 .feat-module .info-box p {
     margin-top: 30px;
+    font-size: 15px;
 }
 
 .featuredLinks a.critics-picks {
@@ -88,7 +104,7 @@
 
 .feat-module .info-box img.logo {
     top: -80px;
-    width:155px;    
+    width: 155px;    
 }
 
 .feat-module .info-box p {
