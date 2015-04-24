@@ -18,6 +18,7 @@
 .readers-choice {
     background: none;
     background-color: #ef644f;
+    margin-top: -10px;
 }
 
 #nav {
@@ -89,10 +90,15 @@
 }
 
 .filter-column img.logo {
-  top: -15px;
+  top: -25px;
   margin: 0 auto;
   z-index: 10;
-  width: 155px;
+  width: 250px;
+}
+
+li .nodrop  > :nth-child(3) {
+    border-top: 1px solid #af5b4e ;
+    background: #ef644f;
 }
 
 .banner {
@@ -122,8 +128,8 @@ address a {
 }
 
 .feat-module .info-box img.logo {
-    top: -80px;
-    width: 155px;    
+    top: -90px;
+    width: 200px;    
 }
 
 .feat-module .info-box p {
@@ -157,6 +163,14 @@ and (max-width : 999px) {
         border-top: 1px solid #4a373b;
     }
     
+    .filter-column img.logo {
+        top: 0;
+        width: 250px;
+    }
+    
+    .filter-column .filter-box {
+        margin-top: -60px;
+    }
 }
 
 @media only screen 
