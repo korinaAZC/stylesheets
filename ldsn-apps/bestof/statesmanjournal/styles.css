@@ -96,11 +96,6 @@
   width: 250px;
 }
 
-.nodrop{
-    border-top: 1px solid #af5b4e ;
-    background: #ef644f;
-}
-
 .banner {
     background: #ef644f;
 }
@@ -221,3 +216,10 @@ and (max-width : 669px) {
   margin: 50px auto 0 auto;
 }
 
+.filter-column ul li.main {
+  border-top: 1px solid #af5b4e;
+}
+
+.filter-column ul li.nodrop {
+  background: #ef644f;
+}
