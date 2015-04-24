@@ -95,24 +95,30 @@
   width: 155px;
 }
 
-.results-column .banner {
+.banner {
     background: #ef644f;
 }
 
 .article-intro p.title span {
-    color: #888;
+    color: #614a54;
 }
 
 .article-body .content p.name {
-    color: #000;
+    color: #614a54;
 }
 
 .article-body .content p.info a {
-    color: #ca363a;
+    color: #f16349;
 }
 
-.article-body address a {
-    color: #666;
+address a {
+    color: #f16349;
+    text-decoration: none;
+}
+
+. articlelogo  {
+    width: 200px;
+    margin-top: -20px;
 }
 
 .feat-module .info-box img.logo {
@@ -177,6 +183,18 @@ and (max-width : 669px) {
     
     .readers-choice {
         margin-top: -5px;
+    }
+    
+    .filter-box {
+        margin-top: -50px;
+    }
+    
+    .filter-column img.logo {
+        top: 5px;
+    }
+    
+    body {
+        background: none;
     }
 
 }
