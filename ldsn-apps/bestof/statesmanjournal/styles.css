@@ -217,8 +217,17 @@ and (max-width : 669px) {
 }
 
 .filter-column ul li.main {
-  border-top: 1px solid #614a54;
+  border-top: 1px solid #666;
 }
+
 .filter-column ul li.nodrop {
-  background: #f58640;
+  background: #ef644f;
+}
+
+.filter-column ul li.nodrop:hover {
+  background: #c74834 ;
+}
+
+.filter-column ul li.nodrop a {
+    color: #fff;
 }
