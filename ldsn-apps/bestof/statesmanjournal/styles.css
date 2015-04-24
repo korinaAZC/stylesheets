@@ -216,10 +216,9 @@ and (max-width : 669px) {
   margin: 50px auto 0 auto;
 }
 
-li.main {
-  border-top: 1px solid #af5b4e;
+.filter-column ul li.main {
+  border-top: 1px solid #614a54;
 }
-
-li.nodrop {
-  background: #ef644f;
+.filter-column ul li.nodrop {
+  background: #f58640;
 }
