@@ -217,3 +217,8 @@ and (max-width : 669px) {
 
 }
 
+
+.feat-module .info-box p {
+  margin: 50px auto 0 auto;
+}
+
