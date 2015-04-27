@@ -159,6 +159,14 @@ img.articlelogo {
     text-align: center;
 }
 
+.filter-column ul li.nodrop {
+  background: #ef644f;
+}
+
+.filter-column ul li.nodrop a {
+  color: #fff;
+}
+
 @media only screen 
 and (max-width : 999px) {
     
