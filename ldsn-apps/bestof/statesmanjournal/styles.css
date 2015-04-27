@@ -49,8 +49,10 @@
 .feat-module {
 	  height: 376px;
 	}
-	
 
+.feat-module .feat-ident h3 {
+  background: #ef644f;
+}
 
 .feat-module .info-box a {
     top: 19px;
