@@ -42,8 +42,15 @@
 }
 
 .feat-module .info-box {
-    height: calc(100% - 50px);
+    height: calc(100% - 74px);
+	top: 48px;
 }
+
+.feat-module {
+	  height: 376px;
+	}
+	
+
 
 .feat-module .info-box a {
     top: 19px;
@@ -166,7 +173,8 @@ and (max-width : 999px) {
     .filter-column .filter-box {
         margin-top: -60px;
     }
-}
+	
+
 
 @media only screen 
 and (min-width : 280px) 
@@ -184,12 +192,20 @@ and (max-width : 669px) {
     .article-intro p.title span {
         color: #fff;
     }
+	
+	.feat-module {
+		  margin: 401px auto 0 auto;
+	}
     
     .feat-module .info-box {
-        top: -300px;
+        top: -325px;
         height: 300px;
     }
-    
+	
+	.module-container {
+	  margin: 13px auto 12px auto;
+	}
+		
     .readers-choice {
         margin-top: -5px;
     }
