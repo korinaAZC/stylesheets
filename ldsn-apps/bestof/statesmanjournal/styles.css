@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.property-url {
+    color: #ef644f;
+}
+
+.button {
+    margin: 10px 0;
+    background: #ef644f;
+}
+
+.button:hover {
+    background: #cd5644;
+    transition: background .3s ease;
+}
+
+.readers-choice {
+    background: none;
+    background-color: #ef644f;
+    margin-top: -10px;
+}
+
+#nav {
+    background: #5f4955;
+}
+
+.nav-menu {
+    background: #5f4955;
+}
+
+.nav-menu ul li {
+    border-right: 1px solid #4a373b;
+}
+
+.nav-menu ul li:first-child {
+    border-left: 1px solid #4a373b;
+}
+
+.nav-menu ul li:hover a {
+    color: #b38ba1;
+}
+
+.feat-module .info-box {
+    height: calc(100% - 50px);
+}
+
+.feat-module .info-box a {
+    top: 19px;
+}
+
+.feat-module .info-box p {
+    margin-top: 50px auto 0 auto;
+    font-size: 15px;
+}
+
+.feat-ident h3,
+.module h3 {
+    background: #ef644f;
+}
+
+.featuredLinks a.critics-picks {
+    margin-bottom:10px;
+}
+
+.filter-display {
+    background-color: #d8d1d4;
+}
+
+.filter-column .filter-box {
+    background: #d8d1d4;
+}
+
+.filter-column .filter-box input {
+    border: 1px solid #bbb;
+    color: #614a54;
+}
+
+.filter-column ul li.main {
+    border-top: 1px solid #614a54;
+}
+
+.filter-column ul li.secondary {
+    background: #614a54;
+    border-bottom: 1px solid #34252c;
+}
+
+.filter-column ul li.secondary:hover, .filter-column ul li.active {
+    background: #34252c;
+}
+
+.filter-column img.logo {
+  top: -25px;
+  margin: 0 auto;
+  z-index: 10;
+  width: 250px;
+}
+
+.banner {
+    background: #ef644f;
+}
+
+.article-intro p.title span {
+    color: #614a54;
+}
+
+.article-body .content p.name {
+    color: #614a54;
+}
+
+.article-body .content p.info a {
+    color: #f16349;
+}
+
+address a {
+    color: #f16349;
+    text-decoration: none;
+}
+
+. articlelogo  {
+    width: 200px;
+    margin-top: -20px;
+}
+
+.feat-module .info-box img.logo {
+    top: -90px;
+    width: 200px;    
+}
+
+.feat-module .info-box p {
+    margin: 32px auto 0 auto;
+}
+
+.article-intro p.title {
+    margin: 15px 10px 5px 220px;
+}
+
+img.articlelogo {
+    width:230px;
+}
+
+.top-banner-ad {
+    width:720px; 
+    margin:0 auto 22px auto;
+}
+
+.cobrand-footer {
+    text-align: center;
+}
+
+@media only screen 
+and (max-width : 999px) {
+    
+    .nav-menu ul li {
+        border-left: none !important;
+        border-right: none !important;
+        border-bottom: none !important;
+        border-top: 1px solid #4a373b;
+    }
+    
+    .filter-column img.logo {
+        top: 0;
+        width: 250px;
+    }
+    
+    .filter-column .filter-box {
+        margin-top: -60px;
+    }
+}
+
+@media only screen 
+and (min-width : 280px) 
+and (max-width : 669px) {
+
+    img.articlelogo {
+        margin: 0;
+        width: 130px;
+    }
+    
+    .article-intro p.title {
+        margin: 10px 10px 10px 140px;
+    }
+    
+    .article-intro p.title span {
+        color: #fff;
+    }
+    
+    .feat-module .info-box {
+        top: -300px;
+        height: 300px;
+    }
+    
+    .readers-choice {
+        margin-top: -5px;
+    }
+    
+     .info-box {
+     }
+    
+    .filter-box {
+        margin-top: -50px;
+    }
+    
+    .filter-column img.logo {
+        top: 5px;
+    }
+    
+    body {
+        background: none;
+    }
+
+}
+
+
+.feat-module .info-box p {
+  margin: 50px auto 0 auto;
+}
+
+.filter-column ul li.main {
+  border-top: 1px solid #666;
+}
+
+.filter-column ul li.nodrop {
+  background: #ef644f;
+}
+
+.filter-column ul li.nodrop:hover {
+  background: #c74834 ;
+}
+
+.filter-column ul li.nodrop a {
+    color: #fff;
+}
