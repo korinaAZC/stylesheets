@@ -146,6 +146,10 @@ img.articlelogo {
     width:230px;
 }
 
+.module-container {
+  margin: 15px auto 12px auto;
+}
+
 .top-banner-ad {
     width:720px; 
     margin:0 auto 22px auto;
