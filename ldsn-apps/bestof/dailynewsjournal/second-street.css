@@ -53,6 +53,16 @@ header p {
     width: calc(100% - 330px);
 }
 
+header p a {
+    color: #0066b3;
+    text-decoration: none;
+}
+
+header p a:hover {
+    color: #218ee0 ;
+    text-decoration: underline;
+}
+
 .phase-date {
     padding: 30px 0 0 0;
     font-size: 32px;
