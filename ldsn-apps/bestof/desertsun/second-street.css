@@ -11,7 +11,7 @@
 }
 
 .header h1 {
-    color: #444;
+    color: #39b54a;
 }
 
 .header h2 {
@@ -28,7 +28,7 @@
 }
 
 .header a {
-    background: #555;
+    background: #39b54a;
     color: #fff;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .ad-rail ul li {
-    color: #0066b3;
+    color: #39b54a !important;
 }
 
 @media only screen 
