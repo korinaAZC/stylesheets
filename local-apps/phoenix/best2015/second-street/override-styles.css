@@ -53,9 +53,19 @@ body {
 }
 .header h2 {
 	font-family: 'Futura Today';
+	color:24418f;
 }
-.second-street {
-	background:#ffffff;
+.header p {
+margin: 16px 0 22px 0;
+}
+.complete-wrapper {
+	background-color:#f6f6f6;
+}
+.wrapper {
+background-color:#ffffff;
+}
+.ad-rail {
+margin-top:20px;
 }
 
 h3#ssVotersChoice_CategoryLabel {
