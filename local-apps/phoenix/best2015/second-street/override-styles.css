@@ -155,7 +155,7 @@ font-size: 11px;
 .header {
 	max-width:1200px;
 }
-.ssButton-PrimaryAction {
+.ssButton-PrimaryAction, .ssPromotion button, .ssPromotion input[type="button"], #btnPopupModal, h3.ssBestOf_Ballot_SubCategory_Title > .catToggle > button {
 background:#da2929 !important;
 border:none !important;
 box-shadow:none !important;
