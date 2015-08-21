@@ -49,7 +49,7 @@ body {
 	background:#f6f6f6;
 }
 .header {
-	max-width:950px;
+	max-width:1000px;
 }
 .header img {
    float: left;
@@ -80,6 +80,70 @@ margin-top:20px;
 
 h3#ssVotersChoice_CategoryLabel {
 	font-weight:bold;
+}
+
+#ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > button, #ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > div.ssExpandButton {
+box-shadow: none !important;
+}
+#ssPromotion li.ssBestOf_Ballot_Content_SubCategoryList_SubCategory {
+border-left: none !important;
+border-right: none !important;
+border-bottom: none !important;
+border-top: 1px solid #dbdbdb !important;
+padding: 10px 0 !important;
+}
+#ssPromotion li.ssBestOf_Ballot_Content_SubCategoryList_SubCategory {
+border-width: 1px;
+border-style: solid;
+border-bottom-width: 0px;
+}
+li.ssBestOf_CategoryList_Item, li.ssBestOf_Ballot_Content_SubCategoryList_SubCategory {
+background: none !important;
+}
+li.ssBestOf_CategoryList_Item, li.ssBestOf_Ballot_Content_SubCategoryList_SubCategory {
+border-color: #e6e6e6;
+}
+#ssPromotion.ssAestheticsOn h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle {
+color: #585956 !important;
+font-family: "Futura Today DemiBold" !important;
+}
+#ssPromotion .ssSubCategory_Open h3.ssBestOf_Ballot_SubCategory_Title > .catToggle > div.ssExpandButton > .ssButtonArrow {
+-webkit-transform: rotate(0deg) !important;
+}
+#ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > button > .ssButtonArrow, #ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > div.ssExpandButton > .ssButtonArrow {
+height: 100% !important;
+width: 100% !important;
+background: url('http://assets.azcentral.com/bestOf/_global/b-dropdown-arrow.png') 5px 10px no-repeat !important;
+}
+#ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > button > .ssButtonArrow, #ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > div.ssExpandButton > .ssButtonArrow {
+height: 100% !important;
+width: 100% !important;
+background: url('http://assets.azcentral.com/bestOf/_global/b-dropdown-arrow.png') 5px 10px no-repeat !important;
+-webkit-transform: rotate(-90deg) !important;
+}
+#ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > button > .ssButtonArrow, #ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > div.ssExpandButton > .ssButtonArrow {
+display: block;
+-webkit-transition: all 0.1s ease-in-out;
+}
+*[class*="Button"]{
+cursor:pointer;
+}
+#ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > button, #ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > div.ssExpandButton {
+text-indent: -9999px !important;
+border-none;
+}
+.ssButton-PrimaryAction {
+background:#da2929 !important;
+border:none !important;
+box-shadow:none !important;
+border-radius:0px !important;
+}
+.ssButton-PrimaryAction:hover {
+opacity:0.8;
+}
+.ladda-button .ladda-label {
+	font-family:'Futura Today Light';
+	text-transform:uppercase;
 }
 
 @media only screen 
