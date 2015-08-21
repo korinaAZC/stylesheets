@@ -48,12 +48,21 @@
 body {
 	background:#f6f6f6;
 }
+.header {
+	max-width:950px;
+}
+.header img {
+   float: left;
+   width: 300px;
+   margin: 0 40px 20px 0;
+}
 .header a {
 	background: #da2929;
 }
 .header h2 {
 	font-family: 'Futura Today';
 	color:24418f;
+	font-size:36px;
 }
 .header p {
 margin: 16px 0 22px 0;
@@ -63,6 +72,7 @@ margin: 16px 0 22px 0;
 }
 .wrapper {
 background-color:#ffffff;
+padding-bottom:20px;
 }
 .ad-rail {
 margin-top:20px;
