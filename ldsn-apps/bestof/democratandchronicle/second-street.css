@@ -1,0 +1,65 @@
+/* **** COLOR OVERRIDES **** */
+
+
+
+.ad300x {
+    background: #efefef;
+}
+
+.ad728x90 {
+    background: #efefef;
+}
+
+.header h1 {
+    color: #3d4e82;
+}
+
+.header h2 {
+    color: #777;
+}
+
+.header h3 {
+    background: #70beee;
+    color: #fff;
+}
+
+.header p {
+    color: #585956;
+}
+
+.header a {
+    background: #70beee;
+    color: #fff;
+}
+
+.ad-rail ul {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.ad-rail ul p {
+    color: #777;
+}
+
+.ad-rail ul li {
+    color: #0066b3;
+}
+
+@media only screen 
+and (min-width: 1px) 
+and (max-width: 775px) {
+    
+    .ad300x {
+        background: #ddd;
+    }
+
+    .ad-rail {
+        background: #efefef;
+    }
+
+}
+
+
+
+
+/* **** LAYOUT OVERRIDES **** */
