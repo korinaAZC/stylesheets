@@ -1,0 +1,168 @@
+/* **** RESET & FONTS **** */
+
+@import url("http://stylesheets.azcentral.com/ldsn-apps/default/general-reset.css");
+@import url('http://pages.azcentral.com/gannett-fonts/css/futura.css');
+ 
+
+/* **** GLOBAL **** */
+
+body {
+    font-family: "Futura Today", sans-serif;
+}
+
+.wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+
+/* **** COBRAND **** */
+
+.cobrand-menu {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.cobrand-footer {
+    clear: both;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+
+
+/* **** HEADER **** */
+
+header {
+    margin: 20px 0 30px 0;
+}
+
+header img {
+    float: left;
+    width: 300px;
+}
+
+header p {
+    float: right;
+    width: calc(100% - 330px);
+}
+
+header p a {
+    color: #0066b3;
+    text-decoration: none;
+}
+
+header p a:hover {
+    color: #218ee0 ;
+    text-decoration: underline;
+}
+
+.phase-date {
+    padding: 30px 0 0 0;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-family: 'Futura Today Light';
+    color: #777;
+}
+
+.phase-text {
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: capitalize;
+    font-family: 'Futura Today DemiBold';
+    color: #0066b3;
+}
+
+.blurb {
+    margin: 22px 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 28px;
+    color: #585956;
+}
+
+
+/* **** SECOND STREET **** */
+
+.second-street {
+    clear: both;
+    width: 100%;
+}
+
+
+/* **** RESPONSIVE BREAKPOINT 900 **** */
+
+@media only screen 
+  and (min-width: 769px) 
+  and (max-width: 900px) {
+
+    header img {
+        float: left;
+        width: 250px;
+    }
+      
+    header p {
+        width: calc(100% - 280px);
+    }
+
+    .phase-date {
+        padding: 15px 0 0 0;  
+    }
+      
+    .phase-text {
+        font-size: 45px;
+    }
+      
+    .blurb {
+        margin: 15px 0;
+        font-size: 18px;
+        line-height: 22px;
+    }
+      
+}
+
+
+/* **** RESPONSIVE BREAKPOINT 634 **** */
+
+@media only screen 
+  and (min-width: 1px) 
+  and (max-width: 768px) {
+    
+    header {
+        text-align: center;
+    }
+      
+    header img {
+        float: none;
+        width: 300px;
+        margin: 0 auto;
+    }
+      
+    header p {
+        float: none;
+        width: auto;
+    }
+
+    .phase-date {
+        padding: 30px 0 0 0;
+        font-size: 26px;
+    }
+      
+    .phase-text {
+        font-size: 35px;
+        line-height: 40px;
+    }
+      
+    .blurb {
+        margin: 15px 0;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+}
