@@ -32,6 +32,11 @@
     color: #fff;
 }
 
+.header img {
+    width:190px;
+    margin-bottom:0;
+}
+
 .ad-rail ul {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -56,6 +61,12 @@ and (max-width: 775px) {
     .ad-rail {
         background: #efefef;
     }
+    
+    .header img {
+    width:290px;
+    margin-bottom:20px;
+    }
+
 
 }
 
