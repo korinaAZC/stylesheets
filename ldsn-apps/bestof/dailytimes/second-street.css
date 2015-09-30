@@ -1,0 +1,76 @@
+/* **** COLOR OVERRIDES **** */
+
+
+
+.ad300x {
+    background: #efefef;
+}
+
+.ad728x90 {
+    background: #efefef;
+}
+
+.header h1 {
+    color: #1c61ae;
+}
+
+.header h2 {
+    color: #777;
+}
+
+.header h3 {
+    background: #1c61ae;
+    color: #fff;
+}
+
+.header p {
+    color: #585956;
+}
+
+.header a {
+    background: #1c61ae;
+    color: #fff;
+}
+
+.header img {
+    width: 190px;
+    margin-bottom: 0;
+}
+
+.ad-rail ul {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.ad-rail ul p {
+    color: #777;
+}
+
+.ad-rail ul li {
+    color: #1c61ae;
+}
+
+@media only screen 
+and (min-width: 1px) 
+and (max-width: 775px) {
+    
+    .ad300x {
+        background: #ddd;
+    }
+
+    .ad-rail {
+        background: #efefef;
+    }
+    
+    .header img {
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+
+/* **** LAYOUT OVERRIDES **** */
