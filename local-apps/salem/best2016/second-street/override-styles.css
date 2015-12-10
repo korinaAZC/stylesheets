@@ -1,6 +1,8 @@
 /* **** COLOR OVERRIDES **** */
 
-
+.a {
+    color:#cd4849;
+}
 
 .ad300x {
     background: #efefef;
@@ -157,7 +159,7 @@ font-size: 11px;
 	max-width:1200px;
 }
 .ssButton-PrimaryAction, .ssPromotion button, .ssPromotion input[type="button"], #btnPopupModal, h3.ssBestOf_Ballot_SubCategory_Title > .catToggle > button {
-background:#da2929 !important;
+background:#cd4849 !important;
 border:none !important;
 box-shadow:none !important;
 border-radius:0px !important;
