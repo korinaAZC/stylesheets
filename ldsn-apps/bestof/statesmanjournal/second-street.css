@@ -10,7 +10,9 @@
     background: #efefef;
 }
 .header {
+    background: #efefef;
     background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg.png"); background-repeat:no-repeat;
+    min-height:300px;
 }
 
 .header h1 {
@@ -68,7 +70,7 @@ body {
 	font-size:36px;
 }
 .header p {
-margin: 16px 0 22px 0;
+margin: 16px 0 40px 0;
 }
 .complete-wrapper {
 	background-color:#f6f6f6;
