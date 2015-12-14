@@ -9,6 +9,9 @@
 .ad728x90 {
     background: #efefef;
 }
+.header {
+    background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg.png"); background-repeat:no-repeat;
+}
 
 .header h1 {
     color: #444;
@@ -46,7 +49,7 @@
 }
 
 body {
-	background:#f6f6f6;
+	background:#e7e3d7;
 }
 .header {
 	max-width:1000px;
@@ -156,7 +159,13 @@ font-size: 11px;
 	max-width:1200px;
 }
 .ssButton-PrimaryAction, .ssPromotion button, .ssPromotion input[type="button"], #btnPopupModal, h3.ssBestOf_Ballot_SubCategory_Title > .catToggle > button {
-background:#da2929 !important;
+background:#cd4849 !important;
+border:none !important;
+box-shadow:none !important;
+border-radius:0px !important;
+}
+#ssPromotion .ssMatchup_Entry .voteButton.vote, #ssPromotion .ssMatchup_Entry.featured .voteButton.vote, #ssPromotion .ssMatchup_WriteIn .voteButton.vote {
+background:#cd4849 !important;
 border:none !important;
 box-shadow:none !important;
 border-radius:0px !important;
