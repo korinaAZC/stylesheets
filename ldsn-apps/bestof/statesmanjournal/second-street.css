@@ -9,34 +9,6 @@
 .ad728x90 {
     background: #efefef;
 }
-.header {
-    background: #efefef;
-    background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg.png"); background-repeat:no-repeat;
-    min-height:300px;
-}
-
-.header h1 {
-    color: #444;
-}
-
-.header h2 {
-    color: #777;
-}
-
-.header h3 {
-    background: #666;
-    color: #fff;
-}
-
-.header p {
-    color: #585956;
-}
-
-.header a {
-    background: #555;
-    color: #fff;
-}
-
 .ad-rail ul {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -54,23 +26,39 @@ body {
 	background:#e7e3d7;
 }
 .header {
-	max-width:1000px;
+    background: #e7e3d7;
+    background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg.png");       background-repeat:no-repeat;
+    background-position: bottom, right;
+    min-height:300px;
+    max-width:1200px;
+}
+
+.header h1 {
+    color: #444;
+}
+.header h2 {
+    color: #777;
+    font-family: 'Futura Today';
+	color:24418f;
+	font-size:36px;
+}
+.header h3 {
+    background: #666;
+    color: #fff;
+}
+.header p {
+    color: #585956;
+    margin: 16px 0 40px 0;
+max-width: 1000px;
+}
+.header a {
+    background: #da2929;
+    color: #fff;
 }
 .header img {
    float: left;
    width: 300px;
    margin: 0 40px 20px 0;
-}
-.header a {
-	background: #da2929;
-}
-.header h2 {
-	font-family: 'Futura Today';
-	color:24418f;
-	font-size:36px;
-}
-.header p {
-margin: 16px 0 40px 0;
 }
 .complete-wrapper {
 	background-color:#f6f6f6;
@@ -86,7 +74,9 @@ margin-top:20px;
 h3#ssVotersChoice_CategoryLabel {
 	font-weight:bold;
 }
-
+#ssPromotion.ssVotersChoice, #ssVotersChoice {
+    	font-family:'Futura Today';
+}
 #ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > button, #ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > div.ssExpandButton {
 box-shadow: none !important;
 }
@@ -103,10 +93,9 @@ border-style: solid;
 border-bottom-width: 0px;
 }
 li.ssBestOf_CategoryList_Item, li.ssBestOf_Ballot_Content_SubCategoryList_SubCategory {
-background: none !important;
-}
-li.ssBestOf_CategoryList_Item, li.ssBestOf_Ballot_Content_SubCategoryList_SubCategory {
+background: #ffffff; !important;
 border-color: #e6e6e6;
+background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%); /* W3C */
 }
 #ssPromotion.ssAestheticsOn h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle {
 color: #585956 !important;
@@ -157,9 +146,7 @@ border: none;
 text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
 font-size: 11px;
 }
-.header {
-	max-width:1200px;
-}
+
 .ssButton-PrimaryAction, .ssPromotion button, .ssPromotion input[type="button"], #btnPopupModal, h3.ssBestOf_Ballot_SubCategory_Title > .catToggle > button {
 background:#cd4849 !important;
 border:none !important;
@@ -178,6 +165,13 @@ opacity:0.8;
 .ladda-button .ladda-label {
 	font-family:'Futura Today Light';
 	text-transform:uppercase;
+}
+
+.ssExpandButton {
+color: #3d586a !important;
+border: 1px color:#3d586a solid !important;
+box-shadow: 0 0 0 rgba(0, 0, 0, 0.3) inset !important;
+text-shadow: 0 0 0 rgba(0, 0, 0, 0.3) !important;
 }
 
 @media only screen 
