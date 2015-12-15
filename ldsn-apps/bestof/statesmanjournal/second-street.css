@@ -185,7 +185,12 @@ and (max-width: 775px) {
     .ad-rail {
         background: #efefef;
     }
-
+.header img {
+   float:none !important;
+   max-width: 300px !important;
+   margin: 0 auto 20px auto !important;
+   text-align:center;
+}
 }
 
 
