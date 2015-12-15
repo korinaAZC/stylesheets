@@ -57,7 +57,7 @@ max-width: 1000px;
 }
 .header img {
    float: left;
-   width: 300px;
+   max-width: 300px;
    margin: 0 40px 20px 0;
 }
 .complete-wrapper {
