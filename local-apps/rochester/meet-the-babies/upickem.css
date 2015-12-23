@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+body { 
+background-color:#fde092;
+}
+/*header*/
+.header {
+    background: #fefdf8;
+    /*background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg.png");       background-repeat:no-repeat;
+    background-position: bottom, right;*/
+    min-height:300px;
+    max-width:1200px;
+}
+.header p {
+    color: #585956;
+    margin: 16px 0 40px 0;
+max-width: 1000px;
+}
+.header a {
+    background: #da2929;
+    color: #fff;
+}
+.header img {
+   float: left;
+   max-width: 300px;
+   margin: 0 40px 20px 0;
+}
+/*ads*/
+.ad-rail {
+margin-top:20px;
+}
+.ad728x90 {
+    background: #efefef;
+}
+.ad-rail ul {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+/*STYLE OVERRIDES*/
+TD.UPE-ListRowHeaderCenter, TH.UPE-ListRowHeaderCenter {
+        background-color: #fefdf8;
+}
+DIV.UPE-CondensedLoginBox {
+background-color: #fefdf8;
+}
+div.SS-Application {
+    width:80%;
+    margin:0 auto;
+}
+@media only screen 
+and (min-width: 1px) 
+and (max-width: 775px) {
+    
+    .ad300x {
+        background: #ddd;
+    }
+
+    .ad-rail {
+        background: #efefef;
+    }
+.header img {
+   float:none !important;
+   max-width: 300px !important;
+   margin: 0 auto 20px auto !important;
+   text-align:center;
+}
