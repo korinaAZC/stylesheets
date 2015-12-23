@@ -2,19 +2,22 @@
 /* CSS Document */
 body { 
 background-color:#fde092;
+font-family: Helvetica, Arial, sans-serif;
 }
 /*header*/
 .header {
     background: #fefdf8;
     /*background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg.png");       background-repeat:no-repeat;
     background-position: bottom, right;*/
-    min-height:300px;
+    min-height:200px;
     max-width:1200px;
+    padding:20px;
 }
 .header p {
-    color: #585956;
-    margin: 16px 0 40px 0;
+color: #585956;
+margin: 16px 0 0 0;
 max-width: 1000px;
+text-align:left;
 }
 .header a {
     background: #da2929;
@@ -46,6 +49,22 @@ background-color: #fefdf8;
 div.SS-Application {
     width:80%;
     margin:0 auto;
+}
+TD.UPE-TabOffFirst, TD.UPE-TabFirst, TD.UPE-BottomTabOffFirst  {
+    background-image:none;
+}
+TD.UPE-TabFirst {
+    background-color:#ffffff;
+}
+TD.UPE-ListRowHeader, TH.UPE-ListRowHeader {
+    background-color:#fde092;
+}
+TD.UPE-ApplicationTableCell {
+    border-left: solid 1px #cccccc;
+border-right: solid 1px #cccccc;
+}
+TABLE.UPE-ListRowTable {
+    background-color:#cccccc;
 }
 @media only screen 
 and (min-width: 1px) 
