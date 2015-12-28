@@ -1,0 +1,198 @@
+/* **** RESET & FONTS **** */
+
+@import url("http://stylesheets.azcentral.com/ldsn-apps/default/general-reset.css");
+@import url('http://pages.azcentral.com/gannett-fonts/css/futura.css');
+ 
+
+/* **** GLOBAL **** */
+
+body {
+    background: url("../assets/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Futura Today", sans-serif;
+}
+
+.wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+/* **** COBRAND **** */
+
+.cobrand-menu {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.cobrand-footer {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    font-family:  "arial", sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    background-color: rgba(255,255,255,0.5);
+    color: #5a4a43;
+}
+
+.cobrand-footer ul {
+    padding: 20px 40px 0;
+    border-top: 1px solid #fdd47f;
+    list-style: disc;
+}
+
+.cobrand-footer ul li {
+    display: inline-block;
+}
+
+.cobrand-footer p {
+    padding: 0 40px 20px;
+}
+
+
+
+/* **** ADS **** */
+
+.ad728x90 {
+    clear: both;
+    width: 728px;
+    height: 90px;
+    margin: 0 auto 20px auto;
+    background: #efefef;
+}
+
+
+
+
+/* **** HEADER **** */
+
+.header {
+    position: relative;
+    box-sizing: border-box;
+    margin: 20px 30px 30px 30px;
+    padding: 16px;
+    border-radius: 14px;
+    background-clip: padding-box;
+    border: 7px solid rgba(0,0,0,0.45);
+    background-color: rgba(255,255,255,0.5);
+    color: #333;  
+}
+
+.header img {
+    float: left;
+    width: 600px;
+    margin: 0 20px 20px 0;
+}
+
+.header p {
+    margin: 22px 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 24px;
+    color: #5a4a43;
+}
+
+.header p em {
+    font-style: italic;
+}
+
+.alt-header {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0 0 30px 0;
+    padding: 16px;
+    border-radius: 14px;
+    background-clip: padding-box;
+    border: 7px solid rgba(0,0,0,0.45);
+    background-color: rgba(255,255,255,0.5);
+    color: #333;  
+}
+
+
+
+/* **** SECOND STREET **** */
+
+.second-street {
+    float: left;
+    width: calc(100% - 360px);
+    min-height: 250px;
+    margin: 0 0 20px 20px;
+}
+
+
+
+/* **** RESPONSIVE BREAKPOINT 1200 **** */
+
+@media only screen 
+and (max-width: 1200px) {
+
+    .header img {
+        width: 400px;
+        margin: 40px 20px 60px 0;
+    }
+
+}
+
+
+
+
+/* **** RESPONSIVE BREAKPOINT 900 **** */
+
+@media only screen 
+and (max-width: 900px) {
+
+    .header {
+        text-align: center;
+    }
+    
+    .header img {
+        float: none;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .header p {
+        text-align: justify;
+    }
+    
+    .footer {
+        height: 285px !important;
+    }
+
+}
+
+
+
+/* **** RESPONSIVE BREAKPOINT 775 **** */
+
+@media only screen 
+and (max-width: 768px) {
+    
+
+    .ad728x90 {
+        display: none;
+    }
+    
+    .header img {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .second-street {
+        float: none;
+        box-sizing: border-box;
+        width: auto;
+        margin: 0 0 20px 0;
+        padding: 0 20px;
+    }
+
+}
