@@ -2,6 +2,10 @@
 /* CSS Document */
 body { 
 background-color:#fde092;
+background-image:url("http://stylesheets.azcentral.com/local-apps/rochester/meet-the-babies/hearts-bg.png");
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
 font-family: Helvetica, Arial, sans-serif;
 }
 /*header*/
