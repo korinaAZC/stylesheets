@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>{{EVENT TITLE}} | {{SITENAME}}</title>
+    
+    <!-- META -->
+    <meta name="keywords" content="{{EVENT KEYWORDS}}">
+    <meta name="description" content="{{EVENT SUMMARY}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+ 
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/structure.css" type="text/css" />
+    <link rel="stylesheet" href="css/customize.css" type="text/css" />
+    <link href="http://addtocalendar.com/atc/1.5/atc-style-blue.css" rel="stylesheet" type="text/css">
+
+    <!-- SHARETHIS -->
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "3960fe66-48aa-4aa7-8be8-e788f0001dcb", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+    
+    
+</head>
+ 
+<body class="tickets-pagebody">
+    
+    <!-- COBRAND MENU -->
+    <div class="tickets-cobrand-menu">
+        <iframe src="http://www.{{SITENAME}}.com/services/cobrand/header/" width="100%" height="40" frameborder="0" scrolling="no"></iframe>
+    </div>
+    
+    <!-- WRAPPER START -->
+    <div class="tickets-body-wrapper clearfix">
+        
+        <!-- EVENT HEADER -->
+        <div class="tickets-header-row clearfix">
+            <div class="tickets-logo-container">
+                <div class="tickets-section-container">
+                    <a href="{{EVENT LOGO LINK}}"> 
+                        <img src="assets/event-logo.jpg" class="tickets-event-logo img-responsive"> <!-- Placeholder event logo, needs replaced -->
+                    </a>
+                </div>
+            </div>
+            <div class="tickets-event-header-info">
+                <h1 class="tickets-event-header-name">{{EVENT TITLE}}</h1>
+                <p class="tickets-event-header-date">{{EVENT DATE INFORMAL}}</p>
+                <p class="tickets-event-header-location">{{EVENT LOCATION}}, {{EVENT CITY}}</p>
+                <a href="{{PURCHASE LINK}}" class="tickets-purchase-button">{{PURCHASE BUTTON VALUE}}</a>
+            </div>
+        </div>
+        
+        <!-- LEFT COLUMN START -->
+        <div class="tickets-left-col">
+            
+            <!-- EVENT SUMMARY -->
+            <div class="tickets-section-container">
+                <p class="tickets-section-title">Event Summary</p>
+                <div class="tickets-section-content">
+                    <img src="assets/event-mainart.jpg" class="tickets-event-art img-responsive"> <!-- Placeholder main art, needs replaced -->
+                    <p>{{EVENT SUMMARY}}</p>
+                </div>
+            </div>
+            
+            <!-- EVENT DETAILS -->
+            <div class="tickets-section-container">
+                <p class="tickets-section-title">Event Details</p>
+                <div class="tickets-section-content">
+                    <div class="tickets-event-details-desc">
+                        <h1 class="tickets-event-details-name">{{EVENT TITLE}}</h1>
+                        <p class="tickets-event-details-date">{{EVENT DATE INFORMAL}}</p>
+                        <p class="tickets-event-details-location">{{EVENT LOCATION}}, {{EVENT CITY}}</p>
+                        <p class="tickets-event-details-cost">{{EVENT COST}}</p>
+                    </div>
+                    <p>{{FULL EVENT DETAILS}}</p>
+                    <a href="{{PURCHASE LINK}}" class="tickets-purchase-button">{{PURCHASE BUTTON VALUE}}</a>
+                </div>
+            </div>
+            
+        <!-- LEFT COLUMN END -->    
+        </div>
+        
+        <!-- RIGHT COLUMN START -->
+        <div class="tickets-right-col">
+            
+            <!-- SHARE EVENT -->
+            <div class="tickets-section-container">
+                <p class="tickets-section-title">Share This Event!</p>
+                <span class='st_facebook_large' displayText='Facebook'></span>
+                <span class='st_twitter_large' displayText='Tweet'></span>
+                <span class='st_googleplus_large' displayText='Google +'></span>
+                <span class='st_linkedin_large' displayText='LinkedIn'></span>
+                <span class='st_reddit_large' displayText='Reddit'></span>
+                <span class='st_email_large' displayText='Email'></span>
+            </div>
+            
+            <!-- EVENT LOCATION -->
+            <div class="tickets-section-container">
+                <p class="tickets-section-title">When and Where</p>
+                <div class="tickets-section-content">
+                    <div class="tickets-location-map">
+                        <iframe src="{{GOOGLE MAP EMBED}}" width="100%" height="300" frameborder="0" scrolling="no"></iframe> <!-- Placeholder event map, needs replaced -->
+                    </div>
+                    <p class="tickets-location-name">{{EVENT LOCATION}}</p>
+                    <p class="tickets-location-address">{{EVENT ADDRESS}}</p>
+                    <p class="tickets-location-date">{{EVENT DATE INFORMAL}}</p>
+                    
+                    <span class="addtocalendar tickets-atc-button">
+                        <var class="atc_event">
+                            <var class="atc_date_start">{{EVENT DATE START}}</var>
+                            <var class="atc_date_end">{{EVENT DATE END}}</var>
+                            <var class="atc_timezone">America/Phoenix</var>
+                            <var class="atc_title">{{EVENT TITLE}}</var>
+                            <var class="atc_description">{{EVENT SUMMARY}}</var>
+                            <var class="atc_location">{{EVENT LOCATION}}</var>
+                            <var class="atc_organizer">{{EVENT ORGANIZER}}</var>
+                        </var>
+                    </span> 
+                </div>
+            </div>
+            
+            <!-- CONNECT -->
+            <div class="tickets-section-container">
+                <p class="tickets-section-title">{{ADDITIONAL INFO TITLE}}</p>
+                <div class="tickets-section-content">
+                    <p>{{ADDITIONAL INFO DETAILS}}</p>
+                </div>
+            </div>
+            
+        <!-- RIGHT COLUMN END -->
+        </div>
+        
+    <!-- WRAPPER END -->    
+    </div>
+    
+    
+    <script type="text/javascript">(function () {
+            if (window.addtocalendar)if(typeof window.addtocalendar.start == "function")return;
+            if (window.ifaddtocalendar == undefined) { window.ifaddtocalendar = 1;
+                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                s.type = 'text/javascript';s.charset = 'UTF-8';s.async = true;
+                s.src = ('https:' == window.location.protocol ? 'https' : 'http')+'://addtocalendar.com/atc/1.5/atc.min.js';
+                var h = d[g]('body')[0];h.appendChild(s); }})();
+    </script>
+    
+
+</body>
+</html>    
