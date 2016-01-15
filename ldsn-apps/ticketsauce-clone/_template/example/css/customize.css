@@ -36,6 +36,21 @@
     color: #9c7514;
 }
 
+.tickets-footer {
+    background-color: rgba(0,0,0,0.7);
+    border-top: 1px solid #cea434;
+    color: #ddd;
+}
+
+.tickets-footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.tickets-footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
 
 
 
