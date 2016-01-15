@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* ***************** */
+/* **** GLOBAL ***** */
+/* ***************** */
+
+.tickets-pagebody {
+    background-image: url("../assets/full-page-bg.jpg");
+    background-position: bottom;
+    background-color: #60a9a9;
+}
+
+.tickets-section-container {
+    border: 7px solid rgba(0,0,0,0.45);
+    background-color: rgba(255,255,255,0.88);
+    color: #333;   
+}
+
+.tickets-section-title {
+    background-color: #3d3d3d;
+    background: linear-gradient(#3d3d3d, #000);
+    font-family: 'Futura Today';
+    font-size: 18px;
+    color: #d1a538;
+}
+
+.tickets-section-content {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.tickets-section-content p a {
+    text-decoration: none;
+    color: #9c7514;
+}
+
+
+
+
+/* ************************ */
+/* ***** EVENT HEADER ***** */
+/* ************************ */
+
+.tickets-event-header-info {
+    color: #fff;
+}
+
+.tickets-event-header-name {
+    margin: 15px 0;
+    font-family: 'Futura Today DemiBold';
+    font-size: 40px;
+    text-shadow: 0 3px 6px #000000;
+    color: #fff;
+}
+
+.tickets-event-header-date {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 24px;
+    text-shadow: 0 3px 6px #000000;
+    color: #fff;
+}
+
+.tickets-event-header-location {
+    margin: 4px 0 25px 0;
+    padding: 0;
+    font-size: 18px;
+    text-shadow: 0 3px 6px #000000;
+    color: #fff;
+}
+
+.tickets-purchase-button,
+.tickets-atc-button .atcb-link {
+    background-color: #cea434;
+    background: linear-gradient(#cea434, #9c7514);
+    border: 2px solid #654c0a;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.tickets-purchase-button:hover,
+.tickets-atc-button .atcb-link:hover {
+    background: linear-gradient(#9c7514, #cea434);
+}
+
+
+
+
+/* *************************** */
+/* ***** ADD TO CALENDAR ***** */
+/* *************************** */
+
+.tickets-atc-button .atcb-list,
+.tickets-atc-button .atcb-item {
+    background: #fff;
+    color: #000;
+}
+
+.tickets-atc-button .atcb-item.hover,
+.tickets-atc-button .atcb-item:hover {
+    background: #cea434;
+    color: #fff;
+}
+
+
+
+
