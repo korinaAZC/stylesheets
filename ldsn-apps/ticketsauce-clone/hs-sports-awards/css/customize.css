@@ -6,9 +6,13 @@
 /* **** GLOBAL ***** */
 /* ***************** */
 
+html {
+    height: 100%;
+}
+
 .tickets-pagebody {
     background-image: url("../assets/full-page-bg.jpg");
-    background-color: #60a9a9;
+    background-color: #f89c27;
 }
 
 .tickets-section-container {
@@ -19,7 +23,7 @@
 
 .tickets-section-title {
     background-color: #158da7;
-    background: linear-gradient(#158da7, #046e85);
+    background: linear-gradient(#56585a, #2c2e2f);
     font-family: 'Futura Today Light';
     font-size: 18px;
     color: #fff;
@@ -35,6 +39,21 @@
     color: #d75227;
 }
 
+.tickets-footer {
+    background-color: rgba(0,0,0,0.7);
+    border-top: 1px solid #f89c27;
+    color: #ddd;
+}
+
+.tickets-footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.tickets-footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
 
 
 
@@ -73,8 +92,8 @@
 .tickets-purchase-button,
 .tickets-atc-button .atcb-link {
     background-color: #d75227;
-    background: linear-gradient(#d75227, #b13b15);
-    border: 2px solid #792105;
+    background: linear-gradient(#f89c27, #d27c0e);
+    border: 2px solid #633c0a;
     font-size: 16px;
     color: #fff;
     text-decoration: none;
@@ -82,7 +101,7 @@
 
 .tickets-purchase-button:hover,
 .tickets-atc-button .atcb-link:hover {
-    background: linear-gradient(#b13b15, #d75227);
+    background: linear-gradient(#d27c0e, #f89c27);
 }
 
 
@@ -101,7 +120,7 @@
 
 .tickets-atc-button .atcb-item.hover,
 .tickets-atc-button .atcb-item:hover {
-    background: #d75227;
+    background: #f89c27;
     color: #fff;
 }
 
