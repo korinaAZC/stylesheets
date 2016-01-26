@@ -6,6 +6,10 @@
 /* **** GLOBAL ***** */
 /* ***************** */
 
+html {
+    height: 100%;
+}
+
 .tickets-pagebody {
     background-image: url("../assets/full-page-bg.jpg");
     background-color: #60a9a9;
