@@ -12,7 +12,7 @@ html, body {
 }
 
 .tickets-pagebody {
-    background-image: url("http://stylesheets.azcentral.com/ldsn-apps/ticketsauce-clone/hs-sports-awards/assets/full-page-bg.jpg");
+    background-image: url("../assets/full-page-bg.jpg");
     background-color: #f89c27;
 }
 
