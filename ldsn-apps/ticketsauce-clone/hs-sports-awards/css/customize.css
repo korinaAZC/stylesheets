@@ -6,12 +6,13 @@
 /* **** GLOBAL ***** */
 /* ***************** */
 
-html {
+html, body {
     height: 100%;
+    min-height: 100%;
 }
 
 .tickets-pagebody {
-    background-image: url("../assets/full-page-bg.jpg");
+    background-image: url("http://stylesheets.azcentral.com/ldsn-apps/ticketsauce-clone/hs-sports-awards/assets/full-page-bg.jpg");
     background-color: #f89c27;
 }
 
@@ -40,6 +41,8 @@ html {
 }
 
 .tickets-footer {
+    position: relative;
+    top: 40px;
     background-color: rgba(0,0,0,0.7);
     border-top: 1px solid #f89c27;
     color: #ddd;
