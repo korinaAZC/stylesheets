@@ -1,0 +1,199 @@
+/* **** RESET & FONTS **** */
+
+@import url("http://stylesheets.azcentral.com/ldsn-apps/default/general-reset.css");
+@import url('http://pages.azcentral.com/gannett-fonts/css/futura.css');
+ 
+
+/* **** GLOBAL **** */
+
+body, html {
+    background-color:#d6d6bc;
+    font-family: "Futura Today", sans-serif;
+}
+
+.wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/* **** COBRAND **** */
+
+.cobrand-menu {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.cobrand-footer {
+    clear: both;
+width:100%;
+    text-align: center;
+    font-family:  "arial", sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    background-color: #f7f7f3;
+margin:auto;
+}
+
+.cobrand-footer ul {
+    padding: 20px 40px 0;
+    list-style: disc;
+}
+
+.cobrand-footer ul li {
+    display: inline-block;
+    color:#2A4F7F;
+margin-right:10px;
+}
+.cobrand-footer ul li a {
+    color:##2A4F7F;
+}
+
+.cobrand-footer p {
+    padding: 0 40px 20px;
+}
+
+
+
+/* **** ADS **** */
+
+.ad728x90 {
+    clear: both;
+    width: 728px;
+    height: 90px;
+    margin: 0 auto 20px auto;
+    background: #efefef;
+}
+
+
+
+
+/* **** HEADER **** */
+
+.header {
+ background-color:#f7f7f3;
+    color: #333;  
+    text-align: center;
+}
+
+.header .logo .main-logo {
+margin: 0px auto 10px auto;
+ max-width:1000px;
+ text-align: center;
+}
+
+
+/* **** SECOND STREET **** */
+
+.second-street {
+    box-sizing: border-box;
+    width: auto;
+    margin: 0 0 20px 0;
+    padding: 0 20px;
+}
+
+
+
+/* **** RESPONSIVE BREAKPOINT 1200 **** */
+
+@media only screen 
+and (max-width: 1200px) {
+
+    .header .logo .main-logo {
+        width: 400px;
+    }
+ 
+    .header .chatter {
+        width: calc(100% - 420px);
+    }
+
+}
+
+
+
+
+/* **** RESPONSIVE BREAKPOINT 900 **** */
+
+@media only screen 
+and (max-width: 900px) {
+
+    .header {
+        text-align: center;
+    }
+    
+    .header .logo .main-logo {
+        float: none;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .header .chatter {
+        float: none;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .header p {
+        text-align: justify;
+    }
+}
+
+
+
+/* **** RESPONSIVE BREAKPOINT 768 **** */
+
+@media only screen 
+and (max-width: 768px) {
+    
+
+    .ad728x90 {
+        display: none;
+    }
+    
+    .header .logo .main-logo {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .header .chatter {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}
+
+/* **** RESPONSIVE BREAKPOINT 480 **** */
+
+@media only screen 
+and (max-width: 480px) {
+
+    
+    .header .sponsor-logo {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen 
+and (max-width: 460px) {
+ 
+}
+
+.UPE-TopHeaderAdDiv {
+    background-color:#294982;
+    }
