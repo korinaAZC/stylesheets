@@ -45,7 +45,7 @@ width:100%;
     font-family:  "arial", sans-serif;
     font-size: 13px;
     line-height: 25px;
-    background-color: #f7f7f3;
+    background-color: #d6d6bc;
 margin:auto;
 }
 
@@ -71,6 +71,14 @@ margin-right:10px;
 
 /* **** ADS **** */
 
+.ad-rail {
+float:right;
+    width: 300px;
+    height: 250px;
+    margin: 10px auto 20px auto;
+    background: #efefef;
+}
+
 .ad728x90 {
     clear: both;
     width: 728px;
@@ -85,14 +93,14 @@ margin-right:10px;
 /* **** HEADER **** */
 
 .header {
- background-color:#f7f7f3;
+ background-color:#d6d6bc;
     color: #333;  
     text-align: center;
 }
 
 .header .logo .main-logo {
 margin: 0px auto 10px auto;
- max-width:1000px;
+ max-width:600px;
  text-align: center;
 }
 
@@ -100,8 +108,11 @@ margin: 0px auto 10px auto;
 /* **** SECOND STREET **** */
 
 .second-street {
+float:left;
     box-sizing: border-box;
     width: auto;
+max-height:600px;
+max-width:900px;
     margin: 0 0 20px 0;
     padding: 0 20px;
 }
