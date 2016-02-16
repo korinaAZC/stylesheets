@@ -1,5 +1,12 @@
-/* **** COLOR OVERRIDES **** */
+ <link rel="stylesheet" href="http://stylesheets.azcentral.com/local-apps/acadiana/best2016/second-street.css" type="text/css" />
+<style>
 
+/* **** COLOR OVERRIDES **** */
+body {
+	background:#f6cd96;
+background-image:url("http://stylesheets.azcentral.com/local-apps/acadiana/best2016/timesofacadiana-best-bg.png");       
+background-repeat:x;
+}
 a {
 color:#e45e39!important;
 }
@@ -24,13 +31,11 @@ color:#e45e39!important;
     color: #0066b3;
 }
 
-body {
-	background:#f6cd96;
+
 }
 .header {
+background-image: none;
     background: #ffffff;
-background-image:url("http://stylesheets.azcentral.com/local-apps/acadiana/best2016/timesofacadiana-best-bg.png");       background-repeat:x;
-    background-position: bottom, right;
     min-height:300px;
     max-width:1000px;
 }
