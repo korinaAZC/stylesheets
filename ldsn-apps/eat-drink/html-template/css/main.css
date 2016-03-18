@@ -1,0 +1,1856 @@
+@charset "UTF-8";
+
+/* ***** FONTS ***** */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+
+/* ***** GLOBAL ***** */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.ed-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.ed-img-responsive {
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.ed-clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.ed-module-head {
+    margin: 40px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.ed-button-more {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 60px auto 20px auto;
+    padding: 12px 30px;
+    background: #b62725;
+    border: 2px solid #b62725;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-button-more:hover {
+    color: #b62725;
+    background: #fff;
+    border: 2px solid #ddd;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+
+/* ***** COBRAND HEADER ***** */
+
+.ed-cobrand-header {
+    position: relative;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    background: #000;
+}
+
+.ed-cobrand-logo {
+    float: left;
+}
+
+.ed-cobrand-header-menu {
+    float: right;
+    width: auto;
+    margin: 0 10px 0 0;
+    list-style: none;
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+}
+
+.ed-cobrand-header-menu .link,
+.ed-cobrand-header-menu .button {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.ed-cobrand-header-menu li a {
+    padding: 8px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 50px;
+    -webkit-transition: color .15s ease-in;
+    transition: color .15s ease-in;
+    color: #fff;
+}
+
+.ed-cobrand-header-menu li a:hover {
+    -webkit-transition: color .15s ease-in;
+    transition: color .15s ease-in;
+    color: #b62725;
+}
+
+.ed-cobrand-header-menu .button a {
+    font-weight: 600;
+    background: #b62725;
+}
+
+.ed-cobrand-header-menu .button a:hover {
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+    background: #fff;
+}
+
+.ed-cobrand-header-menu .greeting {
+    font-size: 15px;
+    line-height: 50px;
+    color: #eee;
+    text-align: center;
+}
+
+
+/* ***** WELCOME MESSAGE ***** */
+
+.ed-welcome-message {
+    padding: 30px 0;
+    background: url(../images/bg-main.jpg) center center no-repeat fixed;
+    background-origin: padding-box;
+    background-size: cover ;
+    text-align: center;
+    color: #fff;
+}
+
+.ed-welcome-message .heading {
+    margin: 0;
+    padding: 120px 50px 40px 50px;
+    font-size: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.ed-welcome-message .chatter {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 0 80px 0;
+    text-align: center;
+}
+
+
+/* ***** MEMBERSHIP INFO ***** */
+
+.ed-membership-intro {
+    padding: 100px 30px 0 30px;
+    background: url(../images/bg-weave-dark.jpg);
+    color: #fff;
+}
+
+.ed-membership-intro .primer {
+    float: left;
+    width: 40%;
+}
+
+.ed-membership-intro .ed-module-head {
+    margin: 0;
+    text-align: left;
+}
+
+.ed-membership-intro .chatter {
+    margin: 40px 0 20px 0;
+}
+
+.ed-membership-intro .video {
+    float: right;
+    width: 50%;
+}
+
+.ed-membership-intro video {
+    width: 100%;
+    height: auto;
+}
+
+.ed-membership-intro .login-text {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.ed-membership-intro .login-text a {
+    color: #fff;
+}
+
+.ed-membership-intro .login-text a:hover {
+    color: #ddd;
+}
+
+
+/* ***** MEMBERSHIP SUBSCRIPTION ***** */
+
+.ed-membership-acquisition {
+    margin: 60px auto 0 auto;
+    padding: 60px 0;
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    background-clip: padding-box;
+}
+
+.ed-subscribe-container {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    width: 49.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.ed-subscribe-option {
+    position: relative;
+    margin: 20px 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, .15);
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+}
+
+.ed-subscribe-option:hover {
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+    background: rgba(255, 255, 255, .3);
+    cursor: pointer;
+}
+
+.ed-subscribe-option .link-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.ed-subscribe-details .package {
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+.ed-subscribe-details .program {
+    margin: 0;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.ed-subscribe-details .type {
+    margin: 10px 0 20px 0;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.ed-subscribe-details .button {
+    display: block;
+    float: left;
+    width: 150px;
+    margin: 0 20px 0 0;
+    background: #b62725;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-subscribe-option:hover .ed-subscribe-details .button {
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    color: #b62725;
+    background: #fff;
+}
+
+.ed-subscribe-details .price {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.ed-subscribe-details .term {
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.ed-subscribe-details .more-link {
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.ed-membership-free {
+    margin: 60px auto 0 auto;
+    padding: 60px 0;
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    background-clip: padding-box;
+}
+
+.ed-free-subscribe-form {
+    float: left;
+    width: 50%;
+}
+
+.ed-free-subscribe-form input {
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #000;
+}
+
+.ed-free-subscribe-form input:first-child {
+    margin-top: 40px;
+}
+
+.ed-free-subscribe-form input:nth-of-type(4) {
+    float: left;
+    width: 65%;
+}
+
+.ed-free-subscribe-form input:nth-of-type(5) {
+    float: right;
+    width: 30%;
+}
+
+.ed-free-subscribe-form::-webkit-input-placeholder {
+    color: #666;
+    font-style: italic;
+}
+
+.ed-free-subscribe-form .submit {
+    float: right;
+    margin: 10px 0;
+    padding: 16px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: #b62725;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-free-subscribe-form .submit:hover {
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    color: #b62725;
+    background: #fff;
+}
+
+.ed-free-subscribe-info {
+    float: right;
+    width: 40%;
+    padding: 40px 0;
+}
+
+
+/* ***** MEMBERSHIP BENEFITS ***** */
+
+.ed-membership-benefits {
+    padding: 60px 0;
+    background: #6f1217;
+    text-align: center;
+}
+
+.ed-membership-benefits .benefit {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 24.5%;
+    padding: 0 35px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.ed-membership-benefits .benefit p:nth-of-type(1) {
+    font-weight: 700;
+}
+
+
+
+/* ***** MISSING OUT ***** */
+
+.ed-missing-out {
+    text-align: center;
+}
+
+.ed-missing-out .teaser {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    height: 230px;
+    margin: 10px;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+.ed-missing-out .ex1 {
+    background: url(../images/temp-missing-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.ed-missing-out .ex2 {
+    background: url(../images/temp-missing-2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.ed-missing-out .ex3 {
+    background: url(../images/temp-missing-3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.ed-missing-out .ex4 {
+    background: url(../images/temp-missing-4.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.ed-missing-out .ex5 {
+    background: url(../images/temp-missing-5.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.ed-missing-out .ex6 {
+    background: url(../images/temp-missing-6.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.ed-missing-out .teaser:hover .flipper,
+.ed-missing-out .teaser.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.ed-missing-out .teaser .flipper .back {
+    width: 100%;
+    height: 230px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ed-missing-out .teaser .flipper {
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.ed-missing-out .teaser .flipper .back {
+    padding: 20px;
+    background: rgba(0, 0, 0, .7);
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.ed-missing-out .teaser .flipper .back p:first-child {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+
+/* ***** E-COMMERCE SHOP ***** */
+
+.ed-commerce {
+    padding: 20px 20px 40px 20px;
+    background: url(../images/bg-linen-red.jpg);
+    text-align: center;
+    color: #fff;
+}
+
+.ed-commerce ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ed-shop-item {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    margin: 30px 0 30px 0;
+    padding: 15px 10px 15px 20px;
+    text-align: left;
+    vertical-align: top;
+    background: rgba(255, 255, 255, .15);
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+}
+
+.ed-shop-item:hover {
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+    background: rgba(255, 255, 255, .3);
+    cursor: pointer;
+}
+
+.ed-shop-item:nth-of-type(2n+0) {
+    margin-left: 50px;
+}
+
+.ed-shop-item:hover {
+    cursor: pointer;
+}
+
+.ed-shop-item a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.ed-shop-item img {
+    float: left;
+    width: 40%;
+    padding: 0;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-shop-item .title {
+    display: -webkit-box;
+    float: right;
+    width: 55%;
+    height: 45px;
+    margin: 0;
+    padding: 0 15px 0 0;
+    text-align: left;
+    font-size: 15px;
+    line-height: 22px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+.ed-shop-item .price {
+    display: inline-block;
+    float: right;
+    width: 55%;
+    margin: 10px 0 0 0;
+    padding: 10px 0;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 44px;    
+}
+
+.ed-shop-item .button {
+    float: right;
+    margin: 0 15px 0 0;
+    padding: 0 15px;
+    background: #b62725;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 44px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-shop-item:hover .button {
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    color: #b62725;
+    background: #fff;
+}
+
+
+
+
+/* ***** EVENTS ***** */
+
+.ed-events {
+    padding: 20px 0 40px 0;
+    background: url(../images/bg-paper.jpg);
+    text-align: center;
+}
+
+.ed-upcoming-events,
+.ed-recent-events {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.ed-upcoming-events ul,
+.ed-recent-events ul{
+    list-style: none;
+    padding: 0;
+} 
+
+.ed-upcoming-events ul li {
+    position: relative;
+    margin: 50px 0 0 0;
+}
+
+.ed-upcoming-events .calendar {
+    float: left;
+    display: block;
+    width: 70px;
+    height: 78px;
+    margin: 0 25px 0 0;
+    border: 2px solid #ddd;
+}
+
+.ed-upcoming-events .month {
+    margin: 6px 0 0 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #777;
+}
+
+.ed-upcoming-events .day {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #444;
+}
+
+.ed-upcoming-events .event-title {
+    float: left;
+    width: calc(100% - 350px);
+    margin: 5px 0 10px 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.ed-upcoming-events .event-desc {
+    display: -webkit-box;
+    float: left;
+    width: calc(100% - 350px);
+    height: 40px;
+    margin: 0;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: left;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+.ed-upcoming-events .purchase-button {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 12px;
+    vertical-align: middle;
+    width: 220px;
+    padding: 5px 20px;
+    background: rgba(0, 0, 0, .05);
+    color: #444;
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+}
+
+.ed-upcoming-events .purchase-button:hover {
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+    background: rgba(0, 0, 0, .2);
+    color: #fff;
+}
+
+.ed-upcoming-events .purchase-button img {
+    float: left;
+    padding:4px 0;
+}
+
+.ed-upcoming-events .purchase-button p {
+    display: none;
+    float: right;
+    width: calc(100% - 50px);
+    vertical-align: middle;
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ed-recent-events {
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+
+.ed-recent-events:hover {
+    cursor: pointer;
+}
+
+.ed-recent-events ul {
+    margin: 0;
+}
+
+.ed-recent-events ul li {
+    display: inline-block;
+    position: relative;
+    width: 28%;
+    margin: 30px 15px 30px 15px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.ed-recent-events ul li img {
+    width: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.ed-recent-events ul li:hover img {
+    -webkit-filter: brightness(70%);
+}
+
+.ed-recent-events ul li a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.ed-recent-events .event-title {
+    display: -webkit-box;
+    height: 20px;
+    margin: 20px 0 10px 0;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; 
+}
+
+.ed-recent-events ul li:hover .event-title {
+    color: #842624;
+}
+
+.ed-recent-events .event-desc {
+    display: -webkit-box;
+    height: 40px;
+    margin: 0;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
+}
+
+
+
+/* ***** NEWSLETTER SIGNUP ***** */
+
+.ed-newsletter-signup {
+    padding: 30px 20px 70px 20px;
+    background: url(../images/bg-secondary.jpg) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.ed-newsletter-signup .chatter {
+    padding: 0 0 40px 0;
+}
+
+.ed-newsletter-signup-form input {
+    display: inline-block;
+    height: 50px;
+    width: 450px;
+    margin: 0;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #000;
+}
+
+.ed-newsletter-signup-form::-webkit-input-placeholder {
+    color: #666;
+    font-style: italic;
+}
+
+.ed-newsletter-signup-form .submit {
+    display: inline-block;
+    width: 200px;
+    margin: 0 0 0 20px;
+    padding: 16px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: #b62725;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-newsletter-signup-form .submit:hover {
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    color: #b62725;
+    background: #fff;
+}
+
+
+/* ***** MEMBER DEALS ***** */
+
+.ed-member-deals {
+    padding: 20px 20px 40px 20px;
+    background: url(../images/bg-weave-dark.jpg);
+    text-align: center;
+    color: #fff;
+}
+
+.ed-member-deals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ed-deal-item {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    margin: 30px 0 30px 0;
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+    background: rgba(255, 255, 255, .15);
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+}
+
+.ed-deal-item:hover {
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+    background: rgba(255, 255, 255, .3);
+    cursor: pointer;
+}
+
+.ed-deal-item:nth-of-type(2n+0) {
+    margin-left: 50px;
+}
+
+.ed-deal-item:hover {
+    cursor: pointer;
+}
+
+.ed-deal-item a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.ed-deal-item img {
+    float: left;
+    width: 40%;
+    padding: 0 20px 15px 0;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-deal-item .button {
+    float: left;
+    clear: left;
+    width: 34%;
+    margin: 0;
+    padding: 0;
+    background: #b62725;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-deal-item:hover .button {
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+    color: #b62725;
+    background: #fff;
+}
+
+.ed-deal-item .type {
+    float: right;
+    width: 60%;
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: left;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #bbb;
+}
+
+.ed-deal-item .title {
+    display: -webkit-box;
+    float: right;
+    width: 60%;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: 700;
+    line-height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
+}
+
+.ed-deal-item .desc {
+    display: -webkit-box;
+    float: right;
+    width: 60%;
+    height: 70px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;     
+}
+
+
+
+
+
+/* ***** MORE STORIES ***** */
+
+.ed-content {
+    padding: 20px 20px 40px 20px;
+    background: url(../images/bg-paper.jpg);
+    
+}
+
+.ed-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ed-content-item {
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    margin: 30px 0 30px 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.ed-content-item:nth-of-type(2n+0) {
+    margin-left: 50px;
+}
+
+.ed-content-item:hover {
+    cursor: pointer;
+}
+
+.ed-content-item a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.ed-content-item img {
+    float: left;
+    width: 40%;
+    padding: 0 20px 15px 0;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-content-item:hover img {
+    -webkit-filter: brightness(70%);
+}
+
+.ed-content-item .headline {
+    float: right;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.ed-content-item:hover .headline {
+    color: #842624;
+}
+
+.ed-content-item .lead {
+    display: -webkit-box;
+    float: right;
+    width: 60%;
+    height: 50px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;     
+}
+
+.ed-content-item .pub {
+    float: right;
+    width: 60%;
+    margin: 12px 0 0 0;
+    padding: 0;
+    text-align: left;
+    font-size: 11px;
+    line-height: 14px;
+    color: #666;
+}
+    
+.ed-content-item .byline {
+    font-weight: 600;
+    color: #333;
+}
+    
+
+
+/* ***** TESTIMONIALS ***** */
+
+.ed-testimonials {
+    padding: 30px;
+    background: url(../images/bg-weave-red.jpg);
+    text-align: center;
+    color: #fff;
+}
+
+.ed-testimonials .quote {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45%;
+    padding: 20px 30px 40px 30px;
+    vertical-align: top;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 1px;
+    background: url(../images/icon-quote.png) no-repeat;
+}
+
+.ed-testimonials .quote span {
+    display: block;
+    padding: 10px 0 0 0;
+    text-align: right;
+    font-style: italic;
+}
+
+.ed-testimonials .quote span:before {
+    content: "— ";
+}
+
+
+
+/* ***** SPONSORS ***** */
+
+.ed-sponsors {
+    padding: 60px 20px 60px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.ed-sponsors .main-sponsor {
+    float: left;
+    width: 30%;
+    vertical-align: top;
+}
+
+.ed-sponsors .main-sponsor img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+.ed-sponsors .main-sponsor p {
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #aaa;
+}
+
+.ed-sponsors .co-sponsors {
+    float: right;
+    width: 65%;
+    padding: 0 0 0 30px;
+    vertical-align: top;
+    text-align: center;
+    border-left: 2px solid #ddd;
+}
+
+.ed-sponsors .co-sponsors img {
+    display: inline-block;
+    max-height: 60px;
+    margin: 10px;
+}
+
+.ed-sponsors .sponsor-apply {
+    clear: both;
+    padding: 80px 0 0 0;
+}
+
+.ed-sponsors .apply-button  {
+    display: inline-block;
+    width: 250px;
+    padding: 12px 20px;
+    background: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    color: #fff;
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+}
+
+.ed-sponsors .apply-button:hover {
+    background: #666;
+    -webkit-transition: background .15s ease-in;
+    transition: background .15s ease-in;
+}
+
+.ed-sponsors .chatter  {
+    display: inline-block;
+    width: calc(100% - 300px);
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+
+
+/* ***** YOUR OPINION ***** */
+
+.ed-your-opinion {
+    padding: 20px 20px 40px 20px;
+    background: url(../images/bg-weave-dark.jpg) #6f1217;
+    text-align: center;
+    color: #fff;
+}
+
+.ed-your-opinion .chatter {
+    padding: 0 0 40px 0;
+}
+
+.ed-your-opinion a {
+    display: inline-block;
+    margin: 0 15px 20px 15px;
+    padding: 12px 30px;
+    background: #b62725;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+.ed-your-opinion a:hover {
+    color: #b62725;
+    background: #fff;
+    -webkit-transition: all .15s ease-in;
+    transition: all .15s ease-in;
+}
+
+
+/* ***** FOOTER ***** */
+
+.ed-cobrand-footer {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 20px;
+    background: #000;
+    text-align: center;
+}
+
+.ed-cobrand-footer .social {
+    display: inline-block;
+    margin: 10px 5px 10px 5px;
+}
+
+.ed-cobrand-footer-menu {
+    width: auto;
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 400;
+    text-align: center;
+    font-size: 11px;
+}
+
+.ed-cobrand-footer-menu .link {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.ed-cobrand-footer-menu li a {
+    padding: 8px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    -webkit-transition: color .15s ease-in;
+    transition: color .15s ease-in;
+    color: #fff;
+}
+
+.ed-cobrand-footer-menu li a:hover {
+    -webkit-transition: color .15s ease-in;
+    transition: color .15s ease-in;
+    color: #b62725;
+}
+
+
+
+
+
+
+/* ***** BREAKPOINT 1000 ***** */
+
+@media only screen and (max-width: 1000px) and (min-width: 769px) {
+    .ed-subscribe-details {
+        text-align: center;
+    }
+    .ed-subscribe-details .package {
+        float: none;
+        margin: 0 auto 25px auto;
+    }
+    .ed-subscribe-details .type {
+        margin: 10px 0 20px 0;
+        font-size: 26px;
+    }
+    .ed-subscribe-details .button {
+        float: none;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .ed-subscribe-details .price {
+        font-size: 26px;
+    }
+    .ed-membership-benefits .benefit {
+        width: 49.5%;
+        padding: 0 100px;
+    }
+    .ed-membership-benefits .benefit:nth-of-type(1),
+    .ed-membership-benefits .benefit:nth-of-type(2) {
+        padding-bottom: 80px;
+    }
+    .ed-missing-out .teaser {
+        width: 45%;
+    }
+    .ed-missing-out .teaser .flipper .back {
+        padding: 20px 40px;
+    }
+    .ed-recent-events {
+        width: 100%;
+        padding: 20px;
+    }
+    .ed-recent-events ul li {
+        width: 45%;
+        margin: 0 15px 30px 15px;
+    }
+    .ed-sponsors .main-sponsor {
+        float: left;
+        width: 45%;
+        vertical-align: top;
+    }
+    .ed-sponsors .co-sponsors {
+        width: 45%;
+    }
+    .ed-sponsors .sponsor-apply {
+        padding: 50px 0 0 0;
+    }
+    .ed-content ul {
+        width:90%;
+        margin: 0 auto;
+    }
+    .ed-content-item img {
+        padding: 0 0 15px 0;
+    }
+    .ed-content-item img,
+    .ed-content-item .headline,
+    .ed-content-item .lead, 
+    .ed-content-item .pub {
+        float: none;
+        width: 100%;
+    }
+    .ed-commerce ul {
+        width:90%;
+        margin: 0 auto;
+    }
+    .ed-shop-item img {
+        padding: 0 10px 15px 0;
+    }
+    .ed-shop-item img,
+    .ed-shop-item .title,
+    .ed-shop-item .price {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* ***** BREAKPOINT 768 ***** */
+
+@media only screen and (max-width: 768px) {
+    .ed-cobrand-header {
+        height: auto;
+    }
+    .ed-cobrand-logo {
+        float: none;
+        margin: 0 auto;
+    }
+    .ed-cobrand-header-menu {
+        float: none;
+        border-top: 1px solid #333;
+    }
+    .ed-welcome-message .heading {
+        padding: 50px 40px 30px 40px;
+        font-size: 12vw;
+        line-height: 110%;
+    }
+    .ed-welcome-message .chatter {
+        width: 80%;
+    }
+    .ed-membership-intro {
+        padding: 60px 0;
+    }
+    .ed-membership-intro .primer {
+        float: none;
+        width: 100%;
+    }
+    .ed-membership-intro .ed-module-head {
+        margin: 0 30px;
+        text-align: center;
+    }
+    .ed-membership-intro .chatter {
+        text-align: justify;
+        margin: 30px 30px;
+    }
+    .ed-membership-intro .login-text {
+        text-align: center;
+    }
+    .ed-membership-intro .video {
+        float: none;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .ed-subscribe-container {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+    .ed-membership-free {
+        width: auto;
+        margin: 0 30px;
+        padding: 40px 0 0 0;
+        border: none;
+    }
+    .ed-free-subscribe-form {
+        float: none;
+        width: 100%;
+    }
+    .ed-free-subscribe-info {
+        float: none;
+        width: auto;
+        margin: 0 20px;
+    }
+    .ed-membership-benefits .benefit {
+        width: 49.5%;
+        padding: 0 40px;
+    }
+    .ed-membership-benefits .benefit:nth-of-type(1),
+    .ed-membership-benefits .benefit:nth-of-type(2) {
+        padding-bottom: 80px;
+    }
+    .ed-missing-out .teaser {
+        width: 45%;
+    }
+    .ed-upcoming-events {
+        width: 100%;
+        padding: 30px;
+    }
+    .ed-upcoming-events .event-title,
+    .ed-upcoming-events .event-desc {
+        width: calc(100% - 270px);
+        margin: 0 0 10px 0;
+    }
+    .ed-upcoming-events .purchase-button {
+        top: 0;
+        width: 160px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .ed-upcoming-events .purchase-button img {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+        line-height: 1px;
+    }
+    .ed-upcoming-events .purchase-button p {
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0 0 5px 0;
+    }
+    .ed-recent-events {
+        width: 100%;
+        padding: 20px;
+    }
+    .ed-recent-events ul li {
+        width: 40%;
+        margin: 0 15px 30px 15px;
+    }
+    .ed-newsletter-signup-form input,
+    .ed-newsletter-signup-form .submit {
+        width: 90%;
+        margin: 0 0 20px 0;
+    }
+    .ed-sponsors {
+        padding: 30px 20px 60px 20px;
+    }
+    .ed-sponsors .main-sponsor {
+        float: none;
+        width: 50%;
+        margin: 0 auto 40px auto;
+    }
+    .ed-sponsors .co-sponsors {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        border: none;
+    }
+    .ed-content-item img {
+        padding: 0 0 15px 0;
+    }
+    .ed-content-item img,
+    .ed-content-item .headline,
+    .ed-content-item .lead, 
+    .ed-content-item .pub {
+        float: none;
+        width: 100%;
+    }
+    .ed-deal-item img {
+        padding: 0 0 15px 0;
+    }
+    .ed-deal-item img,
+    .ed-deal-item .title,
+    .ed-deal-item .desc, 
+    .ed-deal-item .type,
+    .ed-deal-item .button {
+        float: none;
+        width: 100%;
+    }
+    .ed-deal-item .button {
+        margin-top: 15px;
+    }
+    .ed-shop-item img {
+        padding: 0 10px 15px 0;
+    }
+    .ed-shop-item img,
+    .ed-shop-item .title,
+    .ed-shop-item .price {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+
+/* ***** BREAKPOINT 600 ***** */
+@media only screen and (max-width: 600px) {
+    .ed-content-item {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 30px 10px !important;
+    }
+    .ed-content-item img {
+        float: left;
+        width: 40%;
+        padding: 0 20px 15px 0;
+    }
+    .ed-content-item .headline,
+    .ed-content-item .lead, 
+    .ed-content-item .pub {
+        float: right;
+        width: 60%;
+    }
+    .ed-shop-item .button {
+        float: none;
+        display: block;
+        width: auto;
+        margin: 15px 10px 0 0;
+    }
+}
+
+
+
+/* ***** BREAKPOINT 580 ***** */
+@media only screen and (max-width: 580px) {
+    .ed-missing-out .teaser {
+        width: 90%;
+    }
+    .ed-missing-out .teaser .flipper .back {
+        padding: 20px 40px;
+    }
+    .ed-upcoming-events {
+        width: 100%;
+        padding: 30px;
+    }
+    .ed-upcoming-events .calendar {
+        width: 58px;
+        height: 58px;
+        margin: 0 20px 0 0;
+    }
+    .ed-upcoming-events .month {
+        margin: 0;
+        letter-spacing: 2px;
+    }
+    .ed-upcoming-events .day {
+        padding: 0;
+        font-size: 28px;
+        line-height: 15px;
+    }
+    .ed-upcoming-events .event-title {
+        float: left;
+        width: calc(100% - 80px);
+    }
+    .ed-upcoming-events .event-desc {
+        clear: both;
+        float: none;
+        width: 100%;
+        height: 64px;
+        padding: 10px 0;
+        -webkit-line-clamp: 3;
+    }
+    .ed-upcoming-events .purchase-button {
+        position: relative;
+        width: 100%;
+        margin: 20px 0 0 0;
+        padding: 12px 50px;
+    }
+    .ed-upcoming-events .purchase-button img {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0;
+    }
+    .ed-upcoming-events .purchase-button p {
+        float: none;
+        margin: 6px 0 0 0;
+    }
+    .ed-upcoming-events .purchase-button .member {
+        width: 100px;
+    }
+    .ed-upcoming-events .purchase-button .non-member {
+        width: 150px;
+    }
+    .ed-recent-events {
+        width: 100%;
+        padding: 20px;
+    }
+    .ed-recent-events ul li {
+        width: 100%;
+        margin: 25px auto;
+    }
+    .ed-recent-events ul li img {
+        width: 100%;
+    }
+    .ed-testimonials .quote {
+        width: 100%;
+        padding: 20px 0 40px 20px;
+    }
+    .ed-your-opinion a {
+        width: 90%;
+        margin: 10px auto;
+    }
+    .ed-sponsors .main-sponsor {
+        width: 90%;
+    }
+    .ed-sponsors .sponsor-apply {
+        padding: 30px 0 0 0;
+    }
+    .ed-sponsors .apply-button  {
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    .ed-sponsors .chatter  {
+        display: block;
+        width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .ed-deal-item {
+        width: 90%;
+        margin: 20px auto !important;
+    }
+    .ed-deal-item img {
+        float: none;
+        width: 100%;
+        padding: 0 0 15px 0;
+    }
+    .ed-deal-item .headline,
+    .ed-deal-item .lead, 
+    .ed-deal-item .pub {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+
+/* ***** BREAKPOINT 480 ***** */
+
+@media only screen and (max-width: 480px) {
+    .ed-subscribe-details {
+        text-align: center;
+    }
+    .ed-membership-intro {
+        padding-bottom: 0;
+    }
+    .ed-page-acquisition .ed-membership-acquisition {
+        margin-top: 0;
+        border: none;
+    }
+    .ed-subscribe-details .package {
+        float: none;
+        margin: 0 auto 25px auto;
+    }
+    .ed-subscribe-details .type {
+        margin: 10px 0 20px 0;
+        font-size: 26px;
+    }
+    .ed-subscribe-details .button {
+        float: none;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .ed-subscribe-details .price {
+        font-size: 26px;
+    }
+    .ed-membership-benefits {
+        padding-bottom: 0;
+    }
+    .ed-membership-benefits .benefit {
+        width: auto;
+        padding: 0 40px 80px 40px;
+    }
+    .ed-missing-out .teaser .flipper .back {
+        padding: 20px;
+    }
+    .ed-cobrand-footer-menu .link {
+        display: block;
+        padding: 10px 0;
+    }
+    .ed-content-item {
+        width: 90%;
+        margin: 50px auto !important;
+    }
+    .ed-content-item img {
+        float: none;
+        width: 100%;
+        padding: 0 0 15px 0;
+    }
+    .ed-content-item .headline,
+    .ed-content-item .lead, 
+    .ed-content-item .pub {
+        float: none;
+        width: 100%;
+    }
+    .ed-shop-item {
+        width: 90%;
+        margin: 0 0 30px 0 !important;
+    }
+}
+
+
+
+
+
+
+
+
+/* ***** BODY CONDITIONALS ***** */
+
+.ed-page-acquisition .ed-cobrand-header-menu .link,
+.ed-page-free .ed-cobrand-header-menu .link,
+.ed-page-acquisition .ed-cobrand-header-menu .button,
+.ed-page-free .ed-cobrand-header-menu .button,
+.ed-page-member .ed-cobrand-header-menu .greeting {
+    display: inline-block;
+}
+
+.ed-page-member .ed-cobrand-header-menu .link,
+.ed-page-member .ed-cobrand-header-menu .button,
+.ed-page-acquisition .ed-cobrand-header-menu .greeting,
+.ed-page-free .ed-cobrand-header-menu .greeting {
+    display: none;
+}
+
+.ed-page-member .ed-membership-intro {
+    display: none;
+}
+
+.ed-page-acquisition .ed-membership-acquisition,
+.ed-page-free .ed-membership-free {
+    display: block;
+}
+
+.ed-page-free .ed-membership-acquisition,
+.ed-page-acquisition .ed-membership-free {
+    display: none;
+}
+
+.ed-page-member .ed-membership-benefits {
+    display: none;
+}
+
+.ed-page-member .ed-missing-out {
+    display: none;
+}
+
+.ed-page-acquisition .ed-upcoming-events .purchase-button .non-member,
+.ed-page-free .ed-upcoming-events .purchase-button .non-member {
+    display: inline-block;
+}
+
+.ed-page-member .ed-upcoming-events .purchase-button .member {
+    display: inline-block;
+}
+
+.ed-page-free .ed-newsletter-signup,
+.ed-page-member .ed-newsletter-signup {
+    display: none;
+}
