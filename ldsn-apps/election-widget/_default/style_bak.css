@@ -49,7 +49,7 @@ html, body {
     min-height: 100%;
     padding: 0;
     margin: 0;
-    font-family: 'Futura Today Screen Light';
+    font-family: 'Futura Today Screen Light', sans-serif;
 }
 .clear {
     clear: both;
@@ -79,7 +79,7 @@ html, body {
     margin: 10px 15px 0 0;
     padding: 6px 12px;
     background: #2a6db3;
-    font-family: 'Futura Today Screen DemiBold';
+    font-family: 'Futura Today Screen DemiBold', sans-serif;
     color: #fff;
     font-size: 13px;
     text-align: center;
@@ -120,13 +120,13 @@ html, body {
     text-transform: uppercase;
     letter-spacing: .1em;
     color: #666;
-    font-family: 'Futura Today Screen DemiBold';
+    font-family: 'Futura Today Screen DemiBold', sans-serif;
     font-size: 15px;
     margin: 15px 0;
     text-shadow: 1px 1px 1px #fff;
 }
 .election_container .election_banner p.race_title span {
-    font-family: 'Roboto Condensed Regular';
+    font-family: 'Roboto Condensed Regular', sans-serif;
     color: #919191;
 }
 .election_container .election_banner ul.candidate_list {
@@ -174,7 +174,7 @@ html, body {
 }
 
 .election_container .election_banner ul.candidate_list li p.firstname {
-	font-family: 'Roboto Condensed Regular';
+	font-family: 'Roboto Condensed Regular', sans-serif;
 }
 
 .election_container .election_banner ul.candidate_list li img.checkmark {
@@ -191,7 +191,7 @@ html, body {
 }
 .election_container .election_banner ul.candidate_list li p.percentage {
     margin: 0;
-    font-family: 'Futura Today Screen Bold';
+    font-family: 'Futura Today Screen Bold', sans-serif;
     font-size: 25px;
     letter-spacing: .08em;
     color: #767676;
@@ -206,7 +206,7 @@ html, body {
     opacity: 0.3;
     width: 30px;
     height: 40px;
-    font-family: 'Futura Today Screen Bold';
+    font-family: 'Futura Today Screen Bold', sans-serif;
     line-height: 32px;
     color: #fff;
     font-size: 20px;
