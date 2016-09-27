@@ -124,7 +124,7 @@ h3.ssBestOf_Ballot_SubCategory_Title > .catToggle > button {
     .ad-rail {
         background: #efefef;
     }
-    .header2 img {
+    .header img {
         float: none !important;
         max-width: 300px !important;
         margin: 0 auto 20px auto !important;
@@ -157,12 +157,12 @@ body {
     padding-bottom: 20px;
     background: #ffffff;
 }
-.header2 {
+.header {
     background: #ffffff;
     min-height: 250px;
     max-width: 1200px;
 }
-.header2 img {
+.header img {
     float: left;
     max-width: 300px;
     margin: 0 40px 20px 0;
@@ -171,10 +171,17 @@ body {
     background: #ffffff;
     max-width: 1100px;
 }
-.header2 h3 {
+.header h3 {
     padding: 8px 30px;
     display: inline-block;
 }
-.header2 p {
+.header p {
     margin: 16px 0 20px 0;
+}
+.maw-header-1 {
+    background-color: #fff;
+    height: 60px;
+}
+.maw-header-1 .header-logo {
+    top: -22px;
 }
