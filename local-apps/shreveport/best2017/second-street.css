@@ -25,11 +25,8 @@ h3#ssVotersChoice_CategoryLabel {
 }
 li.ssBestOf_CategoryList_Item,
 li.ssBestOf_Ballot_Content_SubCategoryList_SubCategory {
-    background: #ffffff;
-    !important;
-    border-color: #e6e6e6;
-    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-    /* W3C */
+    border-color: #ffffff;
+    background: #e0e0e0;
 }
 #ssPromotion.ssAestheticsOn h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle {
     color: #585956 !important;
