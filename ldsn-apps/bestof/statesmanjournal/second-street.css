@@ -28,44 +28,44 @@ body {
 .header {
     background: #e7e3d7;
     background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg-2017.jpg");       
-    background-repeat:no-repeat;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 300px;
+    background-repeat:no-repeat !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    max-height: 300px !important;
 
 }
 
 .header h1 {
-    color: #3a3a3a; 
-    margin-left: 33%;
+    color: #3a3a3a !important; 
+    margin-left: 33% !important;
 }
 .header h2 {
-    color: #3a3a3a;
+    color: #3a3a3a !important;
     font-family: 'Futura Today';
-    font-size:36px;
-    margin-left: 33%;
-    margin-top: 20px;
+    font-size: 36px;
+    margin-left: 33% !important;
+    margin-top: 20px !important;
 }
 .header h3 {
-    color: #3a3a3a;   
-    margin-left: 33%;
+    color: #3a3a3a !important;   
+    margin-left: 33% !important;
 }
 .header p {
-    color: #3a3a3a;   
+    color: #3a3a3a !important;   
     margin: 16px 0 40px 0;
-    max-width: 34%;
-    margin-left: 33%;
+    max-width: 34% !important;
+    margin-left: 33% !important;
 }
 .header a {
     background: #da2929;
     color: #fff;
 }
 .header img {
-   float: left;
-   max-width: 300px;
-   margin: 0 40px 20px 0;
-   display: none;
+   float: left !important;
+   max-width: 300px !important;
+   margin: 0 40px 20px 0 !important;
+   display: none !important;
 }
 .complete-wrapper {
   background-color:#f6f6f6;
@@ -183,40 +183,26 @@ text-shadow: 0 0 0 rgba(0, 0, 0, 0.3) !important;
 
 @media only screen and (max-width: 1020px) {
     .header {
-        background-image: none;
-        background-color: #fff;
-        max-height: 600px;
+        background-image: none !important;
+        background-color: #fff !important;
+        max-height: 600px !important;
     }
     .header h1 {
-        color: #3a3a3a; 
-        margin-left: auto;
+        margin-left: auto !important;
     }
     .header h2 {
-        color: #3a3a3a;
-        font-family: 'Futura Today';
-        font-size:36px;
-        margin-left: auto;
+        margin-left: auto !important;
     }
-    .header h3 {
-        color: #3a3a3a;   
-        margin-left: auto;
+    .header h3 {  
+        margin-left: auto !important;
     }
-    .header p {
-        color: #3a3a3a;   
-        margin: 16px 0 40px 0;
-        max-width: 1000px;
-        margin-left: auto;
-    }
-    .header a {
-        background: #da2929;
-        color: #fff;
+    .header p {  
+        max-width: 1000px !important;
+        margin-left: auto !important;
     }
     .header img {
-        float: left;
-        max-width: 300px;
-        margin: 0 40px 20px 0;
-        display: inline;
-        margin-top: 30px;
+        display: inline !important;
+        margin-top: 30px !important;
     }
 }
 
@@ -232,10 +218,10 @@ text-shadow: 0 0 0 rgba(0, 0, 0, 0.3) !important;
         float:none !important;
         max-width: 300px !important;
         margin: 0 auto 20px auto !important;
-        text-align:center;
+        text-align:center !important;
     }
     .header p {
-        text-align: center;
+        text-align: center !important;
     }
 }
 
