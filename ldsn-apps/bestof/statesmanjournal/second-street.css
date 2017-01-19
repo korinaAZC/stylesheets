@@ -37,7 +37,7 @@ body {
 }
 
 .header h1 {
-    color: #3a3a3a; /**/
+    color: #3a3a3a; 
     margin-left: 33%;
 }
 .header h2 {
@@ -48,11 +48,11 @@ body {
     margin-top: 20px;
 }
 .header h3 {
-    color: #3a3a3a;   /**/
+    color: #3a3a3a;   
     margin-left: 33%;
 }
 .header p {
-    color: #3a3a3a;   /**/
+    color: #3a3a3a;   
     margin: 16px 0 40px 0;
     max-width: 34%;
     margin-left: 33%;
@@ -181,35 +181,6 @@ box-shadow: 0 0 0 rgba(0, 0, 0, 0.3) inset !important;
 text-shadow: 0 0 0 rgba(0, 0, 0, 0.3) !important;
 }
 
-@media only screen 
-and (min-width: 1px) 
-and (max-width: 775px) {
-    
-    .ad300x {
-        background: #ddd;
-    }
-
-    .ad-rail {
-        background: #efefef;
-    }
-.header img {
-   float:none !important;
-   max-width: 300px !important;
-   margin: 0 auto 20px auto !important;
-   text-align:center;
-}
-}
-
-
-
-
-
-
-/* **** LAYOUT OVERRIDES **** */
-
-
-
-
 @media only screen and (max-width: 1020px) {
     .header {
         background-image: none;
@@ -217,7 +188,7 @@ and (max-width: 775px) {
         max-height: 600px;
     }
     .header h1 {
-        color: #3a3a3a; /**/
+        color: #3a3a3a; 
         margin-left: auto;
     }
     .header h2 {
@@ -227,11 +198,11 @@ and (max-width: 775px) {
         margin-left: auto;
     }
     .header h3 {
-        color: #3a3a3a;   /**/
+        color: #3a3a3a;   
         margin-left: auto;
     }
     .header p {
-        color: #3a3a3a;   /**/
+        color: #3a3a3a;   
         margin: 16px 0 40px 0;
         max-width: 1000px;
         margin-left: auto;
@@ -249,8 +220,28 @@ and (max-width: 775px) {
     }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (min-width: 1px) and (max-width: 775px) {
+    .ad300x {
+        background: #ddd;
+    }
+
+    .ad-rail {
+        background: #efefef;
+    }
+    .header img {
+        float:none !important;
+        max-width: 300px !important;
+        margin: 0 auto 20px auto !important;
+        text-align:center;
+    }
     .header p {
         text-align: center;
     }
 }
+
+
+
+
+
+
+/* **** LAYOUT OVERRIDES **** */
