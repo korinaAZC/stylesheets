@@ -23,33 +23,39 @@
 }
 
 body {
-	background:#e7e3d7;
+  background:#e7e3d7;
 }
 .header {
     background: #e7e3d7;
-    background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg-2017.jpg");       background-repeat:no-repeat;
-    background-position: bottom, right;
-    min-height:300px;
-    max-width:1200px;
+    background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg-2017.jpg");       
+    background-repeat:no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 300px;
+
 }
 
 .header h1 {
-    color: #444;
+    color: #3a3a3a; /**/
+    margin-left: 33%;
 }
 .header h2 {
-    color: #777;
+    color: #3a3a3a;
     font-family: 'Futura Today';
-	color:24418f;
-	font-size:36px;
+    font-size:36px;
+    margin-left: 33%;
+    margin-top: 20px;
 }
 .header h3 {
-    background: #666;
-    color: #fff;
+    color: #3a3a3a;   /**/
+    margin-left: 33%;
 }
 .header p {
-    color: #585956;
+    color: #3a3a3a;   /**/
     margin: 16px 0 40px 0;
-max-width: 1000px;
+    max-width: 34%;
+    margin-left: 33%;
 }
 .header a {
     background: #da2929;
@@ -59,9 +65,10 @@ max-width: 1000px;
    float: left;
    max-width: 300px;
    margin: 0 40px 20px 0;
+   display: none;
 }
 .complete-wrapper {
-	background-color:#f6f6f6;
+  background-color:#f6f6f6;
 }
 .wrapper {
 background-color:#ffffff;
@@ -72,10 +79,10 @@ margin-top:20px;
 }
 
 h3#ssVotersChoice_CategoryLabel {
-	font-weight:bold;
+  font-weight:bold;
 }
 #ssPromotion.ssVotersChoice, #ssVotersChoice {
-    	font-family:'Futura Today';
+      font-family:'Futura Today';
 }
 #ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > button, #ssPromotion h3.ssBestOf_Ballot_SubCategory_Title > a.catToggle > div.ssExpandButton {
 box-shadow: none !important;
@@ -163,8 +170,8 @@ border-radius:0px !important;
 opacity:0.8;
 }
 .ladda-button .ladda-label {
-	font-family:'Futura Today Light';
-	text-transform:uppercase;
+  font-family:'Futura Today Light';
+  text-transform:uppercase;
 }
 
 .ssExpandButton {
@@ -196,4 +203,54 @@ and (max-width: 775px) {
 
 
 
+
+
 /* **** LAYOUT OVERRIDES **** */
+
+
+
+
+@media only screen and (max-width: 1020px) {
+    .header {
+        background-image: none;
+        background-color: #fff;
+        max-height: 600px;
+    }
+    .header h1 {
+        color: #3a3a3a; /**/
+        margin-left: auto;
+    }
+    .header h2 {
+        color: #3a3a3a;
+        font-family: 'Futura Today';
+        font-size:36px;
+        margin-left: auto;
+    }
+    .header h3 {
+        color: #3a3a3a;   /**/
+        margin-left: auto;
+    }
+    .header p {
+        color: #3a3a3a;   /**/
+        margin: 16px 0 40px 0;
+        max-width: 1000px;
+        margin-left: auto;
+    }
+    .header a {
+        background: #da2929;
+        color: #fff;
+    }
+    .header img {
+        float: left;
+        max-width: 300px;
+        margin: 0 40px 20px 0;
+        display: inline;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .header p {
+        text-align: center;
+    }
+}
