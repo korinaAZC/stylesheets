@@ -3,11 +3,11 @@
 
 
 .ad300x {
-    background: #efefef;
+    background: #ebebeb;
 }
 
 .ad728x90 {
-    background: #efefef;
+    background: #ebebeb;
 }
 .ad-rail ul {
     border-top: 1px solid #ddd;
@@ -23,10 +23,10 @@
 }
 
 body {
-  background:#e7e3d7;
+  background:#ebebeb;
 }
 .header {
-    background: #e7e3d7;
+    background: #ebebeb;
     background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/statesmanjournal/header-bg-2017.jpg");       
     background-repeat:no-repeat !important;
     background-position: center !important;
@@ -52,7 +52,7 @@ body {
     margin-left: 33% !important;
 }
 .header p {
-    color: #3a3a3a !important;   
+    color: #090909 !important;   
     margin: 16px 0 40px 0;
     max-width: 34% !important;
     margin-left: 33% !important;
