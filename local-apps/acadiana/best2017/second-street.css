@@ -1,6 +1,6 @@
 /* **** COLOR OVERRIDES **** */
 body {
-	background:#f6cd96;
+	background:#ffffff;
 background-image:url("http://stylesheets.azcentral.com/local-apps/acadiana/best2016/timesofacadiana-best-bg.png");       
 background-repeat:x;
 }
@@ -174,16 +174,15 @@ opacity:0.8;
 
 .ssExpandButton {
 color: #3d586a !important;
-border: 1px color:#3d586a solid !important;
+border: 1px;
+color:#3d586a solid !important;
 box-shadow: 0 0 0 rgba(0, 0, 0, 0.3) inset !important;
 text-shadow: 0 0 0 rgba(0, 0, 0, 0.3) !important;
 }
 
 
 
-@media only screen 
-and (min-width: 1px) 
-and (max-width: 775px) {
+@media only screen and (min-width: 1px) and (max-width: 775px) {
     
     .ad300x {
         background: #ddd;
