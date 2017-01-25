@@ -1,8 +1,8 @@
 /* **** COLOR OVERRIDES **** */
 body {
     background:#ffffff;
-    background-image:url("http://stylesheets.azcentral.com/local-apps/acadiana/best2016/timesofacadiana-best-bg.png");       
-    background-repeat:x;
+    background-image:url("http://stylesheets.azcentral.com/local-apps/acadiana/best2017/timesofacadiana-best-bg.png");       
+    background-repeat: repeat;
 }
 
 a {
