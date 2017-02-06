@@ -1,5 +1,9 @@
 /* **** COLOR OVERRIDES **** */
-
+body {
+    background:#ffffff;
+    background-image:url("http://stylesheets.azcentral.com/ldsn-apps/bestof/desmoines/ankeny-best-bg.png");       
+    background-repeat: repeat;
+}
 
 
 .ad300x {
