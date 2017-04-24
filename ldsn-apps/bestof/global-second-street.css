@@ -54,7 +54,7 @@ a {
 }
 .header img {
     float: left;
-    width: 300px;
+    max-width: 200px;
     margin: 0 20px 20px 0;
 }
 .header h1 {
@@ -227,7 +227,7 @@ body {
 }
 .header {
     background: #ffffff;
-    min-height: 250px;
+    min-height: 150px;
     max-width: 1200px;
 }
 .header h1 {
@@ -251,11 +251,6 @@ body {
 .header a {
     background: #da2929;
     color: #fff;
-}
-.header img {
-    float: left;
-    max-width: 300px;
-    margin: 0 40px 20px 0;
 }
 .complete-wrapper {
     background-color: #f6f6f6;
