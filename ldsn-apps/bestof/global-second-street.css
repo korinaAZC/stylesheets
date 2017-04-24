@@ -1,3 +1,209 @@
+/*two-column*/
+
+
+/* **** RESET & FONTS **** */
+
+@import url("http://stylesheets.azcentral.com/ldsn-apps/default/general-reset.css");
+@import url('http://pages.azcentral.com/gannett-fonts/css/futura.css');
+
+/* **** GLOBAL **** */
+
+body {
+    font-family: "Futura Today", sans-serif;
+}
+.wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* **** COBRAND **** */
+
+.cobrand-menu {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+.cobrand-footer {
+    clear: both;
+    width: 100%;
+}
+
+/* **** ADS **** */
+
+.ad300x {
+    width: 300px;
+    min-height: 250px;
+    background: #efefef;
+}
+.ad728x90 {
+    clear: both;
+    width: 728px;
+    height: 90px;
+    margin: 0 auto 20px auto;
+    background: #efefef;
+}
+
+/* **** HEADER **** */
+
+.header {
+    padding: 20px;
+}
+.header img {
+    float: left;
+    width: 300px;
+    margin: 0 20px 20px 0;
+}
+.header h1 {
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: capitalize;
+    font-family: 'Futura Today DemiBold';
+    color: #444;
+}
+.header h2 {
+    padding: 30px 0 0 0;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: capitalize;
+    font-family: 'Futura Today Light';
+    color: #777;
+}
+.header h3 {
+    clear: both;
+    margin: 20px 0;
+    padding: 8px 12px;
+    background: #666;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'Futura Today Light';
+    text-align: center;
+    letter-spacing: .6px;
+    color: #fff;
+}
+.header p {
+    margin: 22px 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 26px;
+    color: #585956;
+}
+.header a {
+    display: inline-block;
+    margin: 0 15px 20px 0;
+    padding: 18px 25px;
+    font-family: 'Futura Today DemiBold';
+    background: #555;
+    text-align: center;
+    color: #fff;
+}
+.header a:hover {
+    opacity: 0.8;
+}
+
+/* **** SECOND STREET **** */
+
+.second-street {
+    float: left;
+    width: calc(100% - 360px);
+    min-height: 250px;
+    margin: 0 0 20px 20px;
+}
+
+/* **** AD RAIL **** */
+
+.ad-rail {
+    float: right;
+    width: 300px;
+    margin: 0 20px 50px 0;
+}
+.ad-rail ul {
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px 0;
+    text-align: left;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.ad-rail ul p {
+    font-size: 15px;
+    line-height: 32px;
+    text-transform: uppercase;
+    font-family: 'Futura Today Light';
+    color: #777;
+}
+.ad-rail ul li {
+    padding: 10px 0;
+    font-size: 15px;
+    line-height: 18px;
+    color: #0066b3;
+}
+.ad-rail ul li a {
+    display: block;
+    height: 100%;
+    cursor: pointer;
+}
+.ad-rail ul li:hover {
+    opacity: 0.8;
+}
+
+/* **** RESPONSIVE BREAKPOINT 900 **** */
+
+@media only screen and (min-width: 776px) and (max-width: 900px) {
+    .header img {
+        width: 200px;
+        margin: 0 20px 20px 0;
+    }
+    .header h2 {
+        padding: 0;
+    }
+}
+
+/* **** RESPONSIVE BREAKPOINT 775 **** */
+
+@media only screen and (min-width: 1px) and (max-width: 775px) {
+    .ad300x {
+        margin: 0 auto;
+        background: #ddd;
+    }
+    .ad728x90 {
+        display: none;
+    }
+    .header {
+        text-align: center;
+    }
+    .header img {
+        float: none;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .header p {
+        text-align: justify;
+    }
+    .header h2 {
+        font-size: 26px;
+    }
+    .second-street {
+        float: none;
+        width: auto;
+        margin: 0 0 20px 0;
+    }
+    .ad-rail {
+        float: none;
+        width: 100%;
+        padding: 20px 0;
+        background: #efefef;
+        text-align: center;
+    }
+}
+
+/*second-street*/
+
+
 /* **** COLOR OVERRIDES **** */
 
 .ad300x {
@@ -196,11 +402,7 @@ h3.ssBestOf_Ballot_SubCategory_Title > .catToggle > button {
 /* **** LAYOUT OVERRIDES **** */
 
 body {
-    background: url(http://stylesheets.azcentral.com/local-apps/pensacola/best-2017/second-street/pensacola-bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: #ffffff;
 }
 .wrapper {
     background: #ffffff;
