@@ -49,11 +49,9 @@ a {
 
 /* **** HEADER **** */
 
-
-/*.header {
+.header {
     padding: 20px;
-}*/
-
+}
 .header img {
     float: left;
     max-width: 200px;
@@ -153,56 +151,6 @@ a {
     opacity: 0.8;
 }
 
-/* **** RESPONSIVE BREAKPOINT 900 **** */
-
-@media only screen and (min-width: 776px) and (max-width: 900px) {
-    .header img {
-        width: 200px;
-        margin: 0 20px 20px 0;
-    }
-    .header h2 {
-        padding: 0;
-    }
-}
-
-/* **** RESPONSIVE BREAKPOINT 775 **** */
-
-@media only screen and (min-width: 1px) and (max-width: 775px) {
-    .ad300x {
-        margin: 0 auto;
-        background: #ddd;
-    }
-    .ad728x90 {
-        display: none;
-    }
-    .header {
-        text-align: center;
-    }
-    .header img {
-        float: none;
-        width: 200px;
-        margin: 0 auto;
-    }
-    .header p {
-        text-align: justify;
-    }
-    .header h2 {
-        font-size: 26px;
-    }
-    .second-street {
-        float: none;
-        width: auto;
-        margin: 0 0 20px 0;
-    }
-    .ad-rail {
-        float: none;
-        width: 100%;
-        padding: 20px 0;
-        background: #efefef;
-        text-align: center;
-    }
-}
-
 /*second-street*/
 
 
@@ -229,7 +177,7 @@ body {
 }
 .header {
     background: #ffffff;
-    /*min-height: 150px;*/
+    min-height: 150px;
     max-width: 1200px;
 }
 .header h1 {
@@ -447,4 +395,61 @@ body {
 }
 .copyright {
     padding: 0 0 10px;
+}
+
+/* **** RESPONSIVE BREAKPOINT 900 **** */
+
+@media only screen and (min-width: 776px) and (max-width: 900px) {
+    .header {
+        text-align: center;
+        min-height: 0px;
+        padding: 0px;
+    }
+    .header img {
+        width: 200px;
+        margin: 0 20px 20px 0;
+    }
+    .header h2 {
+        padding: 0;
+    }
+}
+
+/* **** RESPONSIVE BREAKPOINT 775 **** */
+
+@media only screen and (min-width: 1px) and (max-width: 775px) {
+    .ad300x {
+        margin: 0 auto;
+        background: #ddd;
+    }
+    .ad728x90 {
+        display: none;
+    }
+    .header {
+        text-align: center;
+        min-height: 0px;
+        padding: 0px;
+    }
+    .header img {
+        float: none;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .header p {
+        text-align: justify;
+    }
+    .header h2 {
+        font-size: 26px;
+    }
+    .second-street {
+        float: none;
+        width: auto;
+        margin: 0 0 20px 0;
+    }
+    .ad-rail {
+        float: none;
+        width: 100%;
+        padding: 20px 0;
+        background: #efefef;
+        text-align: center;
+    }
 }
