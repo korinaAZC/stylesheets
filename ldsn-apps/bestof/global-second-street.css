@@ -49,9 +49,11 @@ a {
 
 /* **** HEADER **** */
 
-.header {
+
+/*.header {
     padding: 20px;
-}
+}*/
+
 .header img {
     float: left;
     max-width: 200px;
@@ -227,7 +229,7 @@ body {
 }
 .header {
     background: #ffffff;
-    min-height: 150px;
+    /*min-height: 150px;*/
     max-width: 1200px;
 }
 .header h1 {
@@ -405,7 +407,7 @@ body {
 }
 .header {
     background: #fff;
-    padding: 20px;
+    /*padding: 20px;*/
 }
 .header h3 {
     padding: 8px 30px;
